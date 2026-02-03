@@ -249,8 +249,7 @@ export function ClientPage({ initialComponents, brands, scenes, priceRange }: Cl
                         Math.max(totalPages - 4, 1)
                       );
                       return (
-                        <Button
-                          key={pageNum}
+                        <Button key={pageNum}
                           variant={page === pageNum ? 'default' : 'outline'}
                           size="sm"
                           onClick={() => setPage(pageNum)}
