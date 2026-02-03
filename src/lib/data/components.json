@@ -1,0 +1,9235 @@
+[
+  {
+    "id": "FPV-0001",
+    "sku": "FR-GEP-Mark5V",
+    "name": "Mark5 V2",
+    "brand": "GEPRC",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 458.0,
+    "level": "advanced",
+    "weight": 118.0,
+    "rating": 4.3,
+    "reviewCount": 448,
+    "specs": {
+      "轴距": "225mm",
+      "材质": "T700碳纤维",
+      "重量": 118,
+      "安装孔": "30.5x30.5mm",
+      "尺寸": "5寸"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "花飞",
+      "耐炸"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0002",
+    "sku": "FR-IFL-Evoque",
+    "name": "Evoque F5D",
+    "brand": "iFlight",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 520.0,
+    "level": "advanced",
+    "weight": 125.0,
+    "rating": 4.7,
+    "reviewCount": 349,
+    "specs": {
+      "轴距": "222mm",
+      "材质": "T700+钛合金",
+      "重量": 125,
+      "安装孔": "30.5/20mm",
+      "尺寸": "5寸"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "竞速",
+      "下沉电机"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0003",
+    "sku": "FR-HSK-Mark4",
+    "name": "Mark4",
+    "brand": "HSKRC",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 95.0,
+    "level": "entry",
+    "weight": 135.0,
+    "rating": 4.6,
+    "reviewCount": 923,
+    "specs": {
+      "轴距": "225mm",
+      "材质": "碳纤维",
+      "重量": 135,
+      "安装孔": "30.5x30.5mm",
+      "尺寸": "5寸"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "入门",
+      "性价比"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0004",
+    "sku": "FR-HGL-Sector",
+    "name": "Sector 5",
+    "brand": "HGLRC",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 298.0,
+    "level": "intermediate",
+    "weight": 128.0,
+    "rating": 4.7,
+    "reviewCount": 937,
+    "specs": {
+      "轴距": "225mm",
+      "材质": "碳纤维",
+      "重量": 128,
+      "安装孔": "30.5x30.5mm",
+      "尺寸": "5寸"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0005",
+    "sku": "FR-DIA-RomaF5",
+    "name": "Roma F5",
+    "brand": "Diatone",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 368.0,
+    "level": "intermediate",
+    "weight": 115.0,
+    "rating": 4.7,
+    "reviewCount": 227,
+    "specs": {
+      "轴距": "224mm",
+      "材质": "碳纤维",
+      "重量": 115,
+      "安装孔": "20x20mm",
+      "尺寸": "5寸"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "轻量化",
+      "竞速"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0006",
+    "sku": "FR-APE-Play",
+    "name": "Play",
+    "brand": "APEX",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 188.0,
+    "level": "intermediate",
+    "weight": 140.0,
+    "rating": 4.6,
+    "reviewCount": 459,
+    "specs": {
+      "轴距": "225mm",
+      "材质": "碳纤维",
+      "重量": 140,
+      "安装孔": "30.5x30.5mm",
+      "尺寸": "5寸"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "入门"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0007",
+    "sku": "FR-IFL-Chimer",
+    "name": "Chimera7",
+    "brand": "iFlight",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 468.0,
+    "level": "advanced",
+    "weight": 175.0,
+    "rating": 4.8,
+    "reviewCount": 929,
+    "specs": {
+      "轴距": "320mm",
+      "材质": "碳纤维",
+      "重量": 175,
+      "安装孔": "30.5x30.5mm",
+      "尺寸": "7寸"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "远航",
+      "长续航"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0008",
+    "sku": "FR-GEP-MARK47",
+    "name": "MARK4 7寸版",
+    "brand": "GEPRC",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 398.0,
+    "level": "intermediate",
+    "weight": 168.0,
+    "rating": 4.6,
+    "reviewCount": 753,
+    "specs": {
+      "轴距": "295mm",
+      "材质": "碳纤维",
+      "重量": 168,
+      "安装孔": "30.5x30.5mm",
+      "尺寸": "7寸"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "远航"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0009",
+    "sku": "FR-HGL-Petrel",
+    "name": "Petrel 7",
+    "brand": "HGLRC",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 358.0,
+    "level": "intermediate",
+    "weight": 165.0,
+    "rating": 4.4,
+    "reviewCount": 740,
+    "specs": {
+      "轴距": "300mm",
+      "材质": "碳纤维",
+      "重量": 165,
+      "安装孔": "30.5x30.5mm",
+      "尺寸": "7寸"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "远航",
+      "拍摄"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0010",
+    "sku": "FR-GEP-Cinelo",
+    "name": "Cinelog 35",
+    "brand": "GEPRC",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 268.0,
+    "level": "intermediate",
+    "weight": 85.0,
+    "rating": 4.3,
+    "reviewCount": 469,
+    "specs": {
+      "轴距": "155mm",
+      "材质": "碳纤维+TPU",
+      "重量": 85,
+      "安装孔": "25.5x25.5mm",
+      "尺寸": "3.5寸"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "Cinewhoop",
+      "拍摄"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0011",
+    "sku": "FR-IFL-Protek",
+    "name": "Protek 35",
+    "brand": "iFlight",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 288.0,
+    "level": "intermediate",
+    "weight": 82.0,
+    "rating": 4.6,
+    "reviewCount": 622,
+    "specs": {
+      "轴距": "152mm",
+      "材质": "碳纤维",
+      "重量": 82,
+      "安装孔": "25.5x25.5mm",
+      "尺寸": "3.5寸"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "Cinewhoop",
+      "防护"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0012",
+    "sku": "FR-BET-Pavo30",
+    "name": "Pavo 30",
+    "brand": "BETAFPV",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 198.0,
+    "level": "intermediate",
+    "weight": 45.0,
+    "rating": 4.8,
+    "reviewCount": 499,
+    "specs": {
+      "轴距": "125mm",
+      "材质": "碳纤维",
+      "重量": 45,
+      "安装孔": "25.5x25.5mm",
+      "尺寸": "3寸"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "室内",
+      "轻量"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0013",
+    "sku": "FR-BET-Meteor",
+    "name": "Meteor 75",
+    "brand": "BETAFPV",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 89.0,
+    "level": "entry",
+    "weight": 8.0,
+    "rating": 4.8,
+    "reviewCount": 831,
+    "specs": {
+      "轴距": "75mm",
+      "材质": "塑料",
+      "重量": 8,
+      "安装孔": "25.5x25.5mm",
+      "尺寸": "75mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "Whoop",
+      "室内"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0014",
+    "sku": "FR-GEP-Cinelo",
+    "name": "Cinelog 25",
+    "brand": "GEPRC",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 168.0,
+    "level": "intermediate",
+    "weight": 35.0,
+    "rating": 4.7,
+    "reviewCount": 468,
+    "specs": {
+      "轴距": "110mm",
+      "材质": "碳纤维",
+      "重量": 35,
+      "安装孔": "25.5x25.5mm",
+      "尺寸": "2.5寸"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "微型",
+      "拍摄"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0015",
+    "sku": "MT-T-M-2207-1",
+    "name": "Velox V3 2207 2207-1950KV",
+    "brand": "T-Motor",
+    "category": "motor",
+    "subCategory": "5寸电机",
+    "price": 168.0,
+    "level": "advanced",
+    "weight": 32.0,
+    "rating": 4.5,
+    "reviewCount": 1018,
+    "specs": {
+      "定子尺寸": "2207",
+      "KV值": 1950,
+      "支持电压": "6S",
+      "最大电流": "48A",
+      "重量": "32g",
+      "轴径": "5.0mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0016",
+    "sku": "MT-T-M-2306-2",
+    "name": "P2306 V3 2306-2550KV",
+    "brand": "T-Motor",
+    "category": "motor",
+    "subCategory": "5寸电机",
+    "price": 158.0,
+    "level": "advanced",
+    "weight": 31.0,
+    "rating": 4.7,
+    "reviewCount": 1056,
+    "specs": {
+      "定子尺寸": "2306",
+      "KV值": 2550,
+      "支持电压": "4S",
+      "最大电流": "52A",
+      "重量": "31g",
+      "轴径": "5.0mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "竞速"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0017",
+    "sku": "MT-T-M-2807-1",
+    "name": "F80 Pro 2807-1300KV",
+    "brand": "T-Motor",
+    "category": "motor",
+    "subCategory": "7寸电机",
+    "price": 188.0,
+    "level": "advanced",
+    "weight": 52.0,
+    "rating": 4.5,
+    "reviewCount": 1066,
+    "specs": {
+      "定子尺寸": "2807",
+      "KV值": 1300,
+      "支持电压": "6S",
+      "最大电流": "48A",
+      "重量": "52g",
+      "轴径": "5.0mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "远航"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0018",
+    "sku": "MT-IFL-2207-1",
+    "name": "XING2 2207 2207-1850KV",
+    "brand": "iFlight",
+    "category": "motor",
+    "subCategory": "5寸电机",
+    "price": 128.0,
+    "level": "advanced",
+    "weight": 33.0,
+    "rating": 4.9,
+    "reviewCount": 1453,
+    "specs": {
+      "定子尺寸": "2207",
+      "KV值": 1850,
+      "支持电压": "6S",
+      "最大电流": "45A",
+      "重量": "33g",
+      "轴径": "5.0mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0019",
+    "sku": "MT-IFL-2207-2",
+    "name": "XING2 2207 2207-2450KV",
+    "brand": "iFlight",
+    "category": "motor",
+    "subCategory": "5寸电机",
+    "price": 128.0,
+    "level": "advanced",
+    "weight": 33.0,
+    "rating": 4.7,
+    "reviewCount": 244,
+    "specs": {
+      "定子尺寸": "2207",
+      "KV值": 2450,
+      "支持电压": "4S",
+      "最大电流": "48A",
+      "重量": "33g",
+      "轴径": "5.0mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "竞速"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0020",
+    "sku": "MT-IFL-2807-1",
+    "name": "XING 2807 2807-1300KV",
+    "brand": "iFlight",
+    "category": "motor",
+    "subCategory": "7寸电机",
+    "price": 168.0,
+    "level": "advanced",
+    "weight": 52.0,
+    "rating": 4.6,
+    "reviewCount": 784,
+    "specs": {
+      "定子尺寸": "2807",
+      "KV值": 1300,
+      "支持电压": "6S",
+      "最大电流": "48A",
+      "重量": "52g",
+      "轴径": "5.0mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "远航"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0021",
+    "sku": "MT-RCI-2207-1",
+    "name": "GTS V3 2207 2207-1860KV",
+    "brand": "RCinpower",
+    "category": "motor",
+    "subCategory": "5寸电机",
+    "price": 145.0,
+    "level": "advanced",
+    "weight": 31.0,
+    "rating": 4.8,
+    "reviewCount": 452,
+    "specs": {
+      "定子尺寸": "2207",
+      "KV值": 1860,
+      "支持电压": "6S",
+      "最大电流": "46A",
+      "重量": "31g",
+      "轴径": "5.0mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0022",
+    "sku": "MT-RCI-2306-1",
+    "name": "SmooX 2306 2306-1880KV",
+    "brand": "RCinpower",
+    "category": "motor",
+    "subCategory": "5寸电机",
+    "price": 155.0,
+    "level": "advanced",
+    "weight": 30.0,
+    "rating": 4.9,
+    "reviewCount": 382,
+    "specs": {
+      "定子尺寸": "2306",
+      "KV值": 1880,
+      "支持电压": "6S",
+      "最大电流": "47A",
+      "重量": "30g",
+      "轴径": "5.0mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0023",
+    "sku": "MT-EMA-2207-1",
+    "name": "Eco II 2207 2207-1700KV",
+    "brand": "EMAX",
+    "category": "motor",
+    "subCategory": "5寸电机",
+    "price": 68.0,
+    "level": "intermediate",
+    "weight": 35.0,
+    "rating": 4.5,
+    "reviewCount": 1299,
+    "specs": {
+      "定子尺寸": "2207",
+      "KV值": 1700,
+      "支持电压": "6S",
+      "最大电流": "42A",
+      "重量": "35g",
+      "轴径": "5.0mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0024",
+    "sku": "MT-EMA-2207-2",
+    "name": "Eco II 2207 2207-2400KV",
+    "brand": "EMAX",
+    "category": "motor",
+    "subCategory": "5寸电机",
+    "price": 68.0,
+    "level": "intermediate",
+    "weight": 35.0,
+    "rating": 4.5,
+    "reviewCount": 976,
+    "specs": {
+      "定子尺寸": "2207",
+      "KV值": 2400,
+      "支持电压": "4S",
+      "最大电流": "45A",
+      "重量": "35g",
+      "轴径": "5.0mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0025",
+    "sku": "MT-BRO-2207-1",
+    "name": "Avenger V3 2207 2207-1920KV",
+    "brand": "BrotherHobby",
+    "category": "motor",
+    "subCategory": "5寸电机",
+    "price": 188.0,
+    "level": "advanced",
+    "weight": 32.0,
+    "rating": 4.9,
+    "reviewCount": 1106,
+    "specs": {
+      "定子尺寸": "2207",
+      "KV值": 1920,
+      "支持电压": "6S",
+      "最大电流": "50A",
+      "重量": "32g",
+      "轴径": "5.0mm"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0026",
+    "sku": "MT-BRO-2306-2",
+    "name": "Returner R6 2306 2306-2450KV",
+    "brand": "BrotherHobby",
+    "category": "motor",
+    "subCategory": "5寸电机",
+    "price": 178.0,
+    "level": "advanced",
+    "weight": 31.0,
+    "rating": 4.4,
+    "reviewCount": 473,
+    "specs": {
+      "定子尺寸": "2306",
+      "KV值": 2450,
+      "支持电压": "4S",
+      "最大电流": "51A",
+      "重量": "31g",
+      "轴径": "5.0mm"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "竞速"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0027",
+    "sku": "MT-HGL-2207-1",
+    "name": "AEOLUS 2207 2207-1950KV",
+    "brand": "HGLRC",
+    "category": "motor",
+    "subCategory": "5寸电机",
+    "price": 88.0,
+    "level": "intermediate",
+    "weight": 34.0,
+    "rating": 4.5,
+    "reviewCount": 1071,
+    "specs": {
+      "定子尺寸": "2207",
+      "KV值": 1950,
+      "支持电压": "6S",
+      "最大电流": "44A",
+      "重量": "34g",
+      "轴径": "5.0mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0028",
+    "sku": "MT-GEP-1404-3",
+    "name": "SpeedX2 1404 1404-3800KV",
+    "brand": "GEPRC",
+    "category": "motor",
+    "subCategory": "3寸电机",
+    "price": 58.0,
+    "level": "entry",
+    "weight": 12.0,
+    "rating": 4.8,
+    "reviewCount": 692,
+    "specs": {
+      "定子尺寸": "1404",
+      "KV值": 3800,
+      "支持电压": "4S",
+      "最大电流": "22A",
+      "重量": "12g",
+      "轴径": "1.5mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "竞速"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0029",
+    "sku": "MT-BET-1103-1",
+    "name": "1103 11000KV 1103-11000KV",
+    "brand": "BETAFPV",
+    "category": "motor",
+    "subCategory": "微型电机",
+    "price": 35.0,
+    "level": "entry",
+    "weight": 3.5,
+    "rating": 4.7,
+    "reviewCount": 915,
+    "specs": {
+      "定子尺寸": "1103",
+      "KV值": 11000,
+      "支持电压": "1S",
+      "最大电流": "8A",
+      "重量": "3.5g",
+      "轴径": "1.0mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "竞速"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0030",
+    "sku": "MT-HGL-1404-3",
+    "name": "Specter 1404 1404-3800KV",
+    "brand": "HGLRC",
+    "category": "motor",
+    "subCategory": "3寸电机",
+    "price": 52.0,
+    "level": "entry",
+    "weight": 12.0,
+    "rating": 4.6,
+    "reviewCount": 346,
+    "specs": {
+      "定子尺寸": "1404",
+      "KV值": 3800,
+      "支持电压": "4S",
+      "最大电流": "23A",
+      "重量": "12g",
+      "轴径": "1.5mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "竞速"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0031",
+    "sku": "MT-DYS-2207-2",
+    "name": "Samguk 2207 2207-2300KV",
+    "brand": "DYS",
+    "category": "motor",
+    "subCategory": "5寸电机",
+    "price": 45.0,
+    "level": "entry",
+    "weight": 36.0,
+    "rating": 4.3,
+    "reviewCount": 727,
+    "specs": {
+      "定子尺寸": "2207",
+      "KV值": 2300,
+      "支持电压": "4S",
+      "最大电流": "40A",
+      "重量": "36g",
+      "轴径": "5.0mm"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0032",
+    "sku": "MT-SUN-2207-1",
+    "name": "R2207 2207-1800KV",
+    "brand": "SUNNYSKY",
+    "category": "motor",
+    "subCategory": "5寸电机",
+    "price": 85.0,
+    "level": "intermediate",
+    "weight": 34.0,
+    "rating": 4.3,
+    "reviewCount": 309,
+    "specs": {
+      "定子尺寸": "2207",
+      "KV值": 1800,
+      "支持电压": "6S",
+      "最大电流": "43A",
+      "重量": "34g",
+      "轴径": "5.0mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0033",
+    "sku": "ESC-T-M-VeloxV",
+    "name": "Velox V2 45A电调",
+    "brand": "T-Motor",
+    "category": "esc",
+    "subCategory": "电调(ESC)",
+    "price": 298.0,
+    "level": "advanced",
+    "weight": 38.0,
+    "rating": 4.6,
+    "reviewCount": 339,
+    "specs": {
+      "持续电流": "45A",
+      "瞬间电流": "60A",
+      "电压范围": "3-6S",
+      "安装尺寸": "30.5mm",
+      "协议": "DShot1200",
+      "重量": "38g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0034",
+    "sku": "ESC-T-M-F55APr",
+    "name": "F55A Pro III 55A电调",
+    "brand": "T-Motor",
+    "category": "esc",
+    "subCategory": "电调(ESC)",
+    "price": 428.0,
+    "level": "advanced",
+    "weight": 42.0,
+    "rating": 4.7,
+    "reviewCount": 315,
+    "specs": {
+      "持续电流": "55A",
+      "瞬间电流": "75A",
+      "电压范围": "3-6S",
+      "安装尺寸": "30.5mm",
+      "协议": "DShot1200",
+      "重量": "42g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "竞速"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0035",
+    "sku": "ESC-SPE-F745A飞",
+    "name": "F7 45A飞塔 45A电调",
+    "brand": "SpeedyBee",
+    "category": "esc",
+    "subCategory": "电调(ESC)",
+    "price": 368.0,
+    "level": "advanced",
+    "weight": 42.0,
+    "rating": 4.7,
+    "reviewCount": 748,
+    "specs": {
+      "持续电流": "45A",
+      "瞬间电流": "55A",
+      "电压范围": "3-6S",
+      "安装尺寸": "30.5mm",
+      "协议": "DShot600,含飞控",
+      "重量": "42g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0036",
+    "sku": "ESC-SPE-45AV3",
+    "name": "45A V3 45A电调",
+    "brand": "SpeedyBee",
+    "category": "esc",
+    "subCategory": "电调(ESC)",
+    "price": 228.0,
+    "level": "intermediate",
+    "weight": 36.0,
+    "rating": 4.8,
+    "reviewCount": 362,
+    "specs": {
+      "持续电流": "45A",
+      "瞬间电流": "55A",
+      "电压范围": "3-6S",
+      "安装尺寸": "30.5mm",
+      "协议": "DShot600",
+      "重量": "36g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0037",
+    "sku": "ESC-MAM-F55128",
+    "name": "F55 128K 55A电调",
+    "brand": "Mamba",
+    "category": "esc",
+    "subCategory": "电调(ESC)",
+    "price": 298.0,
+    "level": "advanced",
+    "weight": 40.0,
+    "rating": 4.4,
+    "reviewCount": 581,
+    "specs": {
+      "持续电流": "55A",
+      "瞬间电流": "65A",
+      "电压范围": "3-6S",
+      "安装尺寸": "30.5mm",
+      "协议": "DShot1200",
+      "重量": "40g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "竞速"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0038",
+    "sku": "ESC-MAM-F40128",
+    "name": "F40 128K 40A电调",
+    "brand": "Mamba",
+    "category": "esc",
+    "subCategory": "电调(ESC)",
+    "price": 198.0,
+    "level": "intermediate",
+    "weight": 35.0,
+    "rating": 4.7,
+    "reviewCount": 248,
+    "specs": {
+      "持续电流": "40A",
+      "瞬间电流": "50A",
+      "电压范围": "3-6S",
+      "安装尺寸": "30.5mm",
+      "协议": "DShot600",
+      "重量": "35g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "入门"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0039",
+    "sku": "ESC-IFL-SucceX",
+    "name": "SucceX 60A 60A电调",
+    "brand": "iFlight",
+    "category": "esc",
+    "subCategory": "电调(ESC)",
+    "price": 428.0,
+    "level": "advanced",
+    "weight": 48.0,
+    "rating": 4.8,
+    "reviewCount": 646,
+    "specs": {
+      "持续电流": "60A",
+      "瞬间电流": "80A",
+      "电压范围": "3-6S",
+      "安装尺寸": "30.5mm",
+      "协议": "DShot1200",
+      "重量": "48g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "竞速"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0040",
+    "sku": "ESC-IFL-SucceX",
+    "name": "SucceX 50A 50A电调",
+    "brand": "iFlight",
+    "category": "esc",
+    "subCategory": "电调(ESC)",
+    "price": 348.0,
+    "level": "advanced",
+    "weight": 42.0,
+    "rating": 4.7,
+    "reviewCount": 734,
+    "specs": {
+      "持续电流": "50A",
+      "瞬间电流": "60A",
+      "电压范围": "3-6S",
+      "安装尺寸": "30.5mm",
+      "协议": "DShot1200",
+      "重量": "42g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0041",
+    "sku": "ESC-HOL-Tekko3",
+    "name": "Tekko32 F3 45A电调",
+    "brand": "Holybro",
+    "category": "esc",
+    "subCategory": "电调(ESC)",
+    "price": 268.0,
+    "level": "intermediate",
+    "weight": 38.0,
+    "rating": 4.6,
+    "reviewCount": 410,
+    "specs": {
+      "持续电流": "45A",
+      "瞬间电流": "55A",
+      "电压范围": "3-6S",
+      "安装尺寸": "30.5mm",
+      "协议": "DShot1200",
+      "重量": "38g"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0042",
+    "sku": "ESC-HGL-FD45A",
+    "name": "FD 45A 45A电调",
+    "brand": "HGLRC",
+    "category": "esc",
+    "subCategory": "电调(ESC)",
+    "price": 218.0,
+    "level": "intermediate",
+    "weight": 37.0,
+    "rating": 4.5,
+    "reviewCount": 675,
+    "specs": {
+      "持续电流": "45A",
+      "瞬间电流": "55A",
+      "电压范围": "3-6S",
+      "安装尺寸": "30.5mm",
+      "协议": "DShot600",
+      "重量": "37g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0043",
+    "sku": "ESC-EMA-Magnum",
+    "name": "Magnum 35A 35A电调",
+    "brand": "EMAX",
+    "category": "esc",
+    "subCategory": "电调(ESC)",
+    "price": 158.0,
+    "level": "intermediate",
+    "weight": 32.0,
+    "rating": 4.7,
+    "reviewCount": 374,
+    "specs": {
+      "持续电流": "35A",
+      "瞬间电流": "45A",
+      "电压范围": "2-6S",
+      "安装尺寸": "30.5mm",
+      "协议": "DShot600",
+      "重量": "32g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "入门"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0044",
+    "sku": "ESC-JHE-35A",
+    "name": "35A 35A电调",
+    "brand": "JHEMCU",
+    "category": "esc",
+    "subCategory": "电调(ESC)",
+    "price": 128.0,
+    "level": "entry",
+    "weight": 35.0,
+    "rating": 4.6,
+    "reviewCount": 472,
+    "specs": {
+      "持续电流": "35A",
+      "瞬间电流": "45A",
+      "电压范围": "2-6S",
+      "安装尺寸": "30.5mm",
+      "协议": "DShot300",
+      "重量": "35g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "入门"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0045",
+    "sku": "ESC-HOB-XRotor",
+    "name": "XRotor 40A 40A电调",
+    "brand": "Hobbywing",
+    "category": "esc",
+    "subCategory": "电调(ESC)",
+    "price": 298.0,
+    "level": "advanced",
+    "weight": 35.0,
+    "rating": 4.7,
+    "reviewCount": 505,
+    "specs": {
+      "持续电流": "40A",
+      "瞬间电流": "60A",
+      "电压范围": "3-6S",
+      "安装尺寸": "30.5mm",
+      "协议": "DShot600",
+      "重量": "35g"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "入门"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0046",
+    "sku": "ESC-FLY-X-Cros",
+    "name": "X-Cross 45A 45A电调",
+    "brand": "Flycolor",
+    "category": "esc",
+    "subCategory": "电调(ESC)",
+    "price": 188.0,
+    "level": "intermediate",
+    "weight": 36.0,
+    "rating": 4.6,
+    "reviewCount": 799,
+    "specs": {
+      "持续电流": "45A",
+      "瞬间电流": "55A",
+      "电压范围": "3-6S",
+      "安装尺寸": "30.5mm",
+      "协议": "DShot600",
+      "重量": "36g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0047",
+    "sku": "BAT-TAT-1300mA",
+    "name": "R-Line V5 6S 1300mAh 120C",
+    "brand": "Tattu",
+    "category": "battery",
+    "subCategory": "电池(LiPo/LiHV)",
+    "price": 268.0,
+    "level": "advanced",
+    "weight": 195.0,
+    "rating": 4.7,
+    "reviewCount": 560,
+    "specs": {
+      "电芯数": "6S",
+      "容量": "1300mAh",
+      "放电倍率": "120C",
+      "电压": "25.2V",
+      "重量": "195g",
+      "连接器": "XT60"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "竞速"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0048",
+    "sku": "BAT-TAT-1400mA",
+    "name": "R-Line V5 6S 1400mAh 120C",
+    "brand": "Tattu",
+    "category": "battery",
+    "subCategory": "电池(LiPo/LiHV)",
+    "price": 288.0,
+    "level": "advanced",
+    "weight": 210.0,
+    "rating": 4.7,
+    "reviewCount": 833,
+    "specs": {
+      "电芯数": "6S",
+      "容量": "1400mAh",
+      "放电倍率": "120C",
+      "电压": "25.2V",
+      "重量": "210g",
+      "连接器": "XT60"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "竞速"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0049",
+    "sku": "BAT-TAT-1550mA",
+    "name": "R-Line V5 6S 1550mAh 120C",
+    "brand": "Tattu",
+    "category": "battery",
+    "subCategory": "电池(LiPo/LiHV)",
+    "price": 298.0,
+    "level": "advanced",
+    "weight": 225.0,
+    "rating": 4.5,
+    "reviewCount": 1228,
+    "specs": {
+      "电芯数": "6S",
+      "容量": "1550mAh",
+      "放电倍率": "120C",
+      "电压": "25.2V",
+      "重量": "225g",
+      "连接器": "XT60"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "竞速"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0050",
+    "sku": "BAT-TAT-1550mA",
+    "name": "FunFly 6S 1550mAh 100C",
+    "brand": "Tattu",
+    "category": "battery",
+    "subCategory": "电池(LiPo/LiHV)",
+    "price": 228.0,
+    "level": "advanced",
+    "weight": 215.0,
+    "rating": 4.5,
+    "reviewCount": 1083,
+    "specs": {
+      "电芯数": "6S",
+      "容量": "1550mAh",
+      "放电倍率": "100C",
+      "电压": "25.2V",
+      "重量": "215g",
+      "连接器": "XT60"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0051",
+    "sku": "BAT-TAT-2200mA",
+    "name": "FunFly 6S 2200mAh 70C",
+    "brand": "Tattu",
+    "category": "battery",
+    "subCategory": "电池(LiPo/LiHV)",
+    "price": 298.0,
+    "level": "advanced",
+    "weight": 285.0,
+    "rating": 4.5,
+    "reviewCount": 1076,
+    "specs": {
+      "电芯数": "6S",
+      "容量": "2200mAh",
+      "放电倍率": "70C",
+      "电压": "25.2V",
+      "重量": "285g",
+      "连接器": "XT60"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "远航"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0052",
+    "sku": "BAT-CNH-1300mA",
+    "name": "Black Series 6S 1300mAh 100C",
+    "brand": "CNHL",
+    "category": "battery",
+    "subCategory": "电池(LiPo/LiHV)",
+    "price": 168.0,
+    "level": "intermediate",
+    "weight": 190.0,
+    "rating": 4.7,
+    "reviewCount": 1083,
+    "specs": {
+      "电芯数": "6S",
+      "容量": "1300mAh",
+      "放电倍率": "100C",
+      "电压": "25.2V",
+      "重量": "190g",
+      "连接器": "XT60"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0053",
+    "sku": "BAT-CNH-1500mA",
+    "name": "Black Series 6S 1500mAh 100C",
+    "brand": "CNHL",
+    "category": "battery",
+    "subCategory": "电池(LiPo/LiHV)",
+    "price": 188.0,
+    "level": "intermediate",
+    "weight": 215.0,
+    "rating": 4.6,
+    "reviewCount": 1152,
+    "specs": {
+      "电芯数": "6S",
+      "容量": "1500mAh",
+      "放电倍率": "100C",
+      "电压": "25.2V",
+      "重量": "215g",
+      "连接器": "XT60"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0054",
+    "sku": "BAT-CNH-1300mA",
+    "name": "G+ Plus 6S 1300mAh 70C",
+    "brand": "CNHL",
+    "category": "battery",
+    "subCategory": "电池(LiPo/LiHV)",
+    "price": 145.0,
+    "level": "intermediate",
+    "weight": 185.0,
+    "rating": 4.8,
+    "reviewCount": 414,
+    "specs": {
+      "电芯数": "6S",
+      "容量": "1300mAh",
+      "放电倍率": "70C",
+      "电压": "25.2V",
+      "重量": "185g",
+      "连接器": "XT60"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "练习"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0055",
+    "sku": "BAT-CNH-1300mA",
+    "name": "MiniStar 4S 1300mAh 70C",
+    "brand": "CNHL",
+    "category": "battery",
+    "subCategory": "电池(LiPo/LiHV)",
+    "price": 118.0,
+    "level": "intermediate",
+    "weight": 145.0,
+    "rating": 4.8,
+    "reviewCount": 339,
+    "specs": {
+      "电芯数": "4S",
+      "容量": "1300mAh",
+      "放电倍率": "70C",
+      "电压": "16.8V",
+      "重量": "145g",
+      "连接器": "XT60"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "入门"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0056",
+    "sku": "BAT-GNB-1300mA",
+    "name": "高能 6S 1300mAh 120C",
+    "brand": "GNB",
+    "category": "battery",
+    "subCategory": "电池(LiPo/LiHV)",
+    "price": 238.0,
+    "level": "advanced",
+    "weight": 192.0,
+    "rating": 4.8,
+    "reviewCount": 1390,
+    "specs": {
+      "电芯数": "6S",
+      "容量": "1300mAh",
+      "放电倍率": "120C",
+      "电压": "25.2V",
+      "重量": "192g",
+      "连接器": "XT60"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "竞速"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0057",
+    "sku": "BAT-GNB-1300mA",
+    "name": "闪电 6S 1300mAh 90C",
+    "brand": "GNB",
+    "category": "battery",
+    "subCategory": "电池(LiPo/LiHV)",
+    "price": 175.0,
+    "level": "intermediate",
+    "weight": 188.0,
+    "rating": 4.3,
+    "reviewCount": 436,
+    "specs": {
+      "电芯数": "6S",
+      "容量": "1300mAh",
+      "放电倍率": "90C",
+      "电压": "25.2V",
+      "重量": "188g",
+      "连接器": "XT60"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0058",
+    "sku": "BAT-GNB-1300mA",
+    "name": "入门 4S 1300mAh 95C",
+    "brand": "GNB",
+    "category": "battery",
+    "subCategory": "电池(LiPo/LiHV)",
+    "price": 128.0,
+    "level": "intermediate",
+    "weight": 145.0,
+    "rating": 4.5,
+    "reviewCount": 659,
+    "specs": {
+      "电芯数": "4S",
+      "容量": "1300mAh",
+      "放电倍率": "95C",
+      "电压": "16.8V",
+      "重量": "145g",
+      "连接器": "XT60"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "入门"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0059",
+    "sku": "BAT-ACE-1300mA",
+    "name": "格氏 6S 1300mAh 100C",
+    "brand": "ACE",
+    "category": "battery",
+    "subCategory": "电池(LiPo/LiHV)",
+    "price": 188.0,
+    "level": "intermediate",
+    "weight": 198.0,
+    "rating": 4.5,
+    "reviewCount": 997,
+    "specs": {
+      "电芯数": "6S",
+      "容量": "1300mAh",
+      "放电倍率": "100C",
+      "电压": "25.2V",
+      "重量": "198g",
+      "连接器": "XT60"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0060",
+    "sku": "BAT-SMC-1300mA",
+    "name": "True Spec 6S 1300mAh 120C",
+    "brand": "SMC",
+    "category": "battery",
+    "subCategory": "电池(LiPo/LiHV)",
+    "price": 358.0,
+    "level": "advanced",
+    "weight": 205.0,
+    "rating": 4.8,
+    "reviewCount": 1392,
+    "specs": {
+      "电芯数": "6S",
+      "容量": "1300mAh",
+      "放电倍率": "120C",
+      "电压": "25.2V",
+      "重量": "205g",
+      "连接器": "XT60"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "进口竞速"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0061",
+    "sku": "BAT-TAT-850mAh",
+    "name": "FunFly 4S 850mAh 45C",
+    "brand": "Tattu",
+    "category": "battery",
+    "subCategory": "电池(LiPo/LiHV)",
+    "price": 78.0,
+    "level": "entry",
+    "weight": 88.0,
+    "rating": 4.6,
+    "reviewCount": 300,
+    "specs": {
+      "电芯数": "4S",
+      "容量": "850mAh",
+      "放电倍率": "45C",
+      "电压": "16.8V",
+      "重量": "88g",
+      "连接器": "XT60"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "3寸"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0062",
+    "sku": "BAT-GNB-720mAh",
+    "name": "LiHV 4S 720mAh 100C",
+    "brand": "GNB",
+    "category": "battery",
+    "subCategory": "电池(LiPo/LiHV)",
+    "price": 65.0,
+    "level": "entry",
+    "weight": 78.0,
+    "rating": 4.5,
+    "reviewCount": 736,
+    "specs": {
+      "电芯数": "4S",
+      "容量": "720mAh",
+      "放电倍率": "100C",
+      "电压": "16.8V",
+      "重量": "78g",
+      "连接器": "XT60"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "3寸"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0063",
+    "sku": "BAT-BET-300mAh",
+    "name": "1S 300mAh 30C",
+    "brand": "BETAFPV",
+    "category": "battery",
+    "subCategory": "电池(LiPo/LiHV)",
+    "price": 25.0,
+    "level": "entry",
+    "weight": 8.0,
+    "rating": 4.9,
+    "reviewCount": 276,
+    "specs": {
+      "电芯数": "1S",
+      "容量": "300mAh",
+      "放电倍率": "30C",
+      "电压": "4.2V",
+      "重量": "8g",
+      "连接器": "PH2.0"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "Whoop"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0064",
+    "sku": "BAT-BET-450mAh",
+    "name": "1S 450mAh 30C",
+    "brand": "BETAFPV",
+    "category": "battery",
+    "subCategory": "电池(LiPo/LiHV)",
+    "price": 35.0,
+    "level": "entry",
+    "weight": 12.0,
+    "rating": 4.6,
+    "reviewCount": 178,
+    "specs": {
+      "电芯数": "1S",
+      "容量": "450mAh",
+      "放电倍率": "30C",
+      "电压": "4.2V",
+      "重量": "12g",
+      "连接器": "PH2.0"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "Whoop"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0065",
+    "sku": "PROP-HQP-J405寸",
+    "name": "J40 5寸",
+    "brand": "HQProp",
+    "category": "propeller",
+    "subCategory": "螺旋桨",
+    "price": 22.0,
+    "level": "entry",
+    "weight": 4.8,
+    "rating": 4.6,
+    "reviewCount": 1285,
+    "specs": {
+      "尺寸": "5寸",
+      "螺距": "4.0",
+      "桨叶数": "3叶",
+      "重量": "4.8g",
+      "中心孔": "5mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0066",
+    "sku": "PROP-HQP-J535寸",
+    "name": "J53 5寸",
+    "brand": "HQProp",
+    "category": "propeller",
+    "subCategory": "螺旋桨",
+    "price": 22.0,
+    "level": "entry",
+    "weight": 5.0,
+    "rating": 4.6,
+    "reviewCount": 275,
+    "specs": {
+      "尺寸": "5寸",
+      "螺距": "5.3",
+      "桨叶数": "3叶",
+      "重量": "5.0g",
+      "中心孔": "5mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "竞速"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0067",
+    "sku": "PROP-HQP-5x4.3x",
+    "name": "5x4.3x3",
+    "brand": "HQProp",
+    "category": "propeller",
+    "subCategory": "螺旋桨",
+    "price": 20.0,
+    "level": "entry",
+    "weight": 4.9,
+    "rating": 4.4,
+    "reviewCount": 1816,
+    "specs": {
+      "尺寸": "5寸",
+      "螺距": "4.3",
+      "桨叶数": "3叶",
+      "重量": "4.9g",
+      "中心孔": "5mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0068",
+    "sku": "PROP-HQP-7x4x3远",
+    "name": "7x4x3 远航",
+    "brand": "HQProp",
+    "category": "propeller",
+    "subCategory": "螺旋桨",
+    "price": 28.0,
+    "level": "entry",
+    "weight": 12.0,
+    "rating": 4.8,
+    "reviewCount": 1093,
+    "specs": {
+      "尺寸": "7寸",
+      "螺距": "4.0",
+      "桨叶数": "3叶",
+      "重量": "12g",
+      "中心孔": "5mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "远航"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0069",
+    "sku": "PROP-HQP-3x4x3",
+    "name": "3x4x3",
+    "brand": "HQProp",
+    "category": "propeller",
+    "subCategory": "螺旋桨",
+    "price": 12.0,
+    "level": "entry",
+    "weight": 2.8,
+    "rating": 4.7,
+    "reviewCount": 1039,
+    "specs": {
+      "尺寸": "3寸",
+      "螺距": "4.0",
+      "桨叶数": "3叶",
+      "重量": "2.8g",
+      "中心孔": "1.5mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "Cinewhoop"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0070",
+    "sku": "PROP-HQP-40mm4叶",
+    "name": "40mm 4叶",
+    "brand": "HQProp",
+    "category": "propeller",
+    "subCategory": "螺旋桨",
+    "price": 4.0,
+    "level": "entry",
+    "weight": 0.5,
+    "rating": 4.6,
+    "reviewCount": 528,
+    "specs": {
+      "尺寸": "40mm",
+      "螺距": "-",
+      "桨叶数": "4叶",
+      "重量": "0.5g",
+      "中心孔": "1mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "Whoop"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0071",
+    "sku": "PROP-GEM-51499飓",
+    "name": "51499 飓风",
+    "brand": "Gemfan",
+    "category": "propeller",
+    "subCategory": "螺旋桨",
+    "price": 16.0,
+    "level": "entry",
+    "weight": 5.2,
+    "rating": 4.4,
+    "reviewCount": 1538,
+    "specs": {
+      "尺寸": "5寸",
+      "螺距": "4.99",
+      "桨叶数": "3叶",
+      "重量": "5.2g",
+      "中心孔": "5mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0072",
+    "sku": "PROP-GEM-5150S",
+    "name": "5150S",
+    "brand": "Gemfan",
+    "category": "propeller",
+    "subCategory": "螺旋桨",
+    "price": 14.0,
+    "level": "entry",
+    "weight": 5.0,
+    "rating": 4.8,
+    "reviewCount": 231,
+    "specs": {
+      "尺寸": "5寸",
+      "螺距": "5.0",
+      "桨叶数": "3叶",
+      "重量": "5.0g",
+      "中心孔": "5mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "练习"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0073",
+    "sku": "PROP-GEM-51466",
+    "name": "51466",
+    "brand": "Gemfan",
+    "category": "propeller",
+    "subCategory": "螺旋桨",
+    "price": 15.0,
+    "level": "entry",
+    "weight": 4.8,
+    "rating": 4.7,
+    "reviewCount": 321,
+    "specs": {
+      "尺寸": "5寸",
+      "螺距": "4.66",
+      "桨叶数": "3叶",
+      "重量": "4.8g",
+      "中心孔": "5mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "竞速"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0074",
+    "sku": "PROP-GEM-7040",
+    "name": "7040",
+    "brand": "Gemfan",
+    "category": "propeller",
+    "subCategory": "螺旋桨",
+    "price": 25.0,
+    "level": "entry",
+    "weight": 13.0,
+    "rating": 4.6,
+    "reviewCount": 1105,
+    "specs": {
+      "尺寸": "7寸",
+      "螺距": "4.0",
+      "桨叶数": "3叶",
+      "重量": "13g",
+      "中心孔": "5mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "远航"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0075",
+    "sku": "PROP-GEM-30162叶",
+    "name": "3016 2叶",
+    "brand": "Gemfan",
+    "category": "propeller",
+    "subCategory": "螺旋桨",
+    "price": 6.0,
+    "level": "entry",
+    "weight": 2.1,
+    "rating": 4.4,
+    "reviewCount": 1600,
+    "specs": {
+      "尺寸": "3寸",
+      "螺距": "1.6",
+      "桨叶数": "2叶",
+      "重量": "2.1g",
+      "中心孔": "1.5mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "高效"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0076",
+    "sku": "PROP-GEM-1635",
+    "name": "1635",
+    "brand": "Gemfan",
+    "category": "propeller",
+    "subCategory": "螺旋桨",
+    "price": 3.0,
+    "level": "entry",
+    "weight": 0.4,
+    "rating": 4.6,
+    "reviewCount": 937,
+    "specs": {
+      "尺寸": "40mm",
+      "螺距": "-",
+      "桨叶数": "4叶",
+      "重量": "0.4g",
+      "中心孔": "1mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "Whoop"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0077",
+    "sku": "PROP-DAL-Cyclon",
+    "name": "Cyclone T5046C",
+    "brand": "DALProp",
+    "category": "propeller",
+    "subCategory": "螺旋桨",
+    "price": 22.0,
+    "level": "entry",
+    "weight": 5.5,
+    "rating": 4.7,
+    "reviewCount": 280,
+    "specs": {
+      "尺寸": "5寸",
+      "螺距": "4.6",
+      "桨叶数": "3叶",
+      "重量": "5.5g",
+      "中心孔": "5mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "竞速"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0078",
+    "sku": "PROP-DAL-Cyclon",
+    "name": "Cyclone T5040C",
+    "brand": "DALProp",
+    "category": "propeller",
+    "subCategory": "螺旋桨",
+    "price": 20.0,
+    "level": "entry",
+    "weight": 5.2,
+    "rating": 4.7,
+    "reviewCount": 1678,
+    "specs": {
+      "尺寸": "5寸",
+      "螺距": "4.0",
+      "桨叶数": "3叶",
+      "重量": "5.2g",
+      "中心孔": "5mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "花飞"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0079",
+    "sku": "PROP-DAL-NexTRE",
+    "name": "NexTREME 7040",
+    "brand": "DALProp",
+    "category": "propeller",
+    "subCategory": "螺旋桨",
+    "price": 32.0,
+    "level": "entry",
+    "weight": 13.5,
+    "rating": 4.6,
+    "reviewCount": 1580,
+    "specs": {
+      "尺寸": "7寸",
+      "螺距": "4.0",
+      "桨叶数": "3叶",
+      "重量": "13.5g",
+      "中心孔": "5mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "远航"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0080",
+    "sku": "PROP-DL-乾丰5146",
+    "name": "乾丰 51466",
+    "brand": "DL",
+    "category": "propeller",
+    "subCategory": "螺旋桨",
+    "price": 12.0,
+    "level": "entry",
+    "weight": 5.0,
+    "rating": 4.4,
+    "reviewCount": 688,
+    "specs": {
+      "尺寸": "5寸",
+      "螺距": "4.66",
+      "桨叶数": "3叶",
+      "重量": "5.0g",
+      "中心孔": "5mm"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "竞速"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0081",
+    "sku": "PROP-DL-乾丰7040",
+    "name": "乾丰 7040",
+    "brand": "DL",
+    "category": "propeller",
+    "subCategory": "螺旋桨",
+    "price": 18.0,
+    "level": "entry",
+    "weight": 12.5,
+    "rating": 4.6,
+    "reviewCount": 776,
+    "specs": {
+      "尺寸": "7寸",
+      "螺距": "4.0",
+      "桨叶数": "3叶",
+      "重量": "12.5g",
+      "中心孔": "5mm"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "远航"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0082",
+    "sku": "PROP-DL-乾丰3050",
+    "name": "乾丰 3050",
+    "brand": "DL",
+    "category": "propeller",
+    "subCategory": "螺旋桨",
+    "price": 8.0,
+    "level": "entry",
+    "weight": 2.7,
+    "rating": 4.6,
+    "reviewCount": 1456,
+    "specs": {
+      "尺寸": "3寸",
+      "螺距": "5.0",
+      "桨叶数": "3叶",
+      "重量": "2.7g",
+      "中心孔": "1.5mm"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "Cinewhoop"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0083",
+    "sku": "FC-SPE-F7V3",
+    "name": "F7 V3",
+    "brand": "SpeedyBee",
+    "category": "flight_controller",
+    "subCategory": "飞控(FC)",
+    "price": 268.0,
+    "level": "intermediate",
+    "weight": 8.5,
+    "rating": 4.7,
+    "reviewCount": 597,
+    "specs": {
+      "处理器": "STM32F722",
+      "陀螺仪": "MPU6000",
+      "串口数": 6,
+      "OSD": "支持",
+      "黑匣子": "支持",
+      "安装孔": "30.5mm",
+      "重量": "8.5g",
+      "BEC": "5V/2A,9V/2A"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "蓝牙调参"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0084",
+    "sku": "FC-MAM-F722AP",
+    "name": "F722 APP",
+    "brand": "Mamba",
+    "category": "flight_controller",
+    "subCategory": "飞控(FC)",
+    "price": 228.0,
+    "level": "intermediate",
+    "weight": 7.8,
+    "rating": 4.8,
+    "reviewCount": 222,
+    "specs": {
+      "处理器": "STM32F722",
+      "陀螺仪": "ICM42688P",
+      "串口数": 5,
+      "OSD": "支持",
+      "黑匣子": "支持",
+      "安装孔": "30.5mm",
+      "重量": "7.8g",
+      "BEC": "5V/2A,9V/2A"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "APP调参"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0085",
+    "sku": "FC-MAM-F722MK",
+    "name": "F722 MK4",
+    "brand": "Mamba",
+    "category": "flight_controller",
+    "subCategory": "飞控(FC)",
+    "price": 198.0,
+    "level": "intermediate",
+    "weight": 7.5,
+    "rating": 4.4,
+    "reviewCount": 661,
+    "specs": {
+      "处理器": "STM32F722",
+      "陀螺仪": "MPU6000",
+      "串口数": 5,
+      "OSD": "支持",
+      "黑匣子": "支持",
+      "安装孔": "30.5mm",
+      "重量": "7.5g",
+      "BEC": "5V/2A"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "性价比"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0086",
+    "sku": "FC-GEP-TAKERF",
+    "name": "TAKER F722",
+    "brand": "GEPRC",
+    "category": "flight_controller",
+    "subCategory": "飞控(FC)",
+    "price": 238.0,
+    "level": "intermediate",
+    "weight": 8.2,
+    "rating": 4.7,
+    "reviewCount": 1091,
+    "specs": {
+      "处理器": "STM32F722",
+      "陀螺仪": "ICM42688P",
+      "串口数": 6,
+      "OSD": "支持",
+      "黑匣子": "支持",
+      "安装孔": "30.5mm",
+      "重量": "8.2g",
+      "BEC": "5V/3A,9V/3A"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "8S支持"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0087",
+    "sku": "FC-IFL-SucceX",
+    "name": "SucceX-D F7",
+    "brand": "iFlight",
+    "category": "flight_controller",
+    "subCategory": "飞控(FC)",
+    "price": 268.0,
+    "level": "intermediate",
+    "weight": 8.0,
+    "rating": 4.7,
+    "reviewCount": 544,
+    "specs": {
+      "处理器": "STM32F722",
+      "陀螺仪": "MPU6000",
+      "串口数": 6,
+      "OSD": "支持",
+      "黑匣子": "支持",
+      "安装孔": "30.5mm",
+      "重量": "8.0g",
+      "BEC": "5V/3A"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "DJI即插"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0088",
+    "sku": "FC-HOL-Kakute",
+    "name": "Kakute H7",
+    "brand": "Holybro",
+    "category": "flight_controller",
+    "subCategory": "飞控(FC)",
+    "price": 398.0,
+    "level": "advanced",
+    "weight": 9.2,
+    "rating": 4.5,
+    "reviewCount": 446,
+    "specs": {
+      "处理器": "STM32H743",
+      "陀螺仪": "ICM42688P",
+      "串口数": 7,
+      "OSD": "支持",
+      "黑匣子": "支持",
+      "安装孔": "30.5mm",
+      "重量": "9.2g",
+      "BEC": "5V/3A,9V/3A"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "H7旗舰"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0089",
+    "sku": "FC-HOL-Kakute",
+    "name": "Kakute F7",
+    "brand": "Holybro",
+    "category": "flight_controller",
+    "subCategory": "飞控(FC)",
+    "price": 288.0,
+    "level": "intermediate",
+    "weight": 8.0,
+    "rating": 4.7,
+    "reviewCount": 461,
+    "specs": {
+      "处理器": "STM32F722",
+      "陀螺仪": "ICM42688P",
+      "串口数": 6,
+      "OSD": "支持",
+      "黑匣子": "支持",
+      "安装孔": "30.5mm",
+      "重量": "8.0g",
+      "BEC": "5V/2A"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "Inav支持"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0090",
+    "sku": "FC-MAT-F405-H",
+    "name": "F405-HDTE",
+    "brand": "Matek",
+    "category": "flight_controller",
+    "subCategory": "飞控(FC)",
+    "price": 168.0,
+    "level": "intermediate",
+    "weight": 7.0,
+    "rating": 4.7,
+    "reviewCount": 1093,
+    "specs": {
+      "处理器": "STM32F405",
+      "陀螺仪": "ICM42688P",
+      "串口数": 6,
+      "OSD": "支持",
+      "黑匣子": "无",
+      "安装孔": "30.5mm",
+      "重量": "7.0g",
+      "BEC": "5V/2A"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "DJI支持"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0091",
+    "sku": "FC-MAT-H743-S",
+    "name": "H743-SLIM",
+    "brand": "Matek",
+    "category": "flight_controller",
+    "subCategory": "飞控(FC)",
+    "price": 298.0,
+    "level": "intermediate",
+    "weight": 8.5,
+    "rating": 4.4,
+    "reviewCount": 235,
+    "specs": {
+      "处理器": "STM32H743",
+      "陀螺仪": "ICM42688P",
+      "串口数": 7,
+      "OSD": "支持",
+      "黑匣子": "支持",
+      "安装孔": "30.5mm",
+      "重量": "8.5g",
+      "BEC": "5V/2A"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "H7轻量"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0092",
+    "sku": "FC-JHE-GH743",
+    "name": "GH743",
+    "brand": "JHEMCU",
+    "category": "flight_controller",
+    "subCategory": "飞控(FC)",
+    "price": 128.0,
+    "level": "entry",
+    "weight": 6.8,
+    "rating": 4.6,
+    "reviewCount": 918,
+    "specs": {
+      "处理器": "STM32H743",
+      "陀螺仪": "ICM42688P",
+      "串口数": 5,
+      "OSD": "支持",
+      "黑匣子": "无",
+      "安装孔": "30.5mm",
+      "重量": "6.8g",
+      "BEC": "5V/2A"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "入门H7"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0093",
+    "sku": "FC-BEA-海豚F722",
+    "name": "海豚 F722",
+    "brand": "BEACON",
+    "category": "flight_controller",
+    "subCategory": "飞控(FC)",
+    "price": 168.0,
+    "level": "intermediate",
+    "weight": 7.8,
+    "rating": 4.7,
+    "reviewCount": 803,
+    "specs": {
+      "处理器": "STM32F722",
+      "陀螺仪": "ICM42688P",
+      "串口数": 5,
+      "OSD": "支持",
+      "黑匣子": "支持",
+      "安装孔": "30.5mm",
+      "重量": "7.8g",
+      "BEC": "5V/2A"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "性价比"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0094",
+    "sku": "FC-BET-F41S-2",
+    "name": "F4 1S-2S 12A AIO",
+    "brand": "BETAFPV",
+    "category": "flight_controller",
+    "subCategory": "飞控(FC)",
+    "price": 128.0,
+    "level": "entry",
+    "weight": 5.8,
+    "rating": 4.4,
+    "reviewCount": 169,
+    "specs": {
+      "处理器": "STM32F405",
+      "陀螺仪": "BMI270",
+      "串口数": 3,
+      "OSD": "支持",
+      "黑匣子": "无",
+      "安装孔": "25.5mm",
+      "重量": "5.8g",
+      "BEC": "5V/2A"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "AIO微型"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0095",
+    "sku": "FC-GEP-F40525",
+    "name": "F405 25A AIO",
+    "brand": "GEPRC",
+    "category": "flight_controller",
+    "subCategory": "飞控(FC)",
+    "price": 298.0,
+    "level": "entry",
+    "weight": 12.0,
+    "rating": 4.8,
+    "reviewCount": 302,
+    "specs": {
+      "处理器": "STM32F405",
+      "陀螺仪": "ICM42688P",
+      "串口数": 4,
+      "OSD": "支持",
+      "黑匣子": "无",
+      "安装孔": "25.5mm",
+      "重量": "12g",
+      "BEC": "5V/2A"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "AIO-3寸"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0096",
+    "sku": "FC-IFL-F445AA",
+    "name": "F4 45A AIO",
+    "brand": "iFlight",
+    "category": "flight_controller",
+    "subCategory": "飞控(FC)",
+    "price": 328.0,
+    "level": "entry",
+    "weight": 14.0,
+    "rating": 4.9,
+    "reviewCount": 668,
+    "specs": {
+      "处理器": "STM32F405",
+      "陀螺仪": "MPU6000",
+      "串口数": 4,
+      "OSD": "支持",
+      "黑匣子": "无",
+      "安装孔": "25.5mm",
+      "重量": "14g",
+      "BEC": "5V/2A"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "AIO-5寸"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0097",
+    "sku": "VTX-PAN-VT5804",
+    "name": "VT5804-BAT 2.5W",
+    "brand": "PandaRC",
+    "category": "vtx",
+    "subCategory": "图传(VTX)",
+    "price": 259.0,
+    "level": "intermediate",
+    "weight": 12.0,
+    "rating": 4.9,
+    "reviewCount": 282,
+    "specs": {
+      "功率": "2500mW",
+      "输入电压": "7-36V",
+      "重量": "12g",
+      "类型": "模拟",
+      "频点数": 40
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "远航大功率"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0098",
+    "sku": "VTX-RUS-TANK",
+    "name": "TANK Solo 1W",
+    "brand": "RUSH",
+    "category": "vtx",
+    "subCategory": "图传(VTX)",
+    "price": 198.0,
+    "level": "intermediate",
+    "weight": 8.0,
+    "rating": 4.8,
+    "reviewCount": 198,
+    "specs": {
+      "功率": "1000mW",
+      "输入电压": "7-28V",
+      "重量": "8g",
+      "类型": "模拟",
+      "频点数": 48
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "内置麦克风"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0099",
+    "sku": "VTX-RUS-TANK",
+    "name": "TANK Mini",
+    "brand": "RUSH",
+    "category": "vtx",
+    "subCategory": "图传(VTX)",
+    "price": 168.0,
+    "level": "intermediate",
+    "weight": 6.0,
+    "rating": 4.7,
+    "reviewCount": 666,
+    "specs": {
+      "功率": "800mW",
+      "输入电压": "7-28V",
+      "重量": "6g",
+      "类型": "模拟",
+      "频点数": 48
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "轻量化"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0100",
+    "sku": "VTX-TEA-Unify",
+    "name": "Unify Pro32",
+    "brand": "Team BlackSheep",
+    "category": "vtx",
+    "subCategory": "图传(VTX)",
+    "price": 288.0,
+    "level": "intermediate",
+    "weight": 6.0,
+    "rating": 4.5,
+    "reviewCount": 694,
+    "specs": {
+      "功率": "800mW",
+      "输入电压": "5-26V",
+      "重量": "6g",
+      "类型": "模拟",
+      "频点数": 40
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "旗舰级"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0101",
+    "sku": "VTX-TEA-Unify",
+    "name": "Unify Pro HV",
+    "brand": "Team BlackSheep",
+    "category": "vtx",
+    "subCategory": "图传(VTX)",
+    "price": 328.0,
+    "level": "intermediate",
+    "weight": 7.0,
+    "rating": 4.7,
+    "reviewCount": 185,
+    "specs": {
+      "功率": "1000mW",
+      "输入电压": "5-26V",
+      "重量": "7g",
+      "类型": "模拟",
+      "频点数": 40
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "大功率"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0102",
+    "sku": "VTX-IFL-Force",
+    "name": "Force VT5804",
+    "brand": "iFlight",
+    "category": "vtx",
+    "subCategory": "图传(VTX)",
+    "price": 128.0,
+    "level": "intermediate",
+    "weight": 8.0,
+    "rating": 4.8,
+    "reviewCount": 148,
+    "specs": {
+      "功率": "600mW",
+      "输入电压": "7-24V",
+      "重量": "8g",
+      "类型": "模拟",
+      "频点数": 40
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "通用"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0103",
+    "sku": "VTX-GEP-MATEN",
+    "name": "MATEN 1.2G 2W",
+    "brand": "GEPRC",
+    "category": "vtx",
+    "subCategory": "图传(VTX)",
+    "price": 298.0,
+    "level": "intermediate",
+    "weight": 35.0,
+    "rating": 4.6,
+    "reviewCount": 258,
+    "specs": {
+      "功率": "2000mW",
+      "输入电压": "12-28V",
+      "重量": "35g",
+      "类型": "模拟",
+      "频点数": 9
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "1.2G远航"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0104",
+    "sku": "VTX-DJI-O3",
+    "name": "O3 Air Unit",
+    "brand": "DJI",
+    "category": "vtx",
+    "subCategory": "图传(VTX)",
+    "price": 1299.0,
+    "level": "advanced",
+    "weight": 28.0,
+    "rating": 4.9,
+    "reviewCount": 628,
+    "specs": {
+      "功率": "1000mW",
+      "输入电压": "7-26V",
+      "重量": "28g",
+      "类型": "数字"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "4K录制"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0105",
+    "sku": "VTX-DJI-O4",
+    "name": "O4 Air Unit",
+    "brand": "DJI",
+    "category": "vtx",
+    "subCategory": "图传(VTX)",
+    "price": 1499.0,
+    "level": "advanced",
+    "weight": 26.0,
+    "rating": 4.6,
+    "reviewCount": 482,
+    "specs": {
+      "功率": "1000mW",
+      "输入电压": "7-26V",
+      "重量": "26g",
+      "类型": "数字"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "4K120最新"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0106",
+    "sku": "VTX-WAL-Avatar",
+    "name": "Avatar 1S",
+    "brand": "Walksnail",
+    "category": "vtx",
+    "subCategory": "图传(VTX)",
+    "price": 399.0,
+    "level": "intermediate",
+    "weight": 6.0,
+    "rating": 4.9,
+    "reviewCount": 777,
+    "specs": {
+      "功率": "400mW",
+      "输入电压": "3.3-5V",
+      "重量": "6g",
+      "类型": "数字"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "轻量化"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0107",
+    "sku": "VTX-WAL-Avatar",
+    "name": "Avatar Pro",
+    "brand": "Walksnail",
+    "category": "vtx",
+    "subCategory": "图传(VTX)",
+    "price": 899.0,
+    "level": "advanced",
+    "weight": 35.0,
+    "rating": 4.8,
+    "reviewCount": 293,
+    "specs": {
+      "功率": "1000mW",
+      "输入电压": "7-26V",
+      "重量": "35g",
+      "类型": "数字"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "专业"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0108",
+    "sku": "VTX-WAL-Avatar",
+    "name": "Avatar HD",
+    "brand": "Walksnail",
+    "category": "vtx",
+    "subCategory": "图传(VTX)",
+    "price": 799.0,
+    "level": "advanced",
+    "weight": 32.0,
+    "rating": 4.6,
+    "reviewCount": 758,
+    "specs": {
+      "功率": "1200mW",
+      "输入电压": "7-26V",
+      "重量": "32g",
+      "类型": "数字"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "高清"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0109",
+    "sku": "VTX-HDZ-Freest",
+    "name": "Freestyle V2",
+    "brand": "HDZero",
+    "category": "vtx",
+    "subCategory": "图传(VTX)",
+    "price": 599.0,
+    "level": "advanced",
+    "weight": 24.0,
+    "rating": 4.7,
+    "reviewCount": 357,
+    "specs": {
+      "功率": "1000mW",
+      "输入电压": "7-26V",
+      "重量": "24g",
+      "类型": "数字"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "开源"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0110",
+    "sku": "VTX-CAD-Walksn",
+    "name": "Walksnail Avatar",
+    "brand": "Caddx",
+    "category": "vtx",
+    "subCategory": "图传(VTX)",
+    "price": 758.0,
+    "level": "advanced",
+    "weight": 28.0,
+    "rating": 4.8,
+    "reviewCount": 333,
+    "specs": {
+      "功率": "700mW",
+      "输入电压": "7-26V",
+      "重量": "28g",
+      "类型": "数字"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "Caddx版"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0111",
+    "sku": "CAM-FOX-Predat",
+    "name": "Predator V5",
+    "brand": "Foxeer",
+    "category": "camera",
+    "subCategory": "摄像头",
+    "price": 268.0,
+    "level": "intermediate",
+    "weight": 8.5,
+    "rating": 4.5,
+    "reviewCount": 660,
+    "specs": {
+      "分辨率": "1500TVL",
+      "镜头": "2.1mm",
+      "视场角": "150°",
+      "重量": "8.5g",
+      "安装孔": "19mm",
+      "电压": "5-36V",
+      "WDR": "支持"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "模拟",
+      "WDR"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0112",
+    "sku": "CAM-FOX-Cat3Mi",
+    "name": "Cat 3 Micro",
+    "brand": "Foxeer",
+    "category": "camera",
+    "subCategory": "摄像头",
+    "price": 228.0,
+    "level": "intermediate",
+    "weight": 6.0,
+    "rating": 4.7,
+    "reviewCount": 310,
+    "specs": {
+      "分辨率": "1200TVL",
+      "镜头": "1.7mm",
+      "视场角": "155°",
+      "重量": "6.0g",
+      "安装孔": "19mm",
+      "电压": "5-36V",
+      "WDR": "支持"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "夜视",
+      "低延迟"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0113",
+    "sku": "CAM-RUN-Phoeni",
+    "name": "Phoenix 2",
+    "brand": "RunCam",
+    "category": "camera",
+    "subCategory": "摄像头",
+    "price": 198.0,
+    "level": "intermediate",
+    "weight": 7.5,
+    "rating": 4.8,
+    "reviewCount": 821,
+    "specs": {
+      "分辨率": "1000TVL",
+      "镜头": "2.1mm",
+      "视场角": "145°",
+      "重量": "7.5g",
+      "安装孔": "19mm",
+      "电压": "5-36V",
+      "WDR": "支持"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "性价比高"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0114",
+    "sku": "CAM-RUN-Racer3",
+    "name": "Racer 3",
+    "brand": "RunCam",
+    "category": "camera",
+    "subCategory": "摄像头",
+    "price": 238.0,
+    "level": "intermediate",
+    "weight": 5.6,
+    "rating": 4.6,
+    "reviewCount": 524,
+    "specs": {
+      "分辨率": "1200TVL",
+      "镜头": "1.8mm",
+      "视场角": "160°",
+      "重量": "5.6g",
+      "安装孔": "19mm",
+      "电压": "5-36V",
+      "WDR": "支持"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "竞速专用"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0115",
+    "sku": "CAM-RUN-Nano3",
+    "name": "Nano 3",
+    "brand": "RunCam",
+    "category": "camera",
+    "subCategory": "摄像头",
+    "price": 128.0,
+    "level": "intermediate",
+    "weight": 2.0,
+    "rating": 4.6,
+    "reviewCount": 744,
+    "specs": {
+      "分辨率": "800TVL",
+      "镜头": "2.1mm",
+      "视场角": "140°",
+      "重量": "2.0g",
+      "安装孔": "14mm",
+      "电压": "5-36V",
+      "WDR": "无"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "微型"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0116",
+    "sku": "CAM-CAD-Ratel2",
+    "name": "Ratel 2",
+    "brand": "Caddx",
+    "category": "camera",
+    "subCategory": "摄像头",
+    "price": 198.0,
+    "level": "intermediate",
+    "weight": 4.5,
+    "rating": 4.7,
+    "reviewCount": 999,
+    "specs": {
+      "分辨率": "1200TVL",
+      "镜头": "2.1mm",
+      "视场角": "165°",
+      "重量": "4.5g",
+      "安装孔": "19mm",
+      "电压": "5-40V",
+      "WDR": "支持"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "模拟",
+      "WDR"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0117",
+    "sku": "CAM-CAD-Nebula",
+    "name": "Nebula Pro",
+    "brand": "Caddx",
+    "category": "camera",
+    "subCategory": "摄像头",
+    "price": 458.0,
+    "level": "intermediate",
+    "weight": 6.5,
+    "rating": 4.4,
+    "reviewCount": 387,
+    "specs": {
+      "分辨率": "1080p",
+      "镜头": "2.1mm",
+      "视场角": "150°",
+      "重量": "6.5g",
+      "安装孔": "19mm",
+      "电压": "5-18V",
+      "WDR": "支持"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "数字",
+      "DJI"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0118",
+    "sku": "CAM-CAD-PolarV",
+    "name": "Polar Vista",
+    "brand": "Caddx",
+    "category": "camera",
+    "subCategory": "摄像头",
+    "price": 358.0,
+    "level": "intermediate",
+    "weight": 2.5,
+    "rating": 4.6,
+    "reviewCount": 443,
+    "specs": {
+      "分辨率": "720p",
+      "镜头": "2.1mm",
+      "视场角": "150°",
+      "重量": "2.5g",
+      "安装孔": "19mm",
+      "电压": "5V",
+      "WDR": "支持"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "数字",
+      "轻量"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0119",
+    "sku": "CAM-BET-C03",
+    "name": "C03",
+    "brand": "BETAFPV",
+    "category": "camera",
+    "subCategory": "摄像头",
+    "price": 88.0,
+    "level": "entry",
+    "weight": 1.5,
+    "rating": 4.4,
+    "reviewCount": 485,
+    "specs": {
+      "分辨率": "1200TVL",
+      "镜头": "2.1mm",
+      "视场角": "150°",
+      "重量": "1.5g",
+      "安装孔": "14mm",
+      "电压": "5V",
+      "WDR": "无"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "微型",
+      "Whoop"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0120",
+    "sku": "PART-RAD-Boxer",
+    "name": "Boxer",
+    "brand": "Radiomaster",
+    "category": "radio",
+    "subCategory": "遥控器(TX)",
+    "price": 899.0,
+    "level": "advanced",
+    "weight": 520.0,
+    "rating": 4.6,
+    "reviewCount": 1391,
+    "specs": {
+      "协议": "ELRS",
+      "摇杆": "霍尔",
+      "显示屏": "2.8寸彩屏",
+      "重量": "520g",
+      "通道数": "16通道"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "内置ELRS"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0121",
+    "sku": "PART-RAD-TX16SM",
+    "name": "TX16S Mark II",
+    "brand": "Radiomaster",
+    "category": "radio",
+    "subCategory": "遥控器(TX)",
+    "price": 1299.0,
+    "level": "advanced",
+    "weight": 750.0,
+    "rating": 4.5,
+    "reviewCount": 1094,
+    "specs": {
+      "协议": "多协议",
+      "摇杆": "霍尔",
+      "显示屏": "4.3寸触摸",
+      "重量": "750g",
+      "通道数": "16通道"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "多协议旗舰"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0122",
+    "sku": "PART-RAD-Zorro",
+    "name": "Zorro",
+    "brand": "Radiomaster",
+    "category": "radio",
+    "subCategory": "遥控器(TX)",
+    "price": 599.0,
+    "level": "advanced",
+    "weight": 350.0,
+    "rating": 4.6,
+    "reviewCount": 1620,
+    "specs": {
+      "协议": "ELRS",
+      "摇杆": "霍尔",
+      "显示屏": "1.3寸OLED",
+      "重量": "350g",
+      "通道数": "16通道"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "便携"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0123",
+    "sku": "PART-JUM-T14",
+    "name": "T14",
+    "brand": "Jumper",
+    "category": "radio",
+    "subCategory": "遥控器(TX)",
+    "price": 698.0,
+    "level": "advanced",
+    "weight": 480.0,
+    "rating": 4.8,
+    "reviewCount": 384,
+    "specs": {
+      "协议": "ELRS",
+      "摇杆": "电位器",
+      "显示屏": "2.4寸彩屏",
+      "重量": "480g",
+      "通道数": "14通道"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "性价比"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0124",
+    "sku": "PART-JUM-T15",
+    "name": "T15",
+    "brand": "Jumper",
+    "category": "radio",
+    "subCategory": "遥控器(TX)",
+    "price": 998.0,
+    "level": "advanced",
+    "weight": 580.0,
+    "rating": 4.5,
+    "reviewCount": 1523,
+    "specs": {
+      "协议": "ELRS",
+      "摇杆": "霍尔",
+      "显示屏": "3.5寸触摸",
+      "重量": "580g",
+      "通道数": "16通道"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "高端"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0125",
+    "sku": "PART-JUM-T-Pro",
+    "name": "T-Pro",
+    "brand": "Jumper",
+    "category": "radio",
+    "subCategory": "遥控器(TX)",
+    "price": 498.0,
+    "level": "intermediate",
+    "weight": 320.0,
+    "rating": 4.8,
+    "reviewCount": 831,
+    "specs": {
+      "协议": "ELRS",
+      "摇杆": "霍尔",
+      "显示屏": "1.3寸OLED",
+      "重量": "320g",
+      "通道数": "16通道"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "入门级"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0126",
+    "sku": "PART-TEA-Tango2",
+    "name": "Tango 2",
+    "brand": "Team BlackSheep",
+    "category": "radio",
+    "subCategory": "遥控器(TX)",
+    "price": 1298.0,
+    "level": "advanced",
+    "weight": 280.0,
+    "rating": 4.8,
+    "reviewCount": 792,
+    "specs": {
+      "协议": "Crossfire",
+      "摇杆": "霍尔",
+      "显示屏": "1.3寸OLED",
+      "重量": "280g",
+      "通道数": "16通道"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "迷你便携"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0127",
+    "sku": "PART-DJI-FPV遥控器",
+    "name": "FPV遥控器2",
+    "brand": "DJI",
+    "category": "radio",
+    "subCategory": "遥控器(TX)",
+    "price": 999.0,
+    "level": "advanced",
+    "weight": 450.0,
+    "rating": 4.6,
+    "reviewCount": 991,
+    "specs": {
+      "协议": "DJI",
+      "摇杆": "霍尔",
+      "显示屏": "-",
+      "重量": "450g"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "DJI专用"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0128",
+    "sku": "PART-FRS-X-Lite",
+    "name": "X-Lite Pro",
+    "brand": "FrSky",
+    "category": "radio",
+    "subCategory": "遥控器(TX)",
+    "price": 850.0,
+    "level": "advanced",
+    "weight": 420.0,
+    "rating": 4.8,
+    "reviewCount": 958,
+    "specs": {
+      "协议": "ACCESS",
+      "摇杆": "霍尔",
+      "显示屏": "1.3寸OLED",
+      "重量": "420g",
+      "通道数": "16通道"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "紧凑型"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0129",
+    "sku": "PART-FLY-NV14",
+    "name": "NV14",
+    "brand": "FlySky",
+    "category": "radio",
+    "subCategory": "遥控器(TX)",
+    "price": 680.0,
+    "level": "advanced",
+    "weight": 550.0,
+    "rating": 4.9,
+    "reviewCount": 1176,
+    "specs": {
+      "协议": "AFHDS3",
+      "摇杆": "霍尔",
+      "显示屏": "3.5寸触摸",
+      "重量": "550g",
+      "通道数": "14通道"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "入门触控"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0130",
+    "sku": "PART-RAD-EP2ELR",
+    "name": "EP2 ELRS",
+    "brand": "Radiomaster",
+    "category": "receiver",
+    "subCategory": "接收机(RX)",
+    "price": 68.0,
+    "level": "entry",
+    "weight": 0.5,
+    "rating": 4.8,
+    "reviewCount": 755,
+    "specs": {
+      "协议": "ELRS",
+      "频段": "2.4GHz",
+      "天线": "陶瓷天线",
+      "重量": "0.5g",
+      "射程": "10km+"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "轻量陶瓷"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0131",
+    "sku": "PART-RAD-RP1ELR",
+    "name": "RP1 ELRS",
+    "brand": "Radiomaster",
+    "category": "receiver",
+    "subCategory": "接收机(RX)",
+    "price": 58.0,
+    "level": "entry",
+    "weight": 0.8,
+    "rating": 4.9,
+    "reviewCount": 870,
+    "specs": {
+      "协议": "ELRS",
+      "频段": "2.4GHz",
+      "天线": "双天线",
+      "重量": "0.8g",
+      "射程": "15km+"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "分集接收"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0132",
+    "sku": "PART-RAD-ER6ELR",
+    "name": "ER6 ELRS",
+    "brand": "Radiomaster",
+    "category": "receiver",
+    "subCategory": "接收机(RX)",
+    "price": 78.0,
+    "level": "entry",
+    "weight": 0.6,
+    "rating": 4.9,
+    "reviewCount": 172,
+    "specs": {
+      "协议": "ELRS",
+      "频段": "2.4GHz",
+      "天线": "双天线",
+      "重量": "0.6g",
+      "射程": "20km+"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "PWM输出"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0133",
+    "sku": "PART-BET-ELRSNa",
+    "name": "ELRS Nano",
+    "brand": "BETAFPV",
+    "category": "receiver",
+    "subCategory": "接收机(RX)",
+    "price": 58.0,
+    "level": "entry",
+    "weight": 0.8,
+    "rating": 4.7,
+    "reviewCount": 312,
+    "specs": {
+      "协议": "ELRS",
+      "频段": "2.4GHz",
+      "天线": "陶瓷",
+      "重量": "0.8g",
+      "射程": "8km+"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "入门"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0134",
+    "sku": "PART-BET-ELRSMi",
+    "name": "ELRS Micro 1W",
+    "brand": "BETAFPV",
+    "category": "receiver",
+    "subCategory": "接收机(RX)",
+    "price": 128.0,
+    "level": "intermediate",
+    "weight": 1.2,
+    "rating": 4.5,
+    "reviewCount": 1043,
+    "specs": {
+      "协议": "ELRS",
+      "频段": "2.4GHz",
+      "天线": "双天线",
+      "重量": "1.2g",
+      "射程": "30km+"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "大功率"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0135",
+    "sku": "PART-TEA-Crossf",
+    "name": "Crossfire Nano",
+    "brand": "Team BlackSheep",
+    "category": "receiver",
+    "subCategory": "接收机(RX)",
+    "price": 198.0,
+    "level": "intermediate",
+    "weight": 0.5,
+    "rating": 4.7,
+    "reviewCount": 193,
+    "specs": {
+      "协议": "Crossfire",
+      "频段": "915MHz",
+      "天线": "双天线",
+      "重量": "0.5g",
+      "射程": "30km+"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "远航首选"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0136",
+    "sku": "PART-TEA-Crossf",
+    "name": "Crossfire Nano Diversity",
+    "brand": "Team BlackSheep",
+    "category": "receiver",
+    "subCategory": "接收机(RX)",
+    "price": 268.0,
+    "level": "intermediate",
+    "weight": 0.8,
+    "rating": 4.5,
+    "reviewCount": 547,
+    "specs": {
+      "协议": "Crossfire",
+      "频段": "915MHz",
+      "天线": "四天线",
+      "重量": "0.8g",
+      "射程": "50km+"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "分集远航"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0137",
+    "sku": "PART-FRS-XSR-M",
+    "name": "XSR-M",
+    "brand": "FrSky",
+    "category": "receiver",
+    "subCategory": "接收机(RX)",
+    "price": 88.0,
+    "level": "entry",
+    "weight": 1.5,
+    "rating": 4.7,
+    "reviewCount": 1058,
+    "specs": {
+      "协议": "ACCESS",
+      "频段": "2.4GHz",
+      "天线": "双天线",
+      "重量": "1.5g",
+      "射程": "5km+"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "紧凑型"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0138",
+    "sku": "PART-FLY-IA6B",
+    "name": "IA6B",
+    "brand": "FlySky",
+    "category": "receiver",
+    "subCategory": "接收机(RX)",
+    "price": 45.0,
+    "level": "entry",
+    "weight": 5.0,
+    "rating": 4.4,
+    "reviewCount": 992,
+    "specs": {
+      "协议": "AFHDS",
+      "频段": "2.4GHz",
+      "天线": "双天线",
+      "重量": "5.0g",
+      "射程": "3km"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "入门双天线"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0139",
+    "sku": "PART-GEP-ELRSNa",
+    "name": "ELRS Nano",
+    "brand": "GEPRC",
+    "category": "receiver",
+    "subCategory": "接收机(RX)",
+    "price": 55.0,
+    "level": "entry",
+    "weight": 0.5,
+    "rating": 4.4,
+    "reviewCount": 632,
+    "specs": {
+      "协议": "ELRS",
+      "频段": "2.4GHz",
+      "天线": "陶瓷",
+      "重量": "0.5g",
+      "射程": "10km+"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "小巧"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0140",
+    "sku": "PART-IFL-ELRS2.",
+    "name": "ELRS 2.4G",
+    "brand": "iFlight",
+    "category": "receiver",
+    "subCategory": "接收机(RX)",
+    "price": 62.0,
+    "level": "entry",
+    "weight": 0.6,
+    "rating": 4.4,
+    "reviewCount": 740,
+    "specs": {
+      "协议": "ELRS",
+      "频段": "2.4GHz",
+      "天线": "双天线",
+      "重量": "0.6g",
+      "射程": "15km+"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "通用"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0141",
+    "sku": "PART-HGL-ELRSNa",
+    "name": "ELRS Nano",
+    "brand": "HGLRC",
+    "category": "receiver",
+    "subCategory": "接收机(RX)",
+    "price": 52.0,
+    "level": "entry",
+    "weight": 0.5,
+    "rating": 4.5,
+    "reviewCount": 531,
+    "specs": {
+      "协议": "ELRS",
+      "频段": "2.4GHz",
+      "天线": "陶瓷",
+      "重量": "0.5g",
+      "射程": "10km+"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "性价比"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0142",
+    "sku": "GOG-DJI-Goggle",
+    "name": "Goggles 2",
+    "brand": "DJI",
+    "category": "goggles",
+    "subCategory": "飞行眼镜",
+    "price": 3499.0,
+    "level": "advanced",
+    "weight": 290.0,
+    "rating": 4.6,
+    "reviewCount": 734,
+    "specs": {
+      "类型": "数字",
+      "分辨率": "1080p90",
+      "重量": "290g",
+      "视场角": "51°",
+      "屏幕": "OLED"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "旗舰数字"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0143",
+    "sku": "GOG-DJI-Goggle",
+    "name": "Goggles 3",
+    "brand": "DJI",
+    "category": "goggles",
+    "subCategory": "飞行眼镜",
+    "price": 3999.0,
+    "level": "advanced",
+    "weight": 310.0,
+    "rating": 4.5,
+    "reviewCount": 422,
+    "specs": {
+      "类型": "数字",
+      "分辨率": "1080p100",
+      "重量": "310g",
+      "视场角": "44°",
+      "屏幕": "OLED"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "最新款"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0144",
+    "sku": "GOG-WAL-Goggle",
+    "name": "Goggles X",
+    "brand": "Walksnail",
+    "category": "goggles",
+    "subCategory": "飞行眼镜",
+    "price": 2499.0,
+    "level": "advanced",
+    "weight": 310.0,
+    "rating": 4.8,
+    "reviewCount": 403,
+    "specs": {
+      "类型": "数字",
+      "分辨率": "1080p90",
+      "重量": "310g",
+      "视场角": "50°",
+      "屏幕": "LCD"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "性价比数字"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0145",
+    "sku": "GOG-WAL-Goggle",
+    "name": "Goggles L",
+    "brand": "Walksnail",
+    "category": "goggles",
+    "subCategory": "飞行眼镜",
+    "price": 1899.0,
+    "level": "advanced",
+    "weight": 280.0,
+    "rating": 4.5,
+    "reviewCount": 1127,
+    "specs": {
+      "类型": "数字",
+      "分辨率": "1080p60",
+      "重量": "280g",
+      "视场角": "46°",
+      "屏幕": "LCD"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "轻便"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0146",
+    "sku": "GOG-SKY-SKY04X",
+    "name": "SKY04X PRO",
+    "brand": "SKYZONE",
+    "category": "goggles",
+    "subCategory": "飞行眼镜",
+    "price": 1899.0,
+    "level": "advanced",
+    "weight": 280.0,
+    "rating": 4.6,
+    "reviewCount": 289,
+    "specs": {
+      "类型": "模拟",
+      "分辨率": "1280x960",
+      "重量": "280g",
+      "视场角": "46°",
+      "屏幕": "OLED"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "模拟旗舰"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0147",
+    "sku": "GOG-SKY-CobraS",
+    "name": "Cobra S",
+    "brand": "SKYZONE",
+    "category": "goggles",
+    "subCategory": "飞行眼镜",
+    "price": 1299.0,
+    "level": "advanced",
+    "weight": 320.0,
+    "rating": 4.4,
+    "reviewCount": 529,
+    "specs": {
+      "类型": "混合",
+      "分辨率": "720p60",
+      "重量": "320g",
+      "视场角": "50°",
+      "屏幕": "LCD"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "模拟数字混合"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0148",
+    "sku": "GOG-FAT-Attitu",
+    "name": "Attitude V6",
+    "brand": "FatShark",
+    "category": "goggles",
+    "subCategory": "飞行眼镜",
+    "price": 1499.0,
+    "level": "advanced",
+    "weight": 200.0,
+    "rating": 4.6,
+    "reviewCount": 558,
+    "specs": {
+      "类型": "模拟",
+      "分辨率": "640x480",
+      "重量": "200g",
+      "视场角": "42°",
+      "屏幕": "OLED"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "经典模拟"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0149",
+    "sku": "GOG-FAT-HDO2",
+    "name": "HDO2",
+    "brand": "FatShark",
+    "category": "goggles",
+    "subCategory": "飞行眼镜",
+    "price": 2280.0,
+    "level": "advanced",
+    "weight": 250.0,
+    "rating": 4.6,
+    "reviewCount": 1137,
+    "specs": {
+      "类型": "模拟",
+      "分辨率": "1280x960",
+      "重量": "250g",
+      "视场角": "46°",
+      "屏幕": "OLED"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "高端模拟"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0150",
+    "sku": "GOG-HDZ-Goggle",
+    "name": "Goggles",
+    "brand": "HDZero",
+    "category": "goggles",
+    "subCategory": "飞行眼镜",
+    "price": 1599.0,
+    "level": "advanced",
+    "weight": 260.0,
+    "rating": 4.5,
+    "reviewCount": 1114,
+    "specs": {
+      "类型": "数字",
+      "分辨率": "720p60",
+      "重量": "260g",
+      "视场角": "50°",
+      "屏幕": "LCD"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "开源数字"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0151",
+    "sku": "GOG-IFL-SKYVIZ",
+    "name": "SKYVIZ",
+    "brand": "iFlight",
+    "category": "goggles",
+    "subCategory": "飞行眼镜",
+    "price": 599.0,
+    "level": "advanced",
+    "weight": 180.0,
+    "rating": 4.4,
+    "reviewCount": 1497,
+    "specs": {
+      "类型": "模拟",
+      "分辨率": "640x480",
+      "重量": "180g",
+      "视场角": "40°",
+      "屏幕": "LCD"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "入门模拟"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0152",
+    "sku": "ANT-FOX-棒棒糖",
+    "name": "棒棒糖 V4",
+    "brand": "Foxeer",
+    "category": "antenna",
+    "subCategory": "天线",
+    "price": 35.0,
+    "level": "entry",
+    "weight": 8.0,
+    "rating": 4.8,
+    "reviewCount": 542,
+    "specs": {
+      "频率": "5.8GHz",
+      "增益": "2.5dBi",
+      "极化": "RHCP",
+      "接口": "SMA",
+      "重量": "8g",
+      "长度": "60mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "全向",
+      "耐炸"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0153",
+    "sku": "ANT-FOX-宝塔",
+    "name": "宝塔 5.8G",
+    "brand": "Foxeer",
+    "category": "antenna",
+    "subCategory": "天线",
+    "price": 28.0,
+    "level": "entry",
+    "weight": 6.0,
+    "rating": 4.5,
+    "reviewCount": 154,
+    "specs": {
+      "频率": "5.8GHz",
+      "增益": "2.5dBi",
+      "极化": "RHCP",
+      "接口": "SMA",
+      "重量": "6g",
+      "长度": "45mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "轻量化"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0154",
+    "sku": "ANT-TEA-Triump",
+    "name": "Triumph Pro",
+    "brand": "Team BlackSheep",
+    "category": "antenna",
+    "subCategory": "天线",
+    "price": 88.0,
+    "level": "entry",
+    "weight": 12.0,
+    "rating": 4.6,
+    "reviewCount": 218,
+    "specs": {
+      "频率": "5.8GHz",
+      "增益": "2.5dBi",
+      "极化": "RHCP",
+      "接口": "SMA",
+      "重量": "12g",
+      "长度": "75mm"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "旗舰级",
+      "耐炸"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0155",
+    "sku": "ANT-TEA-Unify",
+    "name": "Unify Pro 5G8",
+    "brand": "Team BlackSheep",
+    "category": "antenna",
+    "subCategory": "天线",
+    "price": 45.0,
+    "level": "entry",
+    "weight": 3.0,
+    "rating": 4.5,
+    "reviewCount": 291,
+    "specs": {
+      "频率": "5.8GHz",
+      "增益": "2.5dBi",
+      "极化": "RHCP",
+      "接口": "MMCX",
+      "重量": "3g",
+      "长度": "25mm"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "微型"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0156",
+    "sku": "ANT-LUM-AXII",
+    "name": "AXII 5.8GHz",
+    "brand": "Lumenier",
+    "category": "antenna",
+    "subCategory": "天线",
+    "price": 65.0,
+    "level": "entry",
+    "weight": 2.0,
+    "rating": 4.5,
+    "reviewCount": 615,
+    "specs": {
+      "频率": "5.8GHz",
+      "增益": "2.2dBi",
+      "极化": "RHCP",
+      "接口": "SMA",
+      "重量": "2g",
+      "长度": "20mm"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "超微型"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0157",
+    "sku": "ANT-LUM-AXII",
+    "name": "AXII Long Range",
+    "brand": "Lumenier",
+    "category": "antenna",
+    "subCategory": "天线",
+    "price": 78.0,
+    "level": "entry",
+    "weight": 10.0,
+    "rating": 4.6,
+    "reviewCount": 471,
+    "specs": {
+      "频率": "5.8GHz",
+      "增益": "4.7dBi",
+      "极化": "RHCP",
+      "接口": "SMA",
+      "重量": "10g",
+      "长度": "55mm"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "远航"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0158",
+    "sku": "ANT-TRU-X-AIR",
+    "name": "X-AIR 5.8",
+    "brand": "TrueRC",
+    "category": "antenna",
+    "subCategory": "天线",
+    "price": 128.0,
+    "level": "intermediate",
+    "weight": 45.0,
+    "rating": 4.8,
+    "reviewCount": 663,
+    "specs": {
+      "频率": "5.8GHz",
+      "增益": "10dBi",
+      "极化": "RHCP",
+      "接口": "SMA",
+      "重量": "45g",
+      "长度": "120mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "高增益",
+      "定向"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0159",
+    "sku": "ANT-VAS-Crossh",
+    "name": "Crosshair XTreme",
+    "brand": "VAS",
+    "category": "antenna",
+    "subCategory": "天线",
+    "price": 158.0,
+    "level": "intermediate",
+    "weight": 35.0,
+    "rating": 4.7,
+    "reviewCount": 211,
+    "specs": {
+      "频率": "5.8GHz",
+      "增益": "9.5dBi",
+      "极化": "RHCP",
+      "接口": "SMA",
+      "重量": "35g",
+      "长度": "110mm"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "极限远航"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0160",
+    "sku": "ANT-GEP-5.8G",
+    "name": "5.8G 棒棒糖",
+    "brand": "GEPRC",
+    "category": "antenna",
+    "subCategory": "天线",
+    "price": 32.0,
+    "level": "entry",
+    "weight": 8.0,
+    "rating": 4.4,
+    "reviewCount": 101,
+    "specs": {
+      "频率": "5.8GHz",
+      "增益": "2.5dBi",
+      "极化": "RHCP",
+      "接口": "SMA",
+      "重量": "8g",
+      "长度": "58mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "全向",
+      "性价比"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0161",
+    "sku": "ANT-RUS-Sprint",
+    "name": "Sprint 2",
+    "brand": "RUSH",
+    "category": "antenna",
+    "subCategory": "天线",
+    "price": 35.0,
+    "level": "entry",
+    "weight": 1.5,
+    "rating": 4.8,
+    "reviewCount": 233,
+    "specs": {
+      "频率": "5.8GHz",
+      "增益": "2.0dBi",
+      "极化": "RHCP",
+      "接口": "MMCX",
+      "重量": "1.5g",
+      "长度": "15mm"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "超轻量"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0162",
+    "sku": "ANT-IFL-水晶",
+    "name": "水晶",
+    "brand": "iFlight",
+    "category": "antenna",
+    "subCategory": "天线",
+    "price": 30.0,
+    "level": "entry",
+    "weight": 8.0,
+    "rating": 4.7,
+    "reviewCount": 765,
+    "specs": {
+      "频率": "5.8GHz",
+      "增益": "2.5dBi",
+      "极化": "RHCP",
+      "接口": "SMA",
+      "重量": "8g",
+      "长度": "60mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "透明外壳"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0163",
+    "sku": "ANT-HOL-5.8G",
+    "name": "5.8G 天线",
+    "brand": "Holybro",
+    "category": "antenna",
+    "subCategory": "天线",
+    "price": 38.0,
+    "level": "entry",
+    "weight": 5.0,
+    "rating": 4.4,
+    "reviewCount": 303,
+    "specs": {
+      "频率": "5.8GHz",
+      "增益": "2.5dBi",
+      "极化": "RHCP",
+      "接口": "MMCX",
+      "重量": "5g",
+      "长度": "40mm"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "通用"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0164",
+    "sku": "ANT-1.2-1.2G",
+    "name": "1.2G 远航天线",
+    "brand": "1.2G",
+    "category": "antenna",
+    "subCategory": "天线",
+    "price": 45.0,
+    "level": "entry",
+    "weight": 25.0,
+    "rating": 4.6,
+    "reviewCount": 253,
+    "specs": {
+      "频率": "1.2GHz",
+      "增益": "3.5dBi",
+      "极化": "CP",
+      "接口": "SMA",
+      "重量": "25g",
+      "长度": "85mm"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "1.2G专用"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0165",
+    "sku": "ANT-FOX-图传天线",
+    "name": "图传天线 1.2G",
+    "brand": "Foxeer",
+    "category": "antenna",
+    "subCategory": "天线",
+    "price": 42.0,
+    "level": "entry",
+    "weight": 20.0,
+    "rating": 4.5,
+    "reviewCount": 614,
+    "specs": {
+      "频率": "1.2GHz",
+      "增益": "3dBi",
+      "极化": "CP",
+      "接口": "SMA",
+      "重量": "20g",
+      "长度": "80mm"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "1.2G通用"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0166",
+    "sku": "CHG-HOT-D6Pro",
+    "name": "D6 Pro",
+    "brand": "HOTA",
+    "category": "charger",
+    "subCategory": "充电器",
+    "price": 368.0,
+    "level": "intermediate",
+    "weight": 480.0,
+    "rating": 4.6,
+    "reviewCount": 750,
+    "specs": {
+      "功率": "325W",
+      "通道数": 2,
+      "支持电芯": "1-6S",
+      "最大电流": "15A",
+      "输入": "DC 7-28V",
+      "重量": "480g"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "氮化镓",
+      "双通道"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0167",
+    "sku": "CHG-HOT-S6",
+    "name": "S6",
+    "brand": "HOTA",
+    "category": "charger",
+    "subCategory": "充电器",
+    "price": 568.0,
+    "level": "advanced",
+    "weight": 920.0,
+    "rating": 4.8,
+    "reviewCount": 881,
+    "specs": {
+      "功率": "600W",
+      "通道数": 1,
+      "支持电芯": "1-6S",
+      "最大电流": "25A",
+      "输入": "AC/DC",
+      "重量": "920g"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "大功率",
+      "AC输入"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0168",
+    "sku": "CHG-HOT-T6",
+    "name": "T6",
+    "brand": "HOTA",
+    "category": "charger",
+    "subCategory": "充电器",
+    "price": 1280.0,
+    "level": "advanced",
+    "weight": 1350.0,
+    "rating": 4.8,
+    "reviewCount": 781,
+    "specs": {
+      "功率": "1000W",
+      "通道数": 1,
+      "支持电芯": "1-6S",
+      "最大电流": "30A",
+      "输入": "AC/DC",
+      "重量": "1350g"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "专业级1000W"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0169",
+    "sku": "CHG-TOO-M6",
+    "name": "M6",
+    "brand": "ToolkitRC",
+    "category": "charger",
+    "subCategory": "充电器",
+    "price": 168.0,
+    "level": "intermediate",
+    "weight": 120.0,
+    "rating": 4.7,
+    "reviewCount": 723,
+    "specs": {
+      "功率": "150W",
+      "通道数": 1,
+      "支持电芯": "1-6S",
+      "最大电流": "10A",
+      "输入": "DC 7-28V",
+      "重量": "120g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "便携",
+      "屏幕"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0170",
+    "sku": "CHG-TOO-M6DAC",
+    "name": "M6DAC",
+    "brand": "ToolkitRC",
+    "category": "charger",
+    "subCategory": "充电器",
+    "price": 298.0,
+    "level": "intermediate",
+    "weight": 280.0,
+    "rating": 4.8,
+    "reviewCount": 277,
+    "specs": {
+      "功率": "300W",
+      "通道数": 2,
+      "支持电芯": "1-6S",
+      "最大电流": "15A",
+      "输入": "DC 7-28V",
+      "重量": "280g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "双通道"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0171",
+    "sku": "CHG-TOO-Q4AC",
+    "name": "Q4AC",
+    "brand": "ToolkitRC",
+    "category": "charger",
+    "subCategory": "充电器",
+    "price": 458.0,
+    "level": "intermediate",
+    "weight": 850.0,
+    "rating": 4.9,
+    "reviewCount": 263,
+    "specs": {
+      "功率": "300W",
+      "通道数": 4,
+      "支持电芯": "1-6S",
+      "最大电流": "15A",
+      "输入": "AC/DC",
+      "重量": "850g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "四通道",
+      "AC输入"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0172",
+    "sku": "CHG-ISD-K2",
+    "name": "K2",
+    "brand": "ISDT",
+    "category": "charger",
+    "subCategory": "充电器",
+    "price": 428.0,
+    "level": "intermediate",
+    "weight": 650.0,
+    "rating": 4.6,
+    "reviewCount": 264,
+    "specs": {
+      "功率": "200W",
+      "通道数": 2,
+      "支持电芯": "1-6S",
+      "最大电流": "10A",
+      "输入": "AC/DC",
+      "重量": "650g"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "AC双通道"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0173",
+    "sku": "CHG-ISD-K3",
+    "name": "K3",
+    "brand": "ISDT",
+    "category": "charger",
+    "subCategory": "充电器",
+    "price": 568.0,
+    "level": "advanced",
+    "weight": 720.0,
+    "rating": 4.6,
+    "reviewCount": 313,
+    "specs": {
+      "功率": "300W",
+      "通道数": 2,
+      "支持电芯": "1-6S",
+      "最大电流": "15A",
+      "输入": "AC/DC",
+      "重量": "720g"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "AC大功率"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0174",
+    "sku": "CHG-ISD-608AC",
+    "name": "608AC",
+    "brand": "ISDT",
+    "category": "charger",
+    "subCategory": "充电器",
+    "price": 298.0,
+    "level": "intermediate",
+    "weight": 380.0,
+    "rating": 4.9,
+    "reviewCount": 675,
+    "specs": {
+      "功率": "200W",
+      "通道数": 1,
+      "支持电芯": "1-6S",
+      "最大电流": "12A",
+      "输入": "AC/DC",
+      "重量": "380g"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "便携AC"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0175",
+    "sku": "CHG-ISD-P30",
+    "name": "P30",
+    "brand": "ISDT",
+    "category": "charger",
+    "subCategory": "充电器",
+    "price": 2580.0,
+    "level": "advanced",
+    "weight": 2200.0,
+    "rating": 4.6,
+    "reviewCount": 936,
+    "specs": {
+      "功率": "1500W",
+      "通道数": 1,
+      "支持电芯": "1-14S",
+      "最大电流": "30A",
+      "输入": "AC 380V",
+      "重量": "2200g"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "工业级"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0176",
+    "sku": "CHG-SKY-B6neo",
+    "name": "B6neo",
+    "brand": "SKYRC",
+    "category": "charger",
+    "subCategory": "充电器",
+    "price": 228.0,
+    "level": "intermediate",
+    "weight": 180.0,
+    "rating": 4.6,
+    "reviewCount": 918,
+    "specs": {
+      "功率": "200W",
+      "通道数": 1,
+      "支持电芯": "1-6S",
+      "最大电流": "10A",
+      "输入": "DC",
+      "重量": "180g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "智能"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0177",
+    "sku": "CHG-SKY-T200",
+    "name": "T200",
+    "brand": "SKYRC",
+    "category": "charger",
+    "subCategory": "充电器",
+    "price": 398.0,
+    "level": "intermediate",
+    "weight": 520.0,
+    "rating": 4.6,
+    "reviewCount": 485,
+    "specs": {
+      "功率": "200W",
+      "通道数": 2,
+      "支持电芯": "1-6S",
+      "最大电流": "12A",
+      "输入": "AC/DC",
+      "重量": "520g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "双通道AC"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0178",
+    "sku": "CHG-ULT-UP1200",
+    "name": "UP1200",
+    "brand": "Ultra Power",
+    "category": "charger",
+    "subCategory": "充电器",
+    "price": 1580.0,
+    "level": "advanced",
+    "weight": 2200.0,
+    "rating": 4.8,
+    "reviewCount": 596,
+    "specs": {
+      "功率": "1200W",
+      "通道数": 8,
+      "支持电芯": "1-14S",
+      "最大电流": "20A",
+      "输入": "AC/DC",
+      "重量": "2200g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "多路农业"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0179",
+    "sku": "CHG-HOT-T15",
+    "name": "T15",
+    "brand": "HOTA",
+    "category": "charger",
+    "subCategory": "充电器",
+    "price": 880.0,
+    "level": "advanced",
+    "weight": 1050.0,
+    "rating": 4.6,
+    "reviewCount": 540,
+    "specs": {
+      "功率": "500W",
+      "通道数": 2,
+      "支持电芯": "1-6S",
+      "最大电流": "20A",
+      "输入": "AC/DC",
+      "重量": "1050g"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "平衡充电"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0180",
+    "sku": "GPS-北征-BE-251",
+    "name": "BE-251",
+    "brand": "北征",
+    "category": "gps",
+    "subCategory": "GPS模块",
+    "price": 98.0,
+    "level": "entry",
+    "weight": 12.0,
+    "rating": 4.5,
+    "reviewCount": 532,
+    "specs": {
+      "芯片": "M10",
+      "卫星系统": "GPS+北斗+GLONASS",
+      "精度": "2.5m",
+      "刷新率": "10Hz",
+      "罗盘": "QMC5883",
+      "电压": "5V",
+      "重量": "12g"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "双模",
+      "罗盘"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0181",
+    "sku": "GPS-北征-BE-122",
+    "name": "BE-122",
+    "brand": "北征",
+    "category": "gps",
+    "subCategory": "GPS模块",
+    "price": 68.0,
+    "level": "entry",
+    "weight": 10.0,
+    "rating": 4.8,
+    "reviewCount": 319,
+    "specs": {
+      "芯片": "M8N",
+      "卫星系统": "GPS+GLONASS",
+      "精度": "2.5m",
+      "刷新率": "10Hz",
+      "罗盘": "无",
+      "电压": "5V",
+      "重量": "10g"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "基础"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0182",
+    "sku": "GPS-北征-BE-252",
+    "name": "BE-252Q",
+    "brand": "北征",
+    "category": "gps",
+    "subCategory": "GPS模块",
+    "price": 128.0,
+    "level": "intermediate",
+    "weight": 13.0,
+    "rating": 4.8,
+    "reviewCount": 399,
+    "specs": {
+      "芯片": "M10",
+      "卫星系统": "五星双频",
+      "精度": "1.5m",
+      "刷新率": "25Hz",
+      "罗盘": "QMC5883",
+      "电压": "5V",
+      "重量": "13g"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "高精度双频"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0183",
+    "sku": "GPS-HOL-M8NGPS",
+    "name": "M8N GPS",
+    "brand": "Holybro",
+    "category": "gps",
+    "subCategory": "GPS模块",
+    "price": 158.0,
+    "level": "intermediate",
+    "weight": 15.0,
+    "rating": 4.6,
+    "reviewCount": 481,
+    "specs": {
+      "芯片": "M8N",
+      "卫星系统": "GPS+GLONASS+北斗",
+      "精度": "2.5m",
+      "刷新率": "10Hz",
+      "罗盘": "IST8310",
+      "电压": "5V",
+      "重量": "15g"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "Inav支持"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0184",
+    "sku": "GPS-HOL-M9NGPS",
+    "name": "M9N GPS",
+    "brand": "Holybro",
+    "category": "gps",
+    "subCategory": "GPS模块",
+    "price": 198.0,
+    "level": "intermediate",
+    "weight": 14.0,
+    "rating": 4.5,
+    "reviewCount": 142,
+    "specs": {
+      "芯片": "M9N",
+      "卫星系统": "五星系统",
+      "精度": "2.0m",
+      "刷新率": "25Hz",
+      "罗盘": "IST8310",
+      "电压": "5V",
+      "重量": "14g"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "25Hz刷新"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0185",
+    "sku": "GPS-MAT-M10Q-5",
+    "name": "M10Q-5883",
+    "brand": "Matek",
+    "category": "gps",
+    "subCategory": "GPS模块",
+    "price": 88.0,
+    "level": "entry",
+    "weight": 11.0,
+    "rating": 4.8,
+    "reviewCount": 316,
+    "specs": {
+      "芯片": "M10",
+      "卫星系统": "GPS+北斗",
+      "精度": "2.5m",
+      "刷新率": "10Hz",
+      "罗盘": "QMC5883",
+      "电压": "5V",
+      "重量": "11g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "性价比"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0186",
+    "sku": "GPS-MAT-SAM-M8",
+    "name": "SAM-M8Q",
+    "brand": "Matek",
+    "category": "gps",
+    "subCategory": "GPS模块",
+    "price": 78.0,
+    "level": "entry",
+    "weight": 8.0,
+    "rating": 4.6,
+    "reviewCount": 311,
+    "specs": {
+      "芯片": "M8Q",
+      "卫星系统": "GPS+GLONASS",
+      "精度": "2.5m",
+      "刷新率": "10Hz",
+      "罗盘": "无",
+      "电压": "3.3-5V",
+      "重量": "8g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "微型"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0187",
+    "sku": "GPS-GEP-M10GPS",
+    "name": "M10 GPS",
+    "brand": "GEPRC",
+    "category": "gps",
+    "subCategory": "GPS模块",
+    "price": 85.0,
+    "level": "entry",
+    "weight": 11.0,
+    "rating": 4.7,
+    "reviewCount": 99,
+    "specs": {
+      "芯片": "M10",
+      "卫星系统": "双模",
+      "精度": "2.5m",
+      "刷新率": "10Hz",
+      "罗盘": "QMC5883",
+      "电压": "5V",
+      "重量": "11g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "原装"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0188",
+    "sku": "GPS-SPE-M10Min",
+    "name": "M10 Mini",
+    "brand": "SpeedyBee",
+    "category": "gps",
+    "subCategory": "GPS模块",
+    "price": 72.0,
+    "level": "entry",
+    "weight": 6.0,
+    "rating": 4.4,
+    "reviewCount": 158,
+    "specs": {
+      "芯片": "M10",
+      "卫星系统": "双模",
+      "精度": "3.0m",
+      "刷新率": "10Hz",
+      "罗盘": "无",
+      "电压": "5V",
+      "重量": "6g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "轻量"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0189",
+    "sku": "GPS-DAR-防水GPS",
+    "name": "防水GPS",
+    "brand": "DarwinFPV",
+    "category": "gps",
+    "subCategory": "GPS模块",
+    "price": 95.0,
+    "level": "entry",
+    "weight": 18.0,
+    "rating": 4.5,
+    "reviewCount": 551,
+    "specs": {
+      "芯片": "M8N",
+      "卫星系统": "双模",
+      "精度": "2.5m",
+      "刷新率": "10Hz",
+      "罗盘": "QMC5883",
+      "电压": "5V",
+      "重量": "18g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "防水"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0190",
+    "sku": "ACC-通用-BB响5V",
+    "name": "BB响 5V蜂鸣器",
+    "brand": "通用",
+    "category": "frame",
+    "subCategory": "其他",
+    "price": 8.0,
+    "level": "entry",
+    "weight": 2.0,
+    "rating": 4.5,
+    "reviewCount": 422,
+    "specs": {
+      "规格1": "5V",
+      "规格2": "85dB",
+      "规格3": "电压报警,寻机",
+      "重量": "2g"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "必备"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0191",
+    "sku": "ACC-JHE-JHE42B",
+    "name": "JHE42B蜂鸣器",
+    "brand": "JHEMCU",
+    "category": "frame",
+    "subCategory": "其他",
+    "price": 25.0,
+    "level": "entry",
+    "weight": 3.0,
+    "rating": 4.7,
+    "reviewCount": 85,
+    "specs": {
+      "规格1": "5V",
+      "规格2": "100dB",
+      "规格3": "可编程",
+      "重量": "3g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "可编程"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0192",
+    "sku": "ACC-IFL-蜂鸣器V2",
+    "name": "蜂鸣器V2",
+    "brand": "iFlight",
+    "category": "frame",
+    "subCategory": "其他",
+    "price": 18.0,
+    "level": "entry",
+    "weight": 4.0,
+    "rating": 4.6,
+    "reviewCount": 215,
+    "specs": {
+      "规格1": "5V",
+      "规格2": "90dB",
+      "规格3": "防水",
+      "重量": "4g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "防水"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0193",
+    "sku": "ACC-通用-WS2812",
+    "name": "WS2812B灯带8颗",
+    "brand": "通用",
+    "category": "frame",
+    "subCategory": "其他",
+    "price": 15.0,
+    "level": "entry",
+    "weight": 5.0,
+    "rating": 4.6,
+    "reviewCount": 108,
+    "specs": {
+      "规格1": "5V",
+      "规格2": "WS2812B",
+      "规格3": "可编程RGB",
+      "重量": "5g"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "RGB灯带"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0194",
+    "sku": "ACC-BET-LED灯板",
+    "name": "LED灯板",
+    "brand": "BETAFPV",
+    "category": "frame",
+    "subCategory": "其他",
+    "price": 22.0,
+    "level": "entry",
+    "weight": 3.0,
+    "rating": 4.6,
+    "reviewCount": 358,
+    "specs": {
+      "规格1": "5V",
+      "规格2": "RGB",
+      "规格3": "三色可编程",
+      "重量": "3g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "灯板"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0195",
+    "sku": "ACC-GEP-尾灯LED",
+    "name": "尾灯LED",
+    "brand": "GEPRC",
+    "category": "frame",
+    "subCategory": "其他",
+    "price": 28.0,
+    "level": "entry",
+    "weight": 8.0,
+    "rating": 4.6,
+    "reviewCount": 274,
+    "specs": {
+      "规格1": "5V",
+      "规格2": "RGB",
+      "规格3": "爆闪模式",
+      "重量": "8g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "尾灯"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0196",
+    "sku": "ACC-TOO-ST8舵机测",
+    "name": "ST8舵机测试仪",
+    "brand": "ToolkitRC",
+    "category": "frame",
+    "subCategory": "其他",
+    "price": 128.0,
+    "level": "intermediate",
+    "weight": 85.0,
+    "rating": 4.6,
+    "reviewCount": 453,
+    "specs": {
+      "规格1": "8通道",
+      "规格2": "PWM测试",
+      "规格3": "舵机测试",
+      "重量": "85g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "测试工具"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0197",
+    "sku": "ACC-TOO-M9万用表",
+    "name": "M9万用表",
+    "brand": "ToolkitRC",
+    "category": "frame",
+    "subCategory": "其他",
+    "price": 168.0,
+    "level": "intermediate",
+    "weight": 120.0,
+    "rating": 4.5,
+    "reviewCount": 449,
+    "specs": {
+      "规格1": "便携",
+      "规格2": "电压电流",
+      "规格3": "测试仪",
+      "重量": "120g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "万用表"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0198",
+    "sku": "ACC-IFL-螺丝刀套装",
+    "name": "螺丝刀套装",
+    "brand": "iFlight",
+    "category": "frame",
+    "subCategory": "其他",
+    "price": 68.0,
+    "level": "intermediate",
+    "weight": 120.0,
+    "rating": 4.4,
+    "reviewCount": 155,
+    "specs": {
+      "规格1": "S2钢",
+      "规格2": "M1.5-M3",
+      "规格3": "内六角4支",
+      "重量": "120g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "装机工具"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0199",
+    "sku": "ACC-T-M-电机扒胎器",
+    "name": "电机扒胎器",
+    "brand": "T-Motor",
+    "category": "frame",
+    "subCategory": "其他",
+    "price": 88.0,
+    "level": "intermediate",
+    "weight": 150.0,
+    "rating": 4.6,
+    "reviewCount": 341,
+    "specs": {
+      "规格1": "耐磨",
+      "规格2": "拆桨器",
+      "规格3": "专业工具",
+      "重量": "150g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "维护工具"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0200",
+    "sku": "ACC-JHE-电烙铁",
+    "name": "电烙铁",
+    "brand": "JHEMCU",
+    "category": "frame",
+    "subCategory": "其他",
+    "price": 38.0,
+    "level": "entry",
+    "weight": 198.0,
+    "rating": 4.7,
+    "reviewCount": 220,
+    "specs": {
+      "规格1": "65W",
+      "规格2": "TS100",
+      "规格3": "便携式",
+      "重量": "198g"
+    },
+    "origin": "domestic",
+    "source": "主数据库",
+    "scenes": [
+      "焊接工具"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0201",
+    "sku": "ACC-3D打-TPU摄像",
+    "name": " TPU摄像座",
+    "brand": "3D打印",
+    "category": "frame",
+    "subCategory": "其他",
+    "price": 15.0,
+    "level": "entry",
+    "weight": 8.0,
+    "rating": 4.4,
+    "reviewCount": 71,
+    "specs": {
+      "规格1": "TPU",
+      "规格2": "20度",
+      "规格3": "保护打印件",
+      "重量": "8g"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "保护件"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0202",
+    "sku": "ACC-抑振-O型减震垫",
+    "name": "O型减震垫",
+    "brand": "抑振",
+    "category": "frame",
+    "subCategory": "其他",
+    "price": 12.0,
+    "level": "entry",
+    "weight": 0.5,
+    "rating": 4.7,
+    "reviewCount": 460,
+    "specs": {
+      "规格1": "硅胶",
+      "规格2": "M3",
+      "规格3": "减震垫圈",
+      "重量": "0.5g"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "减震"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0203",
+    "sku": "ACC-电池-魔术贴扎带",
+    "name": "魔术贴扎带",
+    "brand": "电池",
+    "category": "frame",
+    "subCategory": "其他",
+    "price": 8.0,
+    "level": "entry",
+    "weight": 10.0,
+    "rating": 4.7,
+    "reviewCount": 306,
+    "specs": {
+      "规格1": "20x200mm",
+      "规格2": "尼龙",
+      "规格3": "电池绑带",
+      "重量": "10g"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "必备"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0204",
+    "sku": "ACC-电池-防滑垫",
+    "name": "防滑垫",
+    "brand": "电池",
+    "category": "frame",
+    "subCategory": "其他",
+    "price": 6.0,
+    "level": "entry",
+    "weight": 15.0,
+    "rating": 4.4,
+    "reviewCount": 196,
+    "specs": {
+      "规格1": "硅胶",
+      "规格2": "3M背胶",
+      "规格3": "电池防滑",
+      "重量": "15g"
+    },
+    "origin": "international",
+    "source": "主数据库",
+    "scenes": [
+      "防滑"
+    ],
+    "material": "",
+    "mounting": "",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0205",
+    "sku": "WUHU-225-DVTX",
+    "name": "225mm 数字图传机架（芜湖公告）",
+    "brand": "Unknown",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 0,
+    "level": "intermediate",
+    "weight": 141.9,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "轴距 225mm，顶板 / 底板 2.5mm，机臂 5mm，镜头 20mm"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸数字图传机"
+    ],
+    "material": "碳纤",
+    "mounting": "30.5×30.5mm",
+    "remarks": "专业版重量 156.1g，适配 HD O3 Air Unit"
+  },
+  {
+    "id": "FPV-0206",
+    "sku": "WUHU-160-3.5Inch",
+    "name": "160mm 3.5 寸机架（芜湖公告）",
+    "brand": "Unknown",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 0,
+    "level": "intermediate",
+    "weight": 81.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "轴距 160mm，顶板 / 底板 2mm，机臂 4mm，电机孔 9×9mm/20×20mm"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "3.5 寸穿越机"
+    ],
+    "material": "碳纤",
+    "mounting": "20×20mm/25.5×25.5mm",
+    "remarks": "图传兼容 20mm/25.5mm 孔位"
+  },
+  {
+    "id": "FPV-0207",
+    "sku": "DIY-MARK4-CF",
+    "name": "仿 MARK4 5 寸机架（DIY）",
+    "brand": "Unknown",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 130.0,
+    "level": "entry",
+    "weight": 0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "轴距 225mm，适配 30.5mm 飞塔"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸入门机"
+    ],
+    "material": "碳纤维",
+    "mounting": "30.5×30.5mm",
+    "remarks": "性价比高，适合新手组装练习"
+  },
+  {
+    "id": "FPV-0208",
+    "sku": "OSH-2.5Inch-Ring",
+    "name": "2.5 寸圈圈机架（带 BB 响 / LED）",
+    "brand": "Unknown",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 0,
+    "level": "entry",
+    "weight": 0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "自带 BB 响和 LED 灯带，结构紧凑"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "微型穿越机"
+    ],
+    "material": "FR-4 PCB（1.6mm）+ 塑料",
+    "mounting": "-",
+    "remarks": "PCB 材质，强度高，适合新手"
+  },
+  {
+    "id": "FPV-0209",
+    "sku": "DIY-3D-Whoop",
+    "name": "3D 打印 Whoop 机架（DIY）",
+    "brand": "Unknown",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 10.0,
+    "level": "entry",
+    "weight": 0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "图纸搜索 “Whoopee”，可自定义尺寸"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "空心杯穿越机"
+    ],
+    "material": "TPU/PLA",
+    "mounting": "-",
+    "remarks": "需 3D 打印机，TPU 材质耐摔"
+  },
+  {
+    "id": "FPV-0210",
+    "sku": "DIY-Hollow-Cup",
+    "name": "空心杯机架（成品）",
+    "brand": "Unknown",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 15.0,
+    "level": "entry",
+    "weight": 0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "轻量化设计，适配空心杯电机"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "空心杯穿越机"
+    ],
+    "material": "塑料",
+    "mounting": "-",
+    "remarks": "无需打印，即买即用"
+  },
+  {
+    "id": "FPV-0211",
+    "sku": "FR-APEX-7",
+    "name": "APEX 7 寸远航机架",
+    "brand": "APEX",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 188.0,
+    "level": "intermediate",
+    "weight": 168.0,
+    "rating": 4.6,
+    "reviewCount": 156,
+    "specs": {
+      "raw": "轴距 315mm，5mm 臂厚，适配 7 寸桨"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "远航 / 航拍机"
+    ],
+    "material": "碳纤维",
+    "mounting": "30.5×30.5mm",
+    "remarks": "长续航设计"
+  },
+  {
+    "id": "FPV-0212",
+    "sku": "ARM-Racing3-CF",
+    "name": "3 寸竞速机架（Racing3）",
+    "brand": "Armattan",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 199.0,
+    "level": "intermediate",
+    "weight": 68.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "轴距 160mm，加强机臂，适配 3 寸桨"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "3 寸竞速穿越机"
+    ],
+    "material": "3K 碳纤",
+    "mounting": "16×16mm",
+    "remarks": "抗炸性提升 40%"
+  },
+  {
+    "id": "FPV-0213",
+    "sku": "BFPV-Micro-1.5Inch",
+    "name": "1.5 寸迷你机架（Micro）",
+    "brand": "BETAFPV",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 129.0,
+    "level": "entry",
+    "weight": 42.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "轴距 85mm，重量＜50g，防炸机臂"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "室内微型穿越机"
+    ],
+    "material": "高强度塑料 + 碳纤",
+    "mounting": "12×12mm",
+    "remarks": "适合宿舍练习"
+  },
+  {
+    "id": "FPV-0214",
+    "sku": "EMAX-HX112-CF",
+    "name": "EMAX Babyhawk R HX112 机架",
+    "brand": "EMAX",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 0,
+    "level": "intermediate",
+    "weight": 0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "独立机臂，流线型 PC 外壳，带摄像头角度调节孔"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "微型穿越机"
+    ],
+    "material": "T 级碳纤维 + 橡胶螺圈",
+    "mounting": "-",
+    "remarks": "橡胶螺圈减震，易维修"
+  },
+  {
+    "id": "FPV-0215",
+    "sku": "FR-MARK5-V2",
+    "name": "GEPRC Mark5 V2 机架",
+    "brand": "GEPRC",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 458.0,
+    "level": "intermediate",
+    "weight": 118.0,
+    "rating": 4.8,
+    "reviewCount": 324,
+    "specs": {
+      "raw": "轴距 225mm，4mm 臂厚，摄像头兼容 19mm/20mm"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸穿越机"
+    ],
+    "material": "T700 碳纤维",
+    "mounting": "30.5×30.5mm",
+    "remarks": "经典升级版，强度 / 减重优化"
+  },
+  {
+    "id": "FPV-0216",
+    "sku": "FR-CINE-3",
+    "name": "Cinewhoop 3 寸护桨机架",
+    "brand": "GEPRC",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 268.0,
+    "level": "entry",
+    "weight": 85.0,
+    "rating": 4.7,
+    "reviewCount": 234,
+    "specs": {
+      "raw": "轴距 155mm，3mm 底板，带护桨设计"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "室内拍摄机"
+    ],
+    "material": "碳纤维 + 3D 打印件",
+    "mounting": "25.5×25.5mm",
+    "remarks": "适合室内近距离拍摄"
+  },
+  {
+    "id": "FPV-0217",
+    "sku": "FR-HSK-MARK4",
+    "name": "HSKRC Mark4 机架",
+    "brand": "HSKRC",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 95.0,
+    "level": "entry",
+    "weight": 135.0,
+    "rating": 4.5,
+    "reviewCount": 892,
+    "specs": {
+      "raw": "轴距 225mm，4mm 臂厚，适配 30.5mm 飞控"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸入门机"
+    ],
+    "material": "碳纤维",
+    "mounting": "30.5×30.5mm",
+    "remarks": "性价比复刻款，耐炸"
+  },
+  {
+    "id": "FPV-0218",
+    "sku": "FR-IFL-EVOQUE",
+    "name": "iFlight Evoque F5D 机架",
+    "brand": "iFlight",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 520.0,
+    "level": "advanced",
+    "weight": 125.0,
+    "rating": 4.9,
+    "reviewCount": 186,
+    "specs": {
+      "raw": "轴距 222mm，5mm 臂厚，下沉式电机设计"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸竞速机"
+    ],
+    "material": "T700 碳纤维 + 钛合金",
+    "mounting": "30.5×30.5mm/20×20mm",
+    "remarks": "优化气流，提升效率"
+  },
+  {
+    "id": "FPV-0219",
+    "sku": "TAROT-7Inch-LR",
+    "name": "7 寸远航机架（LongRange）",
+    "brand": "Tarot",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 299.0,
+    "level": "intermediate",
+    "weight": 156.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "轴距 300mm，载重 1.2kg，适配长续航电池"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "远距离勘测机"
+    ],
+    "material": "高强度碳纤",
+    "mounting": "25×25mm",
+    "remarks": "续航可达 25 分钟"
+  },
+  {
+    "id": "FPV-0220",
+    "sku": "TBS-Comp5-CF",
+    "name": "5 寸竞赛机架（Comp5）",
+    "brand": "Team BlackSheep",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 329.0,
+    "level": "advanced",
+    "weight": 89.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "轴距 245mm，镂空设计，重量＜90g"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "赛事级竞速机"
+    ],
+    "material": "UD 碳纤 + CNC 加工",
+    "mounting": "19×19mm",
+    "remarks": "职业赛事指定款"
+  },
+  {
+    "id": "FPV-0221",
+    "sku": "WK-Rodeo110-CF",
+    "name": "128mm 轴距机架（Rodeo110）",
+    "brand": "Walkera",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 189.0,
+    "level": "entry",
+    "weight": 78.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "机身 101×117×55mm，弓形前臂设计"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "室内 / 室外通用迷你机"
+    ],
+    "material": "2mm 碳纤 + 工程塑料",
+    "mounting": "14×14mm",
+    "remarks": "华科尔经典款"
+  },
+  {
+    "id": "FPV-0222",
+    "sku": "EMAX-RS1103-8500KV",
+    "name": "1103 8500KV 微型电机",
+    "brand": "EMAX",
+    "category": "motor",
+    "subCategory": "电机",
+    "price": 35.0,
+    "level": "entry",
+    "weight": 5.2,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "适配 1.5-2 寸桨，功率 120W，电压 2-3S"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "微型穿越机"
+    ],
+    "material": "钕铁硼磁芯",
+    "mounting": "12×12mm",
+    "remarks": "室内飞行专用"
+  },
+  {
+    "id": "FPV-0223",
+    "sku": "BH-1306-4500KV",
+    "name": "1306 4500KV 电机",
+    "brand": "BrotherHobby",
+    "category": "motor",
+    "subCategory": "电机",
+    "price": 55.0,
+    "level": "entry",
+    "weight": 12.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "适配 3 寸桨，最大拉力 0.8kg，电压 3-4S"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "3 寸入门机"
+    ],
+    "material": "铝合金外壳",
+    "mounting": "14×14mm",
+    "remarks": "性价比之选"
+  },
+  {
+    "id": "FPV-0224",
+    "sku": "EMAX-LS2206-2300KV",
+    "name": "2206 2300KV 电机（LS 系列）",
+    "brand": "EMAX",
+    "category": "motor",
+    "subCategory": "电机",
+    "price": 65.0,
+    "level": "intermediate",
+    "weight": 28.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "日本 NSK 轴承，功率 420W，电压 4-6S"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸 Freestyle 机"
+    ],
+    "material": "7075 航空铝 + NSK 轴承",
+    "mounting": "16×16mm",
+    "remarks": "动力 / 效率平衡"
+  },
+  {
+    "id": "FPV-0225",
+    "sku": "EMAX-LS2206-2700KV",
+    "name": "2206 2700KV 电机（LS 系列）",
+    "brand": "EMAX",
+    "category": "motor",
+    "subCategory": "电机",
+    "price": 68.0,
+    "level": "advanced",
+    "weight": 28.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "1.8mm 磁钢，散热花瓣设计，功率 500W"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸竞赛机"
+    ],
+    "material": "7075 航空铝 + N48SH 磁钢",
+    "mounting": "16×16mm",
+    "remarks": "竞速专用高转速"
+  },
+  {
+    "id": "FPV-0226",
+    "sku": "EMAX-LS2207-1900KV",
+    "name": "2207 1900KV 电机（LS 系列）",
+    "brand": "EMAX",
+    "category": "motor",
+    "subCategory": "电机",
+    "price": 75.0,
+    "level": "intermediate",
+    "weight": 30.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "最大拉力 2.1kg，适配 6S 电池，18AWG 硅胶线"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "远航 / 航拍机"
+    ],
+    "material": "航空铝锻造",
+    "mounting": "16×16mm",
+    "remarks": "续航提升 25%"
+  },
+  {
+    "id": "FPV-0227",
+    "sku": "TM-2306-2450KV",
+    "name": "2306 2450KV 电机",
+    "brand": "T-Motor",
+    "category": "motor",
+    "subCategory": "电机",
+    "price": 95.0,
+    "level": "advanced",
+    "weight": 36.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "功率 650W，转速稳定，适配 5-6 寸桨"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "职业赛事机"
+    ],
+    "material": "钛合金轴 + 碳纤维散热",
+    "mounting": "19×19mm",
+    "remarks": "暴力飞行首选"
+  },
+  {
+    "id": "FPV-0228",
+    "sku": "WK-WS13-6100KV",
+    "name": "14mm 6100KV 电机（WK-WS-13）",
+    "brand": "Walkera",
+    "category": "motor",
+    "subCategory": "电机",
+    "price": 49.0,
+    "level": "entry",
+    "weight": 4.8,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "直径 14mm，适配 2S 电池，拉力 0.5kg"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "Walkera Rodeo110 专用"
+    ],
+    "material": "高强度铝合金",
+    "mounting": "12×12mm",
+    "remarks": "迷你机专用"
+  },
+  {
+    "id": "FPV-0229",
+    "sku": "MT-IFL-XING2-2207",
+    "name": "iFlight XING2 2207 电机",
+    "brand": "iFlight",
+    "category": "motor",
+    "subCategory": "电机",
+    "price": 128.0,
+    "level": "intermediate",
+    "weight": 33.0,
+    "rating": 4.8,
+    "reviewCount": 567,
+    "specs": {
+      "raw": "定子 2207，KV1850，电压 6S，最大电流 45A，拉力 1800g"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸花飞 / 竞速机"
+    ],
+    "material": "N52H 磁钢",
+    "mounting": "-",
+    "remarks": "高性能，适合进阶玩家"
+  },
+  {
+    "id": "FPV-0230",
+    "sku": "MT-TM-P2306-2550",
+    "name": "T-Motor P2306 V3 电机",
+    "brand": "T-Motor",
+    "category": "motor",
+    "subCategory": "电机",
+    "price": 158.0,
+    "level": "advanced",
+    "weight": 31.0,
+    "rating": 4.9,
+    "reviewCount": 423,
+    "specs": {
+      "raw": "定子 2306，KV2550，电压 4S，最大电流 52A，拉力 2100g"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸竞速机"
+    ],
+    "material": "钛合金轴",
+    "mounting": "-",
+    "remarks": "顶级性能，职业赛事常用"
+  },
+  {
+    "id": "FPV-0231",
+    "sku": "MT-EMAX-ECO-2207",
+    "name": "EMAX Eco II 2207 电机",
+    "brand": "EMAX",
+    "category": "motor",
+    "subCategory": "电机",
+    "price": 68.0,
+    "level": "entry",
+    "weight": 35.0,
+    "rating": 4.4,
+    "reviewCount": 789,
+    "specs": {
+      "raw": "定子 2207，KV1900，电压 6S，最大电流 42A，拉力 1650g"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸入门机"
+    ],
+    "material": "铝合金",
+    "mounting": "-",
+    "remarks": "性价比高，适合练习"
+  },
+  {
+    "id": "FPV-0232",
+    "sku": "MT-IFL-XING-2807",
+    "name": "iFlight XING 2807 电机",
+    "brand": "iFlight",
+    "category": "motor",
+    "subCategory": "电机",
+    "price": 168.0,
+    "level": "intermediate",
+    "weight": 52.0,
+    "rating": 4.7,
+    "reviewCount": 234,
+    "specs": {
+      "raw": "定子 2807，KV1300，电压 6S，最大电流 48A，拉力 2800g"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "7 寸远航机"
+    ],
+    "material": "航空铝",
+    "mounting": "-",
+    "remarks": "高效率，长续航设计"
+  },
+  {
+    "id": "FPV-0233",
+    "sku": "MT-HGL-1404",
+    "name": "HGLRC 1404 电机",
+    "brand": "HGLRC",
+    "category": "motor",
+    "subCategory": "电机",
+    "price": 45.0,
+    "level": "entry",
+    "weight": 12.0,
+    "rating": 4.5,
+    "reviewCount": 312,
+    "specs": {
+      "raw": "定子 1404，KV3800，电压 4S，最大电流 22A，拉力 680g"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "3 寸 Cinewhoop 机"
+    ],
+    "material": "铝合金",
+    "mounting": "-",
+    "remarks": "小巧高效，适合室内拍摄"
+  },
+  {
+    "id": "FPV-0234",
+    "sku": "MT-BETA-1103",
+    "name": "BETAFPV 1103 电机",
+    "brand": "BETAFPV",
+    "category": "motor",
+    "subCategory": "电机",
+    "price": 35.0,
+    "level": "entry",
+    "weight": 3.5,
+    "rating": 4.3,
+    "reviewCount": 456,
+    "specs": {
+      "raw": "定子 1103，KV11000，电压 1S，最大电流 8A，拉力 45g"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "微型 Whoop 机"
+    ],
+    "material": "钕铁硼磁芯",
+    "mounting": "-",
+    "remarks": "室内飞行专用，轻量化"
+  },
+  {
+    "id": "FPV-0235",
+    "sku": "WUHU-GTS-V4-2207",
+    "name": "竞速 GTS V4 2207 电机（芜湖公告）",
+    "brand": "Unknown",
+    "category": "motor",
+    "subCategory": "电机",
+    "price": 0,
+    "level": "advanced",
+    "weight": 34.3,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "定子 2207，KV2040，槽极 12N14P，轴径 4mm，功率 1003W"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸竞速机"
+    ],
+    "material": "铝合金 + N52H 磁钢",
+    "mounting": "16×16mm",
+    "remarks": "配件包含镀镍 M3×7（4PCS）/M5 法兰螺母"
+  },
+  {
+    "id": "FPV-0236",
+    "sku": "WUHU-P2207-V3",
+    "name": "T-Motor P2207 V3.0 电机（芜湖公告）",
+    "brand": "T-Motor",
+    "category": "motor",
+    "subCategory": "电机",
+    "price": 0,
+    "level": "advanced",
+    "weight": 0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "定子 2207，KV2550，适配 5 寸桨"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸竞速机"
+    ],
+    "material": "钛合金轴",
+    "mounting": "16×16mm",
+    "remarks": "赛事级稳定性"
+  },
+  {
+    "id": "FPV-0237",
+    "sku": "WUHU-12N14P-1750KV",
+    "name": "1750KV 12N14P 电机（芜湖公告）",
+    "brand": "Unknown",
+    "category": "motor",
+    "subCategory": "电机",
+    "price": 0,
+    "level": "intermediate",
+    "weight": 34.3,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "定子尺寸 -，KV1750，测试电压 25.2V，最大电流 40.5A，出轴 13.5mm"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "远航机"
+    ],
+    "material": "铝合金 + NSK 轴承",
+    "mounting": "-",
+    "remarks": "20AWG 硅胶线，NSK 轴承耐用"
+  },
+  {
+    "id": "FPV-0238",
+    "sku": "HW-4in1-20A-ESC",
+    "name": "20A 4 合 1 电调",
+    "brand": "Hobbywing",
+    "category": "esc",
+    "subCategory": "电调",
+    "price": 89.0,
+    "level": "entry",
+    "weight": 18.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "支持 2-3S 电池，BEC 5V/2A，低功耗"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "微型 / 迷你穿越机"
+    ],
+    "material": "玻纤板 + MOS 管",
+    "mounting": "12×12mm",
+    "remarks": "重量轻，适合微型机"
+  },
+  {
+    "id": "FPV-0239",
+    "sku": "HW-4in1-30A-ESC",
+    "name": "30A 4 合 1 电调",
+    "brand": "好盈",
+    "category": "esc",
+    "subCategory": "电调",
+    "price": 109.0,
+    "level": "entry",
+    "weight": 22.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "支持 3-4S 电池，BEC 5V/3A，抗干扰增强"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "3-4 寸穿越机"
+    ],
+    "material": "玻纤板 + MOS 管",
+    "mounting": "14×14mm",
+    "remarks": "入门通用款"
+  },
+  {
+    "id": "FPV-0240",
+    "sku": "KK-4in1-40A-BLHeliS",
+    "name": "40A 4 合 1 电调（BLHELI_S）",
+    "brand": "KINGKONG",
+    "category": "esc",
+    "subCategory": "电调",
+    "price": 139.0,
+    "level": "intermediate",
+    "weight": 30.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "支持 3-6S 电池，刹车功能，响应速度提升 30%"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸进阶机"
+    ],
+    "material": "玻纤板 + 高品质 MOS 管",
+    "mounting": "16×16mm",
+    "remarks": "兼容高 KV 电机"
+  },
+  {
+    "id": "FPV-0241",
+    "sku": "SB-Stack-F7-60A",
+    "name": "60A STACK 飞塔（飞控 + 电调）",
+    "brand": "SpeedyBee",
+    "category": "esc",
+    "subCategory": "电调",
+    "price": 459.0,
+    "level": "advanced",
+    "weight": 78.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "支持 6-8S 电池，BLHELI_32 固件，大电流稳定输出"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "赛事级竞速机"
+    ],
+    "material": "集成式设计 + 散热片",
+    "mounting": "20×20mm",
+    "remarks": "飞控电调一体，简化组装"
+  },
+  {
+    "id": "FPV-0242",
+    "sku": "EMAX-30A-ESC",
+    "name": "30A 独立电调",
+    "brand": "银燕",
+    "category": "esc",
+    "subCategory": "电调",
+    "price": 45.0,
+    "level": "intermediate",
+    "weight": 15.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "支持 3-4S 电池，适配固定翼穿越机"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "固定翼 FPV 机"
+    ],
+    "material": "铝合金外壳 + 散热片",
+    "mounting": "通用",
+    "remarks": "滑翔机专用"
+  },
+  {
+    "id": "FPV-0243",
+    "sku": "ESC-SP-F7-45A",
+    "name": "SpeedyBee F7 V3 45A 飞塔",
+    "brand": "SpeedyBee",
+    "category": "esc",
+    "subCategory": "电调",
+    "price": 368.0,
+    "level": "intermediate",
+    "weight": 42.0,
+    "rating": 4.8,
+    "reviewCount": 678,
+    "specs": {
+      "raw": "F7 飞控 + 45A 电调一体，支持蓝牙调参，BEC 5V/2A，BLHeli_32 固件"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸穿越机"
+    ],
+    "material": "玻纤板 + 散热片",
+    "mounting": "30.5×30.5mm",
+    "remarks": "蓝牙调参便捷，集成 OSD"
+  },
+  {
+    "id": "FPV-0244",
+    "sku": "ESC-TM-VELox-45A",
+    "name": "T-Motor Velox V2 45A 电调",
+    "brand": "T-Motor",
+    "category": "esc",
+    "subCategory": "电调",
+    "price": 298.0,
+    "level": "advanced",
+    "weight": 38.0,
+    "rating": 4.7,
+    "reviewCount": 234,
+    "specs": {
+      "raw": "4 合 1 电调，支持 DShot1200，峰值电流 60A，BLHeli_32 固件"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸竞速机"
+    ],
+    "material": "低内阻 MOS 管",
+    "mounting": "30.5×30.5mm",
+    "remarks": "低内阻，爆发力强"
+  },
+  {
+    "id": "FPV-0245",
+    "sku": "ESC-JHE-35A",
+    "name": "JHEMCU 35A 电调",
+    "brand": "JHEMCU",
+    "category": "esc",
+    "subCategory": "电调",
+    "price": 128.0,
+    "level": "entry",
+    "weight": 35.0,
+    "rating": 4.4,
+    "reviewCount": 567,
+    "specs": {
+      "raw": "4 合 1 电调，支持 DShot600，峰值电流 45A，BLHeli_S 固件"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸入门机"
+    ],
+    "material": "玻纤板 + MOS 管",
+    "mounting": "30.5×30.5mm",
+    "remarks": "性价比高，适合新手"
+  },
+  {
+    "id": "FPV-0246",
+    "sku": "ESC-IFL-SUCCEX-60A",
+    "name": "iFlight SucceX 60A 电调",
+    "brand": "iFlight",
+    "category": "esc",
+    "subCategory": "电调",
+    "price": 428.0,
+    "level": "advanced",
+    "weight": 48.0,
+    "rating": 4.8,
+    "reviewCount": 156,
+    "specs": {
+      "raw": "4 合 1 电调，支持 DShot1200，峰值电流 80A，BLHeli_32 固件"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "7 寸远航机"
+    ],
+    "material": "高强度玻纤板 + 散热片",
+    "mounting": "30.5×30.5mm",
+    "remarks": "大功率，适配重载"
+  },
+  {
+    "id": "FPV-0247",
+    "sku": "FC-SP-F7-V3",
+    "name": "SpeedyBee F7 V3 飞控",
+    "brand": "SpeedyBee",
+    "category": "flight_controller",
+    "subCategory": "飞控",
+    "price": 268.0,
+    "level": "intermediate",
+    "weight": 8.5,
+    "rating": 4.7,
+    "reviewCount": 892,
+    "specs": {
+      "raw": "CPU：STM32F722，陀螺仪：MPU6000，内置 OSD / 黑匣子，6 个 UART，BEC 5V/2A/9V/2A"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸穿越机"
+    ],
+    "material": "玻纤板 + STM32F722 芯片",
+    "mounting": "30.5×30.5mm",
+    "remarks": "蓝牙调参，支持黑匣子"
+  },
+  {
+    "id": "FPV-0248",
+    "sku": "FC-MAM-F722",
+    "name": "Mamba F722 APP 飞控",
+    "brand": "Mamba",
+    "category": "flight_controller",
+    "subCategory": "飞控",
+    "price": 228.0,
+    "level": "intermediate",
+    "weight": 7.8,
+    "rating": 4.6,
+    "reviewCount": 567,
+    "specs": {
+      "raw": "CPU：STM32F722，陀螺仪：ICM42688P，内置 OSD / 黑匣子，5 个 UART，BEC 5V/2A/9V/2A"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸穿越机"
+    ],
+    "material": "玻纤板 + STM32F722 芯片",
+    "mounting": "30.5×30.5mm",
+    "remarks": "APP 调参，性价比高"
+  },
+  {
+    "id": "FPV-0249",
+    "sku": "FC-KAK-H7",
+    "name": "Kakute H7 V2 飞控",
+    "brand": "Holybro",
+    "category": "flight_controller",
+    "subCategory": "飞控",
+    "price": 398.0,
+    "level": "advanced",
+    "weight": 9.2,
+    "rating": 4.9,
+    "reviewCount": 234,
+    "specs": {
+      "raw": "CPU：STM32H743，陀螺仪：ICM42688P，支持 8S 电池，7 个 UART，BEC 5V/3A/9V/3A"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "赛事 / 远航机"
+    ],
+    "material": "玻纤板 + STM32H743 芯片",
+    "mounting": "30.5×30.5mm",
+    "remarks": "顶级配置，支持 INAV 远航"
+  },
+  {
+    "id": "FPV-0250",
+    "sku": "FC-AIO-F405",
+    "name": "F405 AIO 飞控电调一体",
+    "brand": "GEPRC",
+    "category": "flight_controller",
+    "subCategory": "飞控",
+    "price": 298.0,
+    "level": "entry",
+    "weight": 12.0,
+    "rating": 4.5,
+    "reviewCount": 445,
+    "specs": {
+      "raw": "CPU：STM32F405，陀螺仪：MPU6000，25A 电调集成，BEC 5V/2A"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "3 寸以下小机"
+    ],
+    "material": "玻纤板 + STM32F405 芯片",
+    "mounting": "25.5×25.5mm",
+    "remarks": "AIO 设计，简化组装"
+  },
+  {
+    "id": "FPV-0251",
+    "sku": "WUHU-HAKRCF722D",
+    "name": "HAKRCF722D 飞控（芜湖公告）",
+    "brand": "HAKRC",
+    "category": "flight_controller",
+    "subCategory": "飞控",
+    "price": 0,
+    "level": "intermediate",
+    "weight": 0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "CPU：F722RET6，MCU：ICM42688，OSD：AT7456E，集成气压计 / 电流传感器"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸数字图传机"
+    ],
+    "material": "玻纤板 + STM32F722 芯片",
+    "mounting": "30.5×30.5mm",
+    "remarks": "支持多协议接收机，内置电流检测"
+  },
+  {
+    "id": "FPV-0252",
+    "sku": "TS5823-200mW-V2",
+    "name": "200mW 模拟图传",
+    "brand": "TS",
+    "category": "vtx",
+    "subCategory": "图传",
+    "price": 89.0,
+    "level": "entry",
+    "weight": 12.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "传输距离 200 米，5.8GHz，40 频道"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "室内入门机"
+    ],
+    "material": "塑料外壳",
+    "mounting": "-",
+    "remarks": "性价比入门"
+  },
+  {
+    "id": "FPV-0253",
+    "sku": "ZS-AV1W-5.8G",
+    "name": "1W 模拟图传",
+    "brand": "重山航空",
+    "category": "vtx",
+    "subCategory": "图传",
+    "price": 109.0,
+    "level": "intermediate",
+    "weight": 18.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "传输距离 800 米，5.8GHz，自动功率调节"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "中距离飞行机"
+    ],
+    "material": "铝合金散热",
+    "mounting": "-",
+    "remarks": "户外练习首选"
+  },
+  {
+    "id": "FPV-0254",
+    "sku": "TBS-Unify-Pro-4W",
+    "name": "4W 模拟图传",
+    "brand": "黑羊",
+    "category": "vtx",
+    "subCategory": "图传",
+    "price": 399.0,
+    "level": "advanced",
+    "weight": 35.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "传输距离 3km，5.8GHz，频道扫描"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "远距离竞赛机"
+    ],
+    "material": "金属屏蔽 + 石墨烯散热",
+    "mounting": "-",
+    "remarks": "职业赛事级"
+  },
+  {
+    "id": "FPV-0255",
+    "sku": "DJI-O3-AirUnit",
+    "name": "O3 数字图传天空端",
+    "brand": "DJI",
+    "category": "vtx",
+    "subCategory": "图传",
+    "price": 699.0,
+    "level": "intermediate",
+    "weight": 40.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "延迟 28ms，传输距离 10km，双频（2.4/5.8GHz），支持 4K 录制"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "大疆适配高端机"
+    ],
+    "material": "碳纤维 + 塑料",
+    "mounting": "-",
+    "remarks": "高清图传标杆，适配大疆生态"
+  },
+  {
+    "id": "FPV-0256",
+    "sku": "ELRS-915MHz-Mini",
+    "name": "ELRS 915MHz 图传模块",
+    "brand": "ExpressLRS",
+    "category": "vtx",
+    "subCategory": "图传",
+    "price": 159.0,
+    "level": "advanced",
+    "weight": 8.5,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "传输距离 8km，延迟＜1ms，915MHz 频段"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "远航穿越机"
+    ],
+    "material": "陶瓷天线 + 塑料外壳",
+    "mounting": "-",
+    "remarks": "超远距离专用"
+  },
+  {
+    "id": "FPV-0257",
+    "sku": "VTX-PND-VT5804-2W5",
+    "name": "PandaRC VT5804-BAT 2.5W 图传",
+    "brand": "PandaRC",
+    "category": "vtx",
+    "subCategory": "图传",
+    "price": 259.0,
+    "level": "intermediate",
+    "weight": 12.0,
+    "rating": 4.7,
+    "reviewCount": 345,
+    "specs": {
+      "raw": "功率 25/200/500/1000/2500mW，5.8GHz，40 频道，SmartAudio 支持"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "远航机"
+    ],
+    "material": "铝合金散热",
+    "mounting": "30.5×30.5mm/20×20mm",
+    "remarks": "大功率，远航专用"
+  },
+  {
+    "id": "FPV-0258",
+    "sku": "VTX-RUSH-TANK-1W",
+    "name": "RUSH TANK Solo 1W 图传",
+    "brand": "RUSH",
+    "category": "vtx",
+    "subCategory": "图传",
+    "price": 198.0,
+    "level": "intermediate",
+    "weight": 8.0,
+    "rating": 4.6,
+    "reviewCount": 234,
+    "specs": {
+      "raw": "功率 25/200/500/1000mW，5.8GHz，48 频道，内置麦克风"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "花飞 / 航拍机"
+    ],
+    "material": "塑料外壳 + 内置麦克风",
+    "mounting": "20×20mm",
+    "remarks": "支持音频传输，适合花飞"
+  },
+  {
+    "id": "FPV-0259",
+    "sku": "VTX-WS-1S",
+    "name": "Walksnail Avatar 1S 图传",
+    "brand": "Walksnail",
+    "category": "vtx",
+    "subCategory": "图传",
+    "price": 399.0,
+    "level": "entry",
+    "weight": 6.0,
+    "rating": 4.5,
+    "reviewCount": 312,
+    "specs": {
+      "raw": "功率 25/200/400mW，5.8GHz，8 频道，适配小机"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "3 寸以下小机"
+    ],
+    "material": "塑料外壳",
+    "mounting": "25.5×25.5mm",
+    "remarks": "数字图传，画质清晰"
+  },
+  {
+    "id": "FPV-0260",
+    "sku": "WUHU-STARLIGHT-CAM",
+    "name": "低照度模拟图传摄像头（芜湖公告）",
+    "brand": "Unknown",
+    "category": "vtx",
+    "subCategory": "图传",
+    "price": 0,
+    "level": "advanced",
+    "weight": 0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "传感器 1/1.8 英寸，低照度 0.0001LUX，适配模拟图传"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "夜间飞行机"
+    ],
+    "material": "金属外壳 + Starlight Sensor",
+    "mounting": "-",
+    "remarks": "夜间成像清晰，适合低光环境"
+  },
+  {
+    "id": "FPV-0261",
+    "sku": "HM-CAM-480TVL",
+    "name": "480TVL 入门摄像头",
+    "brand": "航模小子",
+    "category": "camera",
+    "subCategory": "摄像头",
+    "price": 45.0,
+    "level": "entry",
+    "weight": 6.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "120° 广角，低功耗"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "入门穿越机"
+    ],
+    "material": "塑料外壳 + 树脂镜头",
+    "mounting": "-",
+    "remarks": "价格亲民"
+  },
+  {
+    "id": "FPV-0262",
+    "sku": "FX-NightCat-700TVL",
+    "name": "700TVL 夜视摄像头",
+    "brand": "Foxeer",
+    "category": "camera",
+    "subCategory": "摄像头",
+    "price": 99.0,
+    "level": "intermediate",
+    "weight": 9.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "140° 广角，低光增强 + 红外夜视"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "夜视穿越机"
+    ],
+    "material": "金属外壳 + 红外镜头",
+    "mounting": "-",
+    "remarks": "夜间飞行专用"
+  },
+  {
+    "id": "FPV-0263",
+    "sku": "CDX-Turtle-1200TVL",
+    "name": "1200TVL 高清摄像头",
+    "brand": "Caddx",
+    "category": "camera",
+    "subCategory": "摄像头",
+    "price": 159.0,
+    "level": "intermediate",
+    "weight": 11.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "160° 广角，1080p@60fps，低延迟"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "高清拍摄机"
+    ],
+    "material": "铝合金外壳 + 光学镜头",
+    "mounting": "-",
+    "remarks": "航拍入门首选"
+  },
+  {
+    "id": "FPV-0264",
+    "sku": "Hover-X1-PROMAX",
+    "name": "8K 飞行相机",
+    "brand": "哈浮",
+    "category": "camera",
+    "subCategory": "摄像头",
+    "price": 3999.0,
+    "level": "advanced",
+    "weight": 120.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "1/1.3 英寸 CMOS，8K 视频，107° 广角，14 档动态范围"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "专业航拍穿越机"
+    ],
+    "material": "碳纤维 + 铝合金",
+    "mounting": "-",
+    "remarks": "影像旗舰级，适合专业航拍"
+  },
+  {
+    "id": "FPV-0265",
+    "sku": "WK-CAM-600TVL-0-45°",
+    "name": "600TVL 可调角度摄像头",
+    "brand": "Walkera",
+    "category": "camera",
+    "subCategory": "摄像头",
+    "price": 89.0,
+    "level": "entry",
+    "weight": 7.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "0-45° 角度调节，强光探照灯"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "Walkera Rodeo110 专用"
+    ],
+    "material": "塑料保护罩 + 光学镜头",
+    "mounting": "-",
+    "remarks": "迷你机专用，适配室内外"
+  },
+  {
+    "id": "FPV-0266",
+    "sku": "CAM-FOX-PRED-V5",
+    "name": "Foxeer Predator V5",
+    "brand": "Foxeer",
+    "category": "camera",
+    "subCategory": "摄像头",
+    "price": 268.0,
+    "level": "intermediate",
+    "weight": 8.5,
+    "rating": 4.7,
+    "reviewCount": 456,
+    "specs": {
+      "raw": "1500TVL，2.1mm 镜头，150°FOV，WDR 宽动态，延迟 20ms"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸花飞 / 竞速机"
+    ],
+    "material": "铝合金外壳 + 光学镜头",
+    "mounting": "19mm",
+    "remarks": "WDR 宽动态，逆光成像清晰"
+  },
+  {
+    "id": "FPV-0267",
+    "sku": "CAM-RUN-PHOENIX2",
+    "name": "RunCam Phoenix 2",
+    "brand": "RunCam",
+    "category": "camera",
+    "subCategory": "摄像头",
+    "price": 198.0,
+    "level": "entry",
+    "weight": 7.5,
+    "rating": 4.5,
+    "reviewCount": 678,
+    "specs": {
+      "raw": "1000TVL，2.1mm 镜头，145°FOV，WDR 宽动态，延迟 25ms"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸入门机"
+    ],
+    "material": "塑料外壳 + 光学镜头",
+    "mounting": "19mm",
+    "remarks": "性价比高，适合练习"
+  },
+  {
+    "id": "FPV-0268",
+    "sku": "CAM-CADDX-NEbulaPro",
+    "name": "Caddx Nebula Pro",
+    "brand": "Caddx",
+    "category": "camera",
+    "subCategory": "摄像头",
+    "price": 458.0,
+    "level": "advanced",
+    "weight": 6.5,
+    "rating": 4.8,
+    "reviewCount": 234,
+    "specs": {
+      "raw": "1080p@60fps，2.1mm 镜头，150°FOV，WDR 宽动态，延迟 28ms"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "DJI O3 数字图传机"
+    ],
+    "material": "铝合金外壳 + 光学镜头",
+    "mounting": "19mm",
+    "remarks": "适配大疆数字系统，高清画质"
+  },
+  {
+    "id": "FPV-0269",
+    "sku": "DIY-RAZER-HD-CAM",
+    "name": "雷蛇高清摄像头（DIY）",
+    "brand": "雷蛇",
+    "category": "camera",
+    "subCategory": "摄像头",
+    "price": 0,
+    "level": "intermediate",
+    "weight": 0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "1200TVL，150° 广角，低延迟"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸航拍机"
+    ],
+    "material": "铝合金外壳 + 光学镜头",
+    "mounting": "19mm",
+    "remarks": "画质好，适合进阶 DIY 用户"
+  },
+  {
+    "id": "FPV-0270",
+    "sku": "FS-i6-2.4G-6CH",
+    "name": "6 通道入门遥控器",
+    "brand": "富斯",
+    "category": "radio",
+    "subCategory": "遥控器",
+    "price": 159.0,
+    "level": "entry",
+    "weight": 250.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "6 通道，支持 PPM/SBUS，适配入门机"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "入门穿越机"
+    ],
+    "material": "ABS 塑料",
+    "mounting": "-",
+    "remarks": "性价比入门"
+  },
+  {
+    "id": "FPV-0271",
+    "sku": "RM-T16-ELRS-2.4G",
+    "name": "16 通道 ELRS 遥控器",
+    "brand": "RadioMaster",
+    "category": "radio",
+    "subCategory": "遥控器",
+    "price": 899.0,
+    "level": "advanced",
+    "weight": 420.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "16 通道，传输距离 10km，支持多协议"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "中高端通用机"
+    ],
+    "material": "铝合金 + 塑料",
+    "mounting": "-",
+    "remarks": "职业玩家首选"
+  },
+  {
+    "id": "FPV-0272",
+    "sku": "WK-DEVO7-7CH",
+    "name": "7 通道 DEVO 遥控器",
+    "brand": "Walkera",
+    "category": "radio",
+    "subCategory": "遥控器",
+    "price": 399.0,
+    "level": "entry",
+    "weight": 380.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "7 通道，支持 3 档飞行模式，适配华科尔机型"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "Walkera 专用机"
+    ],
+    "material": "ABS 塑料",
+    "mounting": "-",
+    "remarks": "自带教练线，适合新手教学"
+  },
+  {
+    "id": "FPV-0273",
+    "sku": "TX-RM-BOXER",
+    "name": "Radiomaster Boxer",
+    "brand": "RadioMaster",
+    "category": "radio",
+    "subCategory": "遥控器",
+    "price": 899.0,
+    "level": "intermediate",
+    "weight": 520.0,
+    "rating": 4.8,
+    "reviewCount": 456,
+    "specs": {
+      "raw": "16 通道，2.4GHz，100mW 功率，霍尔摇杆，支持 ELRS/CRSF"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "中高端穿越机"
+    ],
+    "material": "铝合金 + 塑料",
+    "mounting": "-",
+    "remarks": "内置 ELRS，霍尔摇杆精度高"
+  },
+  {
+    "id": "FPV-0274",
+    "sku": "TX-JUM-T14",
+    "name": "Jumper T14",
+    "brand": "Jumper",
+    "category": "radio",
+    "subCategory": "遥控器",
+    "price": 698.0,
+    "level": "entry",
+    "weight": 480.0,
+    "rating": 4.6,
+    "reviewCount": 567,
+    "specs": {
+      "raw": "14 通道，2.4GHz，100mW 功率，电位器摇杆，支持 ELRS/CRSF/FrSky"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "入门 / 进阶机"
+    ],
+    "material": "ABS 塑料",
+    "mounting": "-",
+    "remarks": "性价比高，多协议兼容"
+  },
+  {
+    "id": "FPV-0275",
+    "sku": "TX-TBS-TANGO2",
+    "name": "TBS Tango 2",
+    "brand": "Team BlackSheep",
+    "category": "radio",
+    "subCategory": "遥控器",
+    "price": 1298.0,
+    "level": "advanced",
+    "weight": 280.0,
+    "rating": 4.9,
+    "reviewCount": 234,
+    "specs": {
+      "raw": "16 通道，915MHz，1W 功率，霍尔摇杆，支持 Crossfire"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "远航 / 竞速机"
+    ],
+    "material": "铝合金 + 塑料",
+    "mounting": "-",
+    "remarks": "紧凑型设计，远航专用"
+  },
+  {
+    "id": "FPV-0276",
+    "sku": "FS-IA4B-4CH",
+    "name": "4 通道 PPM 接收机",
+    "brand": "富斯",
+    "category": "receiver",
+    "subCategory": "接收机",
+    "price": 25.0,
+    "level": "entry",
+    "weight": 6.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "4 通道，2.4G 通信，适配入门遥控器"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "入门穿越机"
+    ],
+    "material": "贴片工艺",
+    "mounting": "-",
+    "remarks": "价格低廉"
+  },
+  {
+    "id": "FPV-0277",
+    "sku": "FRS-XM+SBUS",
+    "name": "SBUS 微型接收机",
+    "brand": "FrSky",
+    "category": "receiver",
+    "subCategory": "接收机",
+    "price": 89.0,
+    "level": "intermediate",
+    "weight": 4.5,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "16 通道，低延迟，适配高端遥控器"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "中高端穿越机"
+    ],
+    "material": "陶瓷天线 + 贴片工艺",
+    "mounting": "-",
+    "remarks": "体积小巧"
+  },
+  {
+    "id": "FPV-0278",
+    "sku": "RX-RM-EP2",
+    "name": "Radiomaster EP2 ELRS",
+    "brand": "RadioMaster",
+    "category": "receiver",
+    "subCategory": "接收机",
+    "price": 68.0,
+    "level": "intermediate",
+    "weight": 0.5,
+    "rating": 4.7,
+    "reviewCount": 567,
+    "specs": {
+      "raw": "16 通道，2.4GHz，传输距离 10km+，支持遥测"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "中高端穿越机"
+    ],
+    "material": "陶瓷天线 + 贴片工艺",
+    "mounting": "-",
+    "remarks": "轻量化，适合小机"
+  },
+  {
+    "id": "FPV-0279",
+    "sku": "RX-BETA-ELRS",
+    "name": "BETAFPV ELRS Nano",
+    "brand": "BETAFPV",
+    "category": "receiver",
+    "subCategory": "接收机",
+    "price": 58.0,
+    "level": "entry",
+    "weight": 0.8,
+    "rating": 4.5,
+    "reviewCount": 789,
+    "specs": {
+      "raw": "16 通道，2.4GHz，传输距离 8km+，支持遥测"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "微型穿越机"
+    ],
+    "material": "陶瓷天线 + 贴片工艺",
+    "mounting": "-",
+    "remarks": "入门级 ELRS 接收机，易调试"
+  },
+  {
+    "id": "FPV-0280",
+    "sku": "RX-TBS-NANO",
+    "name": "TBS Crossfire Nano",
+    "brand": "Team BlackSheep",
+    "category": "receiver",
+    "subCategory": "接收机",
+    "price": 198.0,
+    "level": "advanced",
+    "weight": 0.5,
+    "rating": 4.9,
+    "reviewCount": 345,
+    "specs": {
+      "raw": "16 通道，915MHz，传输距离 30km+，支持分集接收 / 遥测"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "远航机"
+    ],
+    "material": "陶瓷天线 + 贴片工艺",
+    "mounting": "-",
+    "remarks": "远航首选，抗干扰强"
+  },
+  {
+    "id": "FPV-0281",
+    "sku": "WUHU-MINI-915-RX",
+    "name": "超微型 915 接收机（芜湖公告）",
+    "brand": "Unknown",
+    "category": "receiver",
+    "subCategory": "接收机",
+    "price": 0,
+    "level": "advanced",
+    "weight": 0.7,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "16 通道，915MHz，重量 0.7g，尺寸 11×18mm，电压 5V"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "远航机"
+    ],
+    "material": "贴片工艺 + T 天线",
+    "mounting": "-",
+    "remarks": "超轻量，适配远航机"
+  },
+  {
+    "id": "FPV-0282",
+    "sku": "WUHU-MULTI-RX",
+    "name": "多协议接收机（芜湖公告）",
+    "brand": "Unknown",
+    "category": "receiver",
+    "subCategory": "接收机",
+    "price": 0,
+    "level": "intermediate",
+    "weight": 0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "支持 CRSF/Frsky/Futaba/Flysky/TBS Crossfire/DSMX/DSM2"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "通用穿越机"
+    ],
+    "material": "贴片工艺",
+    "mounting": "-",
+    "remarks": "兼容性强，适合多设备用户"
+  },
+  {
+    "id": "FPV-0283",
+    "sku": "Gens-A1S500-40C",
+    "name": "1S 500mAh 40C",
+    "brand": "格式",
+    "category": "battery",
+    "subCategory": "电池",
+    "price": 35.0,
+    "level": "entry",
+    "weight": 25.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "续航 2-3 分钟，循环寿命 150 次"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "微型穿越机"
+    ],
+    "material": "锂聚合物",
+    "mounting": "-",
+    "remarks": "室内练习专用"
+  },
+  {
+    "id": "FPV-0284",
+    "sku": "Gens-A3S2200-35C",
+    "name": "3S 2200mAh 35C",
+    "brand": "格式",
+    "category": "battery",
+    "subCategory": "电池",
+    "price": 89.0,
+    "level": "intermediate",
+    "weight": 195.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "续航 8-10 分钟，循环寿命 200 次，适配固定翼"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "固定翼 FPV 机"
+    ],
+    "material": "锂聚合物",
+    "mounting": "-",
+    "remarks": "滑翔机专用"
+  },
+  {
+    "id": "FPV-0285",
+    "sku": "Gens-A4S1500-80C",
+    "name": "4S 1500mAh 80C",
+    "brand": "格氏",
+    "category": "battery",
+    "subCategory": "电池",
+    "price": 119.0,
+    "level": "intermediate",
+    "weight": 145.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "续航 6-7 分钟，最大放电电流 120A"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸进阶机"
+    ],
+    "material": "高倍率电芯",
+    "mounting": "-",
+    "remarks": "动力 / 续航平衡"
+  },
+  {
+    "id": "FPV-0286",
+    "sku": "Gens-A8S1200-120C",
+    "name": "8S 1200mAh 120C",
+    "brand": "格氏",
+    "category": "battery",
+    "subCategory": "电池",
+    "price": 399.0,
+    "level": "advanced",
+    "weight": 210.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "续航 7-9 分钟，最大放电电流 144A"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "赛事级竞速机"
+    ],
+    "material": "顶级倍率电芯",
+    "mounting": "-",
+    "remarks": "暴力飞行专用"
+  },
+  {
+    "id": "FPV-0287",
+    "sku": "BAT-TAT-6S1300",
+    "name": "Tattu R-Line 6S 1300mAh",
+    "brand": "Tattu",
+    "category": "battery",
+    "subCategory": "电池",
+    "price": 268.0,
+    "level": "advanced",
+    "weight": 195.0,
+    "rating": 4.9,
+    "reviewCount": 678,
+    "specs": {
+      "raw": "120C 放电，240C 峰值，电压 22.2V，尺寸 78×38×42mm，XT60 接口"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸竞速机"
+    ],
+    "material": "高倍率锂聚合物",
+    "mounting": "-",
+    "remarks": "顶级竞速电池，爆发力强"
+  },
+  {
+    "id": "FPV-0288",
+    "sku": "BAT-CNHL-6S1500",
+    "name": "CNHL Black Series 6S 1500mAh",
+    "brand": "CNHL",
+    "category": "battery",
+    "subCategory": "电池",
+    "price": 168.0,
+    "level": "intermediate",
+    "weight": 215.0,
+    "rating": 4.6,
+    "reviewCount": 456,
+    "specs": {
+      "raw": "100C 放电，200C 峰值，电压 22.2V，尺寸 85×40×45mm，XT60 接口"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸花飞 / 航拍机"
+    ],
+    "material": "高倍率锂聚合物",
+    "mounting": "-",
+    "remarks": "性价比高，适合进阶练习"
+  },
+  {
+    "id": "FPV-0289",
+    "sku": "BAT-GNB-4S1300",
+    "name": "GNB 4S 1300mAh 95C",
+    "brand": "GNB",
+    "category": "battery",
+    "subCategory": "电池",
+    "price": 128.0,
+    "level": "entry",
+    "weight": 145.0,
+    "rating": 4.5,
+    "reviewCount": 789,
+    "specs": {
+      "raw": "95C 放电，190C 峰值，电压 14.8V，尺寸 72×35×32mm，XT60 接口"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸入门机"
+    ],
+    "material": "锂聚合物",
+    "mounting": "-",
+    "remarks": "入门级，适合练习"
+  },
+  {
+    "id": "FPV-0290",
+    "sku": "BAT-TAT-6S2200",
+    "name": "Tattu FunFly 6S 2200mAh",
+    "brand": "Tattu",
+    "category": "battery",
+    "subCategory": "电池",
+    "price": 298.0,
+    "level": "intermediate",
+    "weight": 285.0,
+    "rating": 4.7,
+    "reviewCount": 234,
+    "specs": {
+      "raw": "70C 放电，140C 峰值，电压 22.2V，尺寸 105×45×48mm，XT60 接口"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "7 寸远航机"
+    ],
+    "material": "锂聚合物",
+    "mounting": "-",
+    "remarks": "长续航设计，远航专用"
+  },
+  {
+    "id": "FPV-0291",
+    "sku": "BAT-BETA-1S300",
+    "name": "BETAFPV 1S 300mAh",
+    "brand": "BETAFPV",
+    "category": "battery",
+    "subCategory": "电池",
+    "price": 25.0,
+    "level": "entry",
+    "weight": 8.0,
+    "rating": 4.3,
+    "reviewCount": 567,
+    "specs": {
+      "raw": "30C 放电，60C 峰值，电压 4.35V，尺寸 12×6×55mm，PH2.0 接口"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "微型 Whoop 机"
+    ],
+    "material": "锂聚合物（LiHV）",
+    "mounting": "-",
+    "remarks": "室内 Whoop 机专用"
+  },
+  {
+    "id": "FPV-0292",
+    "sku": "WUHU-6S1P-1550-120C",
+    "name": "6S1P 1550mAh 120C（芜湖公告）",
+    "brand": "Unknown",
+    "category": "battery",
+    "subCategory": "电池",
+    "price": 0,
+    "level": "advanced",
+    "weight": 254.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "组装方式 6S1P，电压 22.2V，重量 254g，尺寸 46×37×77mm，XT60 接口"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸竞速机"
+    ],
+    "material": "高倍率锂聚合物",
+    "mounting": "-",
+    "remarks": "赛事级放电倍率，适配 GTS V4 电机"
+  },
+  {
+    "id": "FPV-0293",
+    "sku": "WUHU-6S1P-1550-95C",
+    "name": "6S1P 1550mAh 95C（芜湖公告）",
+    "brand": "Unknown",
+    "category": "battery",
+    "subCategory": "电池",
+    "price": 0,
+    "level": "intermediate",
+    "weight": 0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "电压 22.2V，适配 5 寸进阶机"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸进阶机"
+    ],
+    "material": "高倍率锂聚合物",
+    "mounting": "-",
+    "remarks": "平衡型，适合日常练习"
+  },
+  {
+    "id": "FPV-0294",
+    "sku": "WUHU-6S1P-1400-150C",
+    "name": "6S1P 1400mAh 150C（芜湖公告）",
+    "brand": "Unknown",
+    "category": "battery",
+    "subCategory": "电池",
+    "price": 0,
+    "level": "advanced",
+    "weight": 225.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "组装方式 6S1P，放电倍率 150C，瓦时 31.08Wh，净重 225g，尺寸 40.5×38.5×80mm"
+    },
+    "origin": "international",
+    "source": "豆包补充",
+    "scenes": [
+      "5 寸竞速机"
+    ],
+    "material": "顶级倍率电芯",
+    "mounting": "-",
+    "remarks": "出线方式：单边，放电插头 XT60H-F"
+  },
+  {
+    "id": "FPV-0295",
+    "sku": "BFPV-1.5Inch-2Bla",
+    "name": "1.5 寸二叶桨",
+    "brand": "BETAFPV",
+    "category": "propeller",
+    "subCategory": "螺旋桨",
+    "price": 8.0,
+    "level": "entry",
+    "weight": 0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "直径 1.5 英寸，螺距 1.0"
+    },
+    "origin": "domestic",
+    "source": "豆包补充",
+    "scenes": [
+      "微型穿越机"
+    ],
+    "material": "聚碳酸酯",
+    "mounting": "-",
+    "remarks": ""
+  },
+  {
+    "id": "FPV-0296",
+    "sku": "BFPV-Micro-1.5Inch",
+    "name": "1.5 寸迷你机架（Micro）",
+    "brand": "BETAFPV",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 129.0,
+    "level": "entry",
+    "weight": 42.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "轴距 85mm，重量＜50g，防炸机臂"
+    },
+    "origin": "domestic",
+    "source": "组装清单",
+    "scenes": [
+      "室内微型穿越机"
+    ],
+    "material": "高强度塑料 + 碳纤",
+    "mounting": "12×12mm",
+    "remarks": "适合宿舍练习"
+  },
+  {
+    "id": "FPV-0297",
+    "sku": "ARM-Racing3-CF",
+    "name": "3 寸竞速机架（Racing3）",
+    "brand": "Armattan",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 199.0,
+    "level": "intermediate",
+    "weight": 68.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "轴距 160mm，加强机臂，适配 3 寸桨"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "3 寸竞速穿越机"
+    ],
+    "material": "3K 碳纤",
+    "mounting": "16×16mm",
+    "remarks": "抗炸性提升 40%"
+  },
+  {
+    "id": "FPV-0298",
+    "sku": "TBS-Comp5-CF",
+    "name": "5 寸竞赛机架（Comp5）",
+    "brand": "Team BlackSheep",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 329.0,
+    "level": "advanced",
+    "weight": 89.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "轴距 245mm，镂空设计，重量＜90g"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "赛事级竞速机"
+    ],
+    "material": "UD 碳纤 + CNC 加工",
+    "mounting": "19×19mm",
+    "remarks": "职业赛事指定款"
+  },
+  {
+    "id": "FPV-0299",
+    "sku": "TAROT-7Inch-LR",
+    "name": "7 寸远航机架（LongRange）",
+    "brand": "Tarot",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 299.0,
+    "level": "intermediate",
+    "weight": 156.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "轴距 300mm，载重能力 1.2kg，适配长续航电池"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "远距离勘测机"
+    ],
+    "material": "高强度碳纤",
+    "mounting": "25×25mm",
+    "remarks": "续航可达 25 分钟"
+  },
+  {
+    "id": "FPV-0300",
+    "sku": "WK-Rodeo110-CF",
+    "name": "128mm 轴距机架（Rodeo110）",
+    "brand": "Walkera",
+    "category": "frame",
+    "subCategory": "机架",
+    "price": 189.0,
+    "level": "entry",
+    "weight": 78.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "机身 101×117×55mm，弓形前臂设计"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "室内 / 室外通用迷你机"
+    ],
+    "material": "2mm 碳纤 + 工程塑料",
+    "mounting": "14×14mm",
+    "remarks": "华科尔经典款"
+  },
+  {
+    "id": "FPV-0301",
+    "sku": "EMAX-RS1103-8500KV",
+    "name": "1103 8500KV 微型电机",
+    "brand": "EMAX",
+    "category": "motor",
+    "subCategory": "电机",
+    "price": 35.0,
+    "level": "entry",
+    "weight": 5.2,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "适配 1.5-2 寸桨，最大功率 120W，电压 2-3S"
+    },
+    "origin": "domestic",
+    "source": "组装清单",
+    "scenes": [
+      "微型穿越机"
+    ],
+    "material": "钕铁硼磁芯",
+    "mounting": "12×12mm",
+    "remarks": "室内飞行专用"
+  },
+  {
+    "id": "FPV-0302",
+    "sku": "BH-1306-4500KV",
+    "name": "1306 4500KV 电机",
+    "brand": "BrotherHobby",
+    "category": "motor",
+    "subCategory": "电机",
+    "price": 55.0,
+    "level": "entry",
+    "weight": 12.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "适配 3 寸桨，最大拉力 0.8kg，电压 3-4S"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "3 寸入门机"
+    ],
+    "material": "铝合金外壳",
+    "mounting": "14×14mm",
+    "remarks": "性价比之选"
+  },
+  {
+    "id": "FPV-0303",
+    "sku": "EMAX-LS2206-2300KV",
+    "name": "2206 2300KV 电机（LS 系列）",
+    "brand": "EMAX",
+    "category": "motor",
+    "subCategory": "电机",
+    "price": 65.0,
+    "level": "intermediate",
+    "weight": 28.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "日本 NSK 轴承，JFE 铁芯，功率 420W，电压 4-6S"
+    },
+    "origin": "domestic",
+    "source": "组装清单",
+    "scenes": [
+      "5 寸 Freestyle 机"
+    ],
+    "material": "7075 航空铝 + NSK 轴承",
+    "mounting": "16×16mm",
+    "remarks": "动力效率平衡款"
+  },
+  {
+    "id": "FPV-0304",
+    "sku": "EMAX-LS2206-2700KV",
+    "name": "2206 2700KV 电机（LS 系列）",
+    "brand": "EMAX",
+    "category": "motor",
+    "subCategory": "电机",
+    "price": 68.0,
+    "level": "advanced",
+    "weight": 28.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "1.8mm 磁钢，散热花瓣设计，最大功率 500W"
+    },
+    "origin": "domestic",
+    "source": "组装清单",
+    "scenes": [
+      "5 寸竞赛机"
+    ],
+    "material": "7075 航空铝 + N48SH 磁钢",
+    "mounting": "16×16mm",
+    "remarks": "竞速专用高转速"
+  },
+  {
+    "id": "FPV-0305",
+    "sku": "EMAX-LS2207-1900KV",
+    "name": "2207 1900KV 电机（LS 系列）",
+    "brand": "EMAX",
+    "category": "motor",
+    "subCategory": "电机",
+    "price": 75.0,
+    "level": "intermediate",
+    "weight": 30.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "最大拉力 2.1kg，适配 6S 电池，18AWG 硅胶线"
+    },
+    "origin": "domestic",
+    "source": "组装清单",
+    "scenes": [
+      "远航 / 航拍机"
+    ],
+    "material": "航空铝锻造",
+    "mounting": "16×16mm",
+    "remarks": "续航提升 25%"
+  },
+  {
+    "id": "FPV-0306",
+    "sku": "TM-2306-2450KV",
+    "name": "2306 2450KV 电机",
+    "brand": "T-Motor",
+    "category": "motor",
+    "subCategory": "电机",
+    "price": 95.0,
+    "level": "advanced",
+    "weight": 36.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "最大功率 650W，转速稳定，适配 5-6 寸桨"
+    },
+    "origin": "domestic",
+    "source": "组装清单",
+    "scenes": [
+      "职业赛事机"
+    ],
+    "material": "钛合金轴 + 碳纤维散热",
+    "mounting": "19×19mm",
+    "remarks": "暴力飞行首选"
+  },
+  {
+    "id": "FPV-0307",
+    "sku": "WK-WS13-6100KV",
+    "name": "14mm 6100KV 电机（WK-WS-13）",
+    "brand": "Walkera",
+    "category": "motor",
+    "subCategory": "电机",
+    "price": 49.0,
+    "level": "entry",
+    "weight": 4.8,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "直径 14mm，适配 2S 电池，拉力 0.5kg"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "华科尔 Rodeo110 专用"
+    ],
+    "material": "高强度铝合金",
+    "mounting": "12×12mm",
+    "remarks": "迷你机专用"
+  },
+  {
+    "id": "FPV-0308",
+    "sku": "HW-4in1-20A-ESC",
+    "name": "20A 4 合 1 电调",
+    "brand": "Hobbywing",
+    "category": "esc",
+    "subCategory": "电调",
+    "price": 89.0,
+    "level": "entry",
+    "weight": 18.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "支持 2-3S 电池，BEC 5V/2A，重量轻"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "微型 / 迷你穿越机"
+    ],
+    "material": "玻纤板 + MOS 管",
+    "mounting": "12×12mm",
+    "remarks": "低功耗设计"
+  },
+  {
+    "id": "FPV-0309",
+    "sku": "HW-4in1-30A-ESC",
+    "name": "30A 4 合 1 电调",
+    "brand": "好盈",
+    "category": "esc",
+    "subCategory": "电调",
+    "price": 109.0,
+    "level": "entry",
+    "weight": 22.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "支持 3-4S 电池，BEC 5V/3A，抗干扰增强"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "3-4 寸穿越机"
+    ],
+    "material": "玻纤板 + MOS 管",
+    "mounting": "14×14mm",
+    "remarks": "入门通用款"
+  },
+  {
+    "id": "FPV-0310",
+    "sku": "KK-4in1-40A-BLHeliS",
+    "name": "40A 4 合 1 电调（BLHELI_S）",
+    "brand": "KINGKONG",
+    "category": "esc",
+    "subCategory": "电调",
+    "price": 139.0,
+    "level": "intermediate",
+    "weight": 30.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "支持 3-6S 电池，刹车功能，响应速度提升 30%"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "5 寸进阶机"
+    ],
+    "material": "玻纤板 + 高品质 MOS 管",
+    "mounting": "16×16mm",
+    "remarks": "兼容高 KV 电机"
+  },
+  {
+    "id": "FPV-0311",
+    "sku": "SB-Stack-F7-60A",
+    "name": "60A STACK 飞塔",
+    "brand": "SpeedyBee",
+    "category": "esc",
+    "subCategory": "电调",
+    "price": 459.0,
+    "level": "advanced",
+    "weight": 78.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "飞控 + 电调一体，支持 6-8S 电池，BLHELI_32 固件"
+    },
+    "origin": "domestic",
+    "source": "组装清单",
+    "scenes": [
+      "赛事级竞速机"
+    ],
+    "material": "集成式设计 + 散热片",
+    "mounting": "20×20mm",
+    "remarks": "大电流稳定输出"
+  },
+  {
+    "id": "FPV-0312",
+    "sku": "EMAX-30A-ESC",
+    "name": "30A 独立电调",
+    "brand": "银燕",
+    "category": "esc",
+    "subCategory": "电调",
+    "price": 45.0,
+    "level": "intermediate",
+    "weight": 15.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "支持 3-4S 电池，适配固定翼穿越机"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "固定翼 FPV 机"
+    ],
+    "material": "铝合金外壳 + 散热片",
+    "mounting": "通用",
+    "remarks": "滑翔机专用"
+  },
+  {
+    "id": "FPV-0313",
+    "sku": "TS5823-200mW-V2",
+    "name": "200mW 模拟图传",
+    "brand": "TS",
+    "category": "vtx",
+    "subCategory": "图传",
+    "price": 89.0,
+    "level": "entry",
+    "weight": 12.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "传输距离 200 米，5.8GHz，支持 40 频道"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "室内入门机"
+    ],
+    "material": "塑料外壳",
+    "mounting": "-",
+    "remarks": "性价比入门"
+  },
+  {
+    "id": "FPV-0314",
+    "sku": "ZS-AV1W-5.8G",
+    "name": "1W 模拟图传",
+    "brand": "重山航空",
+    "category": "vtx",
+    "subCategory": "图传",
+    "price": 109.0,
+    "level": "intermediate",
+    "weight": 18.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "传输距离 800 米，抗干扰强，支持自动功率调节"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "中距离飞行机"
+    ],
+    "material": "铝合金散热",
+    "mounting": "-",
+    "remarks": "户外练习首选"
+  },
+  {
+    "id": "FPV-0315",
+    "sku": "TBS-Unify-Pro-4W",
+    "name": "4W 模拟图传",
+    "brand": "黑羊",
+    "category": "vtx",
+    "subCategory": "图传",
+    "price": 399.0,
+    "level": "advanced",
+    "weight": 35.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "传输距离 3km，5.8GHz，支持频道扫描"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "远距离竞赛机"
+    ],
+    "material": "金属屏蔽 + 石墨烯散热",
+    "mounting": "-",
+    "remarks": "职业赛事级"
+  },
+  {
+    "id": "FPV-0316",
+    "sku": "DJI-O3-AirUnit",
+    "name": "O3 数字图传天空端",
+    "brand": "DJI",
+    "category": "vtx",
+    "subCategory": "图传",
+    "price": 699.0,
+    "level": "intermediate",
+    "weight": 40.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "延迟 28ms，传输距离 10km，双频自适应（2.4/5.8GHz）"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "大疆适配高端机"
+    ],
+    "material": "碳纤维 + 塑料",
+    "mounting": "-",
+    "remarks": "高清图传标杆"
+  },
+  {
+    "id": "FPV-0317",
+    "sku": "ELRS-915MHz-Mini",
+    "name": "ELRS 915MHz 图传模块",
+    "brand": "ExpressLRS",
+    "category": "vtx",
+    "subCategory": "图传",
+    "price": 159.0,
+    "level": "advanced",
+    "weight": 8.5,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "传输距离 8km，延迟＜1ms，支持远距离飞行"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "远航穿越机"
+    ],
+    "material": "陶瓷天线 + 塑料外壳",
+    "mounting": "-",
+    "remarks": "超远距离专用"
+  },
+  {
+    "id": "FPV-0318",
+    "sku": "HM-CAM-480TVL",
+    "name": "480TVL 入门摄像头",
+    "brand": "航模小子",
+    "category": "camera",
+    "subCategory": "摄像头",
+    "price": 45.0,
+    "level": "entry",
+    "weight": 6.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "120° 广角，低功耗，适配入门模拟图传"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "入门穿越机"
+    ],
+    "material": "塑料外壳 + 树脂镜头",
+    "mounting": "-",
+    "remarks": "价格亲民"
+  },
+  {
+    "id": "FPV-0319",
+    "sku": "FX-NightCat-700TVL",
+    "name": "700TVL 夜视摄像头",
+    "brand": "Foxeer",
+    "category": "camera",
+    "subCategory": "摄像头",
+    "price": 99.0,
+    "level": "intermediate",
+    "weight": 9.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "140° 广角，低光增强 + 红外夜视，适配夜间飞行"
+    },
+    "origin": "domestic",
+    "source": "组装清单",
+    "scenes": [
+      "夜视穿越机"
+    ],
+    "material": "金属外壳 + 红外镜头",
+    "mounting": "-",
+    "remarks": "夜间飞行专用"
+  },
+  {
+    "id": "FPV-0320",
+    "sku": "CDX-Turtle-1200TVL",
+    "name": "1200TVL 高清摄像头",
+    "brand": "Caddx",
+    "category": "camera",
+    "subCategory": "摄像头",
+    "price": 159.0,
+    "level": "intermediate",
+    "weight": 11.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "160° 广角，1080p@60fps，低延迟"
+    },
+    "origin": "domestic",
+    "source": "组装清单",
+    "scenes": [
+      "高清拍摄机"
+    ],
+    "material": "铝合金外壳 + 光学镜头",
+    "mounting": "-",
+    "remarks": "航拍入门首选"
+  },
+  {
+    "id": "FPV-0321",
+    "sku": "Hover-X1-PROMAX",
+    "name": "8K 飞行相机",
+    "brand": "哈浮",
+    "category": "camera",
+    "subCategory": "摄像头",
+    "price": 3999.0,
+    "level": "advanced",
+    "weight": 120.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "1/1.3 英寸 CMOS，8K 视频，107° 广角，14 档动态范围"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "专业航拍穿越机"
+    ],
+    "material": "碳纤维 + 铝合金",
+    "mounting": "-",
+    "remarks": "影像旗舰级"
+  },
+  {
+    "id": "FPV-0322",
+    "sku": "WK-CAM-600TVL-0-45°",
+    "name": "600TVL 可调角度摄像头",
+    "brand": "Walkera",
+    "category": "camera",
+    "subCategory": "摄像头",
+    "price": 89.0,
+    "level": "entry",
+    "weight": 7.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "0-45° 角度调节，强光探照灯，适配室内外"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "华科尔 Rodeo110 专用"
+    ],
+    "material": "塑料保护罩 + 光学镜头",
+    "mounting": "-",
+    "remarks": "迷你机专用"
+  },
+  {
+    "id": "FPV-0323",
+    "sku": "FS-i6-2.4G-6CH",
+    "name": "6 通道入门遥控器",
+    "brand": "富斯",
+    "category": "radio",
+    "subCategory": "遥控器",
+    "price": 159.0,
+    "level": "entry",
+    "weight": 250.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "6 通道，支持 PPM/SBUS，适配入门机"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "入门穿越机"
+    ],
+    "material": "ABS 塑料",
+    "mounting": "-",
+    "remarks": "性价比入门"
+  },
+  {
+    "id": "FPV-0324",
+    "sku": "RM-T16-ELRS-2.4G",
+    "name": "16 通道 ELRS 遥控器",
+    "brand": "RadioMaster",
+    "category": "radio",
+    "subCategory": "遥控器",
+    "price": 899.0,
+    "level": "advanced",
+    "weight": 420.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "16 通道，传输距离 10km，支持多协议"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "中高端通用机"
+    ],
+    "material": "铝合金 + 塑料",
+    "mounting": "-",
+    "remarks": "职业玩家首选"
+  },
+  {
+    "id": "FPV-0325",
+    "sku": "WK-DEVO7-7CH",
+    "name": "7 通道 DEVO 遥控器",
+    "brand": "Walkera",
+    "category": "radio",
+    "subCategory": "遥控器",
+    "price": 399.0,
+    "level": "entry",
+    "weight": 380.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "7 通道，支持 3 档飞行模式，适配华科尔机型"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "华科尔专用机"
+    ],
+    "material": "ABS 塑料",
+    "mounting": "-",
+    "remarks": "自带教练线"
+  },
+  {
+    "id": "FPV-0326",
+    "sku": "FS-IA4B-4CH",
+    "name": "4 通道 PPM 接收机",
+    "brand": "富斯",
+    "category": "receiver",
+    "subCategory": "接收机",
+    "price": 25.0,
+    "level": "entry",
+    "weight": 6.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "4 通道，2.4G 通信，适配入门遥控器"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "入门穿越机"
+    ],
+    "material": "贴片工艺",
+    "mounting": "-",
+    "remarks": "价格低廉"
+  },
+  {
+    "id": "FPV-0327",
+    "sku": "FRS-XM+SBUS",
+    "name": "SBUS 微型接收机",
+    "brand": "FrSky",
+    "category": "receiver",
+    "subCategory": "接收机",
+    "price": 89.0,
+    "level": "intermediate",
+    "weight": 4.5,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "16 通道，低延迟，适配高端遥控器"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "中高端穿越机"
+    ],
+    "material": "陶瓷天线 + 贴片工艺",
+    "mounting": "-",
+    "remarks": "体积小巧"
+  },
+  {
+    "id": "FPV-0328",
+    "sku": "Gens-A1S500-40C",
+    "name": "1S 500mAh 40C",
+    "brand": "格式",
+    "category": "battery",
+    "subCategory": "电池",
+    "price": 35.0,
+    "level": "entry",
+    "weight": 25.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "续航 2-3 分钟，循环寿命 150 次，适配微型机"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "微型穿越机"
+    ],
+    "material": "锂聚合物",
+    "mounting": "-",
+    "remarks": "室内练习专用"
+  },
+  {
+    "id": "FPV-0329",
+    "sku": "Gens-A3S2200-35C",
+    "name": "3S 2200mAh 35C",
+    "brand": "格式",
+    "category": "battery",
+    "subCategory": "电池",
+    "price": 89.0,
+    "level": "intermediate",
+    "weight": 195.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "续航 8-10 分钟，循环寿命 200 次，适配固定翼穿越机"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "固定翼 FPV 机"
+    ],
+    "material": "锂聚合物",
+    "mounting": "-",
+    "remarks": "滑翔机专用"
+  },
+  {
+    "id": "FPV-0330",
+    "sku": "Gens-A4S1500-80C",
+    "name": "4S 1500mAh 80C",
+    "brand": "格氏",
+    "category": "battery",
+    "subCategory": "电池",
+    "price": 119.0,
+    "level": "intermediate",
+    "weight": 145.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "续航 6-7 分钟，最大放电电流 120A，适配 5 寸机"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "5 寸进阶机"
+    ],
+    "material": "高倍率电芯",
+    "mounting": "-",
+    "remarks": "动力 / 续航平衡"
+  },
+  {
+    "id": "FPV-0331",
+    "sku": "Gens-A8S1200-120C",
+    "name": "8S 1200mAh 120C",
+    "brand": "格氏",
+    "category": "battery",
+    "subCategory": "电池",
+    "price": 399.0,
+    "level": "advanced",
+    "weight": 210.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "续航 7-9 分钟，最大放电电流 144A，适配赛事机"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "赛事级竞速机"
+    ],
+    "material": "顶级倍率电芯",
+    "mounting": "-",
+    "remarks": "暴力飞行专用"
+  },
+  {
+    "id": "FPV-0332",
+    "sku": "BFPV-1.5Inch-2Bla",
+    "name": "1.5 寸二叶桨",
+    "brand": "BETAFPV",
+    "category": "propeller",
+    "subCategory": "螺旋桨",
+    "price": 8.0,
+    "level": "entry",
+    "weight": 0.5,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "直径 1.5 英寸，螺距 1.0，适配微型电机"
+    },
+    "origin": "domestic",
+    "source": "组装清单",
+    "scenes": [
+      "微型穿越机"
+    ],
+    "material": "聚碳酸酯",
+    "mounting": "-",
+    "remarks": "室内飞行防伤人"
+  },
+  {
+    "id": "FPV-0333",
+    "sku": "EMAX-AVAN-3Inch-4Bla",
+    "name": "3 寸四叶桨",
+    "brand": "EMAX",
+    "category": "propeller",
+    "subCategory": "螺旋桨",
+    "price": 12.0,
+    "level": "intermediate",
+    "weight": 3.2,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "直径 3 英寸，螺距 2.5，拉力提升 25%"
+    },
+    "origin": "domestic",
+    "source": "组装清单",
+    "scenes": [
+      "3 寸竞速机"
+    ],
+    "material": "碳纤维增强 PC",
+    "mounting": "-",
+    "remarks": "动力提升明显"
+  },
+  {
+    "id": "FPV-0334",
+    "sku": "TAROT-6Inch-2Bla",
+    "name": "6 寸二叶远航桨",
+    "brand": "Tarot",
+    "category": "propeller",
+    "subCategory": "螺旋桨",
+    "price": 18.0,
+    "level": "intermediate",
+    "weight": 12.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "直径 6 英寸，螺距 4.0，续航提升 30%"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "远航穿越机"
+    ],
+    "material": "高强度 PC",
+    "mounting": "-",
+    "remarks": "长距离飞行专用"
+  },
+  {
+    "id": "FPV-0335",
+    "sku": "ATN-Whip-5.8G",
+    "name": "鞭状全向天线",
+    "brand": "安腾纳",
+    "category": "antenna",
+    "subCategory": "天线",
+    "price": 49.0,
+    "level": "entry",
+    "weight": 8.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "驻波比≤1.8，增益 1dB，传输距离 300 米"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "入门穿越机"
+    ],
+    "material": "硅胶 + 铜芯",
+    "mounting": "-",
+    "remarks": "不易损坏"
+  },
+  {
+    "id": "FPV-0336",
+    "sku": "TBS-Patch-5.8G",
+    "name": "平板定向天线",
+    "brand": "黑羊",
+    "category": "antenna",
+    "subCategory": "天线",
+    "price": 199.0,
+    "level": "advanced",
+    "weight": 45.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "驻波比≤1.2，增益 8dB，传输距离 5km"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "远距离竞赛机"
+    ],
+    "material": "铝合金 + 玻璃钢",
+    "mounting": "-",
+    "remarks": "定向远距离传输"
+  },
+  {
+    "id": "FPV-0337",
+    "sku": "HH-30W-Mini",
+    "name": "30W 迷你电烙铁",
+    "brand": "黄花",
+    "category": "tool",
+    "subCategory": "辅助工具",
+    "price": 39.0,
+    "level": "entry",
+    "weight": 180.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "30W 功率，恒温设计，适配微型焊接"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "迷你机组装"
+    ],
+    "material": "陶瓷发热芯",
+    "mounting": "-",
+    "remarks": "宿舍使用安全"
+  },
+  {
+    "id": "FPV-0338",
+    "sku": "GS-Solder-0.3mm",
+    "name": "无人机专用焊锡",
+    "brand": "高仕",
+    "category": "tool",
+    "subCategory": "辅助工具",
+    "price": 25.0,
+    "level": "entry",
+    "weight": 50.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "0.3mm 直径，低熔点，焊接强度高"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "通用组装"
+    ],
+    "material": "锡银铜合金",
+    "mounting": "-",
+    "remarks": "适配航模焊接"
+  },
+  {
+    "id": "FPV-0339",
+    "sku": "EMAX-9g-Servo",
+    "name": "舵机（9g）",
+    "brand": "银燕",
+    "category": "accessory",
+    "subCategory": "增值配件",
+    "price": 25.0,
+    "level": "intermediate",
+    "weight": 9.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "扭力 1.2kg/cm，响应速度 0.12s/60°"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "固定翼穿越机"
+    ],
+    "material": "塑料齿轮 + 金属轴",
+    "mounting": "-",
+    "remarks": "滑翔机尾翼控制"
+  },
+  {
+    "id": "FPV-0340",
+    "sku": "EMAX-Metal-Digital-Servo",
+    "name": "金属数码舵机",
+    "brand": "银燕",
+    "category": "accessory",
+    "subCategory": "增值配件",
+    "price": 89.0,
+    "level": "advanced",
+    "weight": 28.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "扭力 3.5kg/cm，响应速度 0.08s/60°"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "赛事级固定翼机"
+    ],
+    "material": "金属齿轮 + 铝合金外壳",
+    "mounting": "-",
+    "remarks": "精度高耐用性强"
+  },
+  {
+    "id": "FPV-0341",
+    "sku": "DJI-Avoidance-Module",
+    "name": "自动避障模块",
+    "brand": "DJI",
+    "category": "accessory",
+    "subCategory": "增值配件",
+    "price": 599.0,
+    "level": "intermediate",
+    "weight": 35.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "探测距离 5 米，支持 360° 避障，适配大疆图传机"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "大疆图传穿越机"
+    ],
+    "material": "红外传感器 + 塑料外壳",
+    "mounting": "-",
+    "remarks": "新手防炸机神器"
+  },
+  {
+    "id": "FPV-0342",
+    "sku": "FatShark-H100",
+    "name": "基础款模拟眼镜",
+    "brand": "肥鲨",
+    "category": "goggles",
+    "subCategory": "飞行眼镜",
+    "price": 499.0,
+    "level": "entry",
+    "weight": 420.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "480p 分辨率，5.8GHz，视场角 80°"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "入门模拟图传机"
+    ],
+    "material": "海绵 + 塑料",
+    "mounting": "-",
+    "remarks": "价格亲民"
+  },
+  {
+    "id": "FPV-0343",
+    "sku": "DJI-FPV-Goggles-V3",
+    "name": "高清数字眼镜",
+    "brand": "DJI",
+    "category": "goggles",
+    "subCategory": "飞行眼镜",
+    "price": 3299.0,
+    "level": "advanced",
+    "weight": 650.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "1080p@120fps，视场角 110°，支持双图传模式"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "大疆数字图传机"
+    ],
+    "material": "ABS + 铝合金 + 碳纤维",
+    "mounting": "-",
+    "remarks": "旗舰级体验"
+  },
+  {
+    "id": "FPV-0344",
+    "sku": "LIFTOFF-PC-2Year",
+    "name": "Liftoff 模拟器激活码",
+    "brand": "Liftoff",
+    "category": "accessory",
+    "subCategory": "模拟器配件",
+    "price": 199.0,
+    "level": "entry",
+    "weight": 0.0,
+    "rating": 4.0,
+    "reviewCount": 0,
+    "specs": {
+      "raw": "2 年有效期，支持全机型练习，含赛道编辑器"
+    },
+    "origin": "international",
+    "source": "组装清单",
+    "scenes": [
+      "通用"
+    ],
+    "material": "虚拟产品",
+    "mounting": "-",
+    "remarks": "专业训练首选"
+  }
+]

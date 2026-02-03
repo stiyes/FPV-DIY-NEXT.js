@@ -1,0 +1,170 @@
+{
+  "app": {
+    "name": "FPV穿越机部件数据库",
+    "version": "2.0.0",
+    "description": "专业的FPV穿越机部件数据库与装机配置平台",
+    "theme": {
+      "primaryColor": "#00f0ff",
+      "accentColor": "#ff00a0",
+      "backgroundColor": "#0a0a0f",
+      "cardBackground": "#12121a",
+      "textColor": "#e0e0e0",
+      "mutedTextColor": "#888888"
+    }
+  },
+  "data": {
+    "source": "json",
+    "jsonPath": "/data/components.json",
+    "refreshInterval": 3600000
+  },
+  "features": {
+    "priceMonitor": true,
+    "communityBuilds": true,
+    "buildConfigurator": true,
+    "tutorials": true,
+    "comparison": true
+  },
+  "filters": {
+    "defaultSkillLevel": ["entry", "intermediate"],
+    "defaultOrigins": ["domestic", "international"],
+    "priceRanges": [
+      { "label": "¥0-100", "min": 0, "max": 100 },
+      { "label": "¥100-300", "min": 100, "max": 300 },
+      { "label": "¥300-500", "min": 300, "max": 500 },
+      { "label": "¥500-1000", "min": 500, "max": 1000 },
+      { "label": "¥1000+", "min": 1000, "max": 999999 }
+    ]
+  },
+  "categories": {
+    "frame": {
+      "label": "机架",
+      "icon": "Box",
+      "description": "穿越机骨架，决定机型和尺寸",
+      "color": "#00f0ff"
+    },
+    "motor": {
+      "label": "电机",
+      "icon": "Zap",
+      "description": "动力核心，影响飞行性能",
+      "color": "#ff00a0"
+    },
+    "propeller": {
+      "label": "桨叶",
+      "icon": "Wind",
+      "description": "产生升力，影响效率和手感",
+      "color": "#00ff88"
+    },
+    "esc": {
+      "label": "电调",
+      "icon": "Cpu",
+      "description": "控制电机转速",
+      "color": "#ffaa00"
+    },
+    "fc": {
+      "label": "飞控",
+      "icon": "CircuitBoard",
+      "description": "飞行控制器，大脑中枢",
+      "color": "#aa00ff"
+    },
+    "camera": {
+      "label": "摄像头",
+      "icon": "Camera",
+      "description": "图传摄像头",
+      "color": "#ff5500"
+    },
+    "vtx": {
+      "label": "图传",
+      "icon": "Radio",
+      "description": "视频发射器",
+      "color": "#00aaff"
+    },
+    "antenna": {
+      "label": "天线",
+      "icon": "Signal",
+      "description": "信号收发",
+      "color": "#ffdd00"
+    },
+    "receiver": {
+      "label": "接收机",
+      "icon": "Wifi",
+      "description": "遥控信号接收",
+      "color": "#00ffcc"
+    },
+    "battery": {
+      "label": "电池",
+      "icon": "Battery",
+      "description": "动力来源",
+      "color": "#ff3333"
+    },
+    "goggle": {
+      "label": "眼镜",
+      "icon": "Glasses",
+      "description": "FPV视频眼镜",
+      "color": "#aa66ff"
+    },
+    "radio": {
+      "label": "遥控器",
+      "icon": "Gamepad2",
+      "description": "遥控发射器",
+      "color": "#66aaff"
+    },
+    "charger": {
+      "label": "充电器",
+      "icon": "Plug",
+      "description": "电池充电设备",
+      "color": "#88ff00"
+    },
+    "accessory": {
+      "label": "配件",
+      "icon": "Tool",
+      "description": "其他配件",
+      "color": "#cccccc"
+    }
+  },
+  "skillLevels": {
+    "entry": {
+      "label": "入门",
+      "description": "适合新手，性价比高",
+      "color": "#00ff88"
+    },
+    "intermediate": {
+      "label": "进阶",
+      "description": "性能均衡，适合练习",
+      "color": "#ffaa00"
+    },
+    "advanced": {
+      "label": "高级",
+      "description": "高性能，适合竞速",
+      "color": "#ff5500"
+    },
+    "professional": {
+      "label": "专业",
+      "description": "顶级配置，专业玩家",
+      "color": "#ff00a0"
+    }
+  },
+  "origins": {
+    "domestic": {
+      "label": "国产",
+      "description": "中国品牌",
+      "color": "#ff3333"
+    },
+    "international": {
+      "label": "国际",
+      "description": "国际品牌",
+      "color": "#00aaff"
+    }
+  },
+  "scenes": [
+    "花飞",
+    "竞速",
+    "拍摄",
+    "入门",
+    "耐炸",
+    "性价比",
+    "下沉电机",
+    "轻量化",
+    "长续航",
+    "室内"
+  ]
+}
