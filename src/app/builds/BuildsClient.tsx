@@ -147,6 +147,40 @@ const levelLabels: Record<string, string> = {
   professional: '专业',
 };
 
+// 配置预设：预算 + 飞机属性
+const buildPresets = [
+  { id: 'all', label: '全部', budgetMax: 99999, level: null as string | null, frameSize: null as string | null, scene: null as string | null },
+  { id: '1000-entry', label: '1000以内新手', budgetMax: 1000, level: 'entry', frameSize: null, scene: null },
+  { id: '3000-5inch', label: '3000元五寸花飞', budgetMax: 3500, level: null, frameSize: '5寸', scene: '花飞' },
+  { id: '5000-kit', label: '5000元套机', budgetMax: 5500, level: null, frameSize: null, scene: null },
+  { id: '8000-pro', label: '8000+ 专业', budgetMax: 99999, level: 'professional', frameSize: null, scene: null },
+];
+
+// 各类别关键属性用于筛选
+const categorySpecFilters: Record<string, { specKey: string; labelKey: string }[]> = {
+  frame: [{ specKey: '尺寸', labelKey: '尺寸' }],
+  motor: [{ specKey: 'KV值', labelKey: 'KV' }, { specKey: '支持电压', labelKey: '电压' }],
+  propeller: [{ specKey: '尺寸', labelKey: '尺寸' }],
+  esc: [{ specKey: '持续电流', labelKey: '电流' }],
+  battery: [{ specKey: '电芯数', labelKey: '电芯' }],
+  fc: [],
+  camera: [{ specKey: '分辨率', labelKey: '分辨率' }],
+  vtx: [{ specKey: '功率', labelKey: '功率' }, { specKey: '类型', labelKey: '类型' }],
+  antenna: [],
+  receiver: [],
+  goggle: [],
+  radio: [],
+};
+
+function extractSpecValues(items: FPVComponent[], specKey: string): string[] {
+  const set = new Set<string>();
+  items.forEach((c) => {
+    const v = c.specs?.[specKey];
+    if (v != null && v !== '' && v !== '-') set.add(String(v));
+  });
+  return Array.from(set).sort();
+}
+
 export default function BuildsClient({ initialComponents }: BuildsClientProps) {
   const [components, setComponents] = useState(initialComponents);
   const [selectedComponents, setSelectedComponents] = useState<Record<string, FPVComponent | null>>({
@@ -169,6 +203,8 @@ export default function BuildsClient({ initialComponents }: BuildsClientProps) {
   const [buildName, setBuildName] = useState('');
   const [buildDescription, setBuildDescription] = useState('');
   const [saving, setSaving] = useState(false);
+  const [presetId, setPresetId] = useState<string>('all');
+  const [selectorSpecFilter, setSelectorSpecFilter] = useState<Record<string, string>>({}); // category -> specKey:value
 
   // 从 API 拉取最新部件数据，与数据库保持一致
   useEffect(() => {
@@ -202,6 +238,42 @@ export default function BuildsClient({ initialComponents }: BuildsClientProps) {
     () => getCompatibilityWarnings(selectedComponents),
     [selectedComponents]
   );
+
+  const preset = buildPresets.find((p) => p.id === presetId) || buildPresets[0];
+
+  // 根据预设过滤部件
+  const filteredComponents = useMemo(() => {
+    const out: Record<string, FPVComponent[]> = {};
+    const avgBudget = preset.budgetMax < 99999 ? preset.budgetMax / 12 : 9999;
+    const priceCap = preset.budgetMax < 99999 ? avgBudget * (preset.id === '5000-kit' ? 2.2 : 1.5) : 9999;
+    Object.entries(components).forEach(([cat, items]) => {
+      out[cat] = items.filter((c) => {
+        if (preset.level && c.level !== preset.level) return false;
+        if (preset.budgetMax < 99999 && c.price > priceCap) return false;
+        if (preset.frameSize) {
+          const size = String(c.specs?.['尺寸'] || c.specs?.['寸'] || '').replace(/[^\d寸]/g, '');
+          if (size && !size.includes(preset.frameSize.replace(/[^\d寸]/g, ''))) return false;
+        }
+        if (preset.scene && c.scenes?.length && !c.scenes.includes(preset.scene)) return false;
+        return true;
+      });
+    });
+    return out;
+  }, [components, preset]);
+
+  // 选择器弹窗内按关键属性筛选后的列表
+  const selectorFilteredItems = useMemo(() => {
+    if (!showSelector) return [];
+    const items = filteredComponents[showSelector] || [];
+    const active = Object.entries(selectorSpecFilter).filter(([, v]) => v);
+    if (active.length === 0) return items;
+    return items.filter((c) =>
+      active.every(([specKey, val]) => {
+        const v = c.specs?.[specKey];
+        return v != null && (String(v).includes(val) || String(v) === val);
+      })
+    );
+  }, [showSelector, filteredComponents, selectorSpecFilter]);
 
   function handleSelectComponent(category: string, component: FPVComponent) {
     setSelectedComponents(prev => ({
@@ -274,8 +346,27 @@ export default function BuildsClient({ initialComponents }: BuildsClientProps) {
         </p>
       </div>
 
-      {/* Sticky Summary Bar - Always visible for quick save */}
-      <div className="sticky top-0 z-10 -mx-4 px-4 py-3 mb-6 bg-[#0a0a0f]/95 backdrop-blur-sm border-b border-[rgba(0,240,255,0.15)]">
+      {/* Sticky Filter + Summary Bar */}
+      <div className="sticky top-0 z-20 -mx-4 px-4 pt-3 pb-3 mb-6 bg-[#0a0a0f]/98 backdrop-blur-sm border-b border-[rgba(0,240,255,0.15)] space-y-3">
+        {/* 预算及飞机属性预设 */}
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="text-xs text-[#888] shrink-0">配置预设:</span>
+          {buildPresets.map((p) => (
+            <button
+              key={p.id}
+              onClick={() => setPresetId(p.id)}
+              className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
+                presetId === p.id
+                  ? 'bg-[#00f0ff] text-[#0a0a0f]'
+                  : 'bg-[#1a1a25] text-[#888] hover:text-white hover:bg-[rgba(0,240,255,0.15)]'
+              }`}
+            >
+              {p.label}
+            </button>
+          ))}
+        </div>
+
+        {/* Stats + Actions */}
         <div className="flex flex-wrap items-center gap-4">
           {/* Stats - Compact inline */}
           <div className="flex items-center gap-6">
@@ -350,7 +441,7 @@ export default function BuildsClient({ initialComponents }: BuildsClientProps) {
 
       {/* Component Selection - Denser grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
-        {Object.entries(components).map(([category, items]) => {
+        {Object.entries(filteredComponents).map(([category, items]) => {
           const config = categoryLabels[category] || { label: category, icon: Box, color: '#888' };
           const Icon = config.icon;
           const selected = selectedComponents[category];
@@ -442,15 +533,72 @@ export default function BuildsClient({ initialComponents }: BuildsClientProps) {
       </div>
 
       {/* Component Selector Dialog */}
-      <Dialog open={!!showSelector} onOpenChange={() => setShowSelector(null)}>
-        <DialogContent className="bg-[#12121a] border-[rgba(0,240,255,0.2)] max-w-2xl max-h-[80vh] overflow-auto">
+      <Dialog
+        open={!!showSelector}
+        onOpenChange={(open) => {
+          if (!open) {
+            setShowSelector(null);
+            setSelectorSpecFilter({});
+          }
+        }}
+      >
+        <DialogContent className="bg-[#12121a] border-[rgba(0,240,255,0.2)] max-w-2xl max-h-[85vh] overflow-hidden flex flex-col">
           <DialogHeader>
             <DialogTitle className="text-white">
               选择{showSelector ? categoryLabels[showSelector]?.label : ''}
             </DialogTitle>
           </DialogHeader>
-          <div className="space-y-2 mt-4">
-            {showSelector && components[showSelector]?.map((item) => (
+          {/* 关键属性筛选 */}
+          {showSelector && (categorySpecFilters[showSelector]?.length ?? 0) > 0 && (
+            <div className="flex flex-wrap items-center gap-2 mt-2 border-b border-[rgba(0,240,255,0.1)] pb-3">
+              {categorySpecFilters[showSelector].map(({ specKey, labelKey }) => {
+                const items = filteredComponents[showSelector] || [];
+                const values = extractSpecValues(items, specKey);
+                if (values.length === 0) return null;
+                return (
+                  <div key={specKey} className="flex items-center gap-1.5 flex-wrap">
+                    <span className="text-xs text-[#888]">{labelKey}:</span>
+                    <button
+                      onClick={() =>
+                        setSelectorSpecFilter((prev) => {
+                          const next = { ...prev };
+                          delete next[specKey];
+                          return next;
+                        })
+                      }
+                      className={`px-2 py-1 rounded text-xs ${
+                        !selectorSpecFilter[specKey]
+                          ? 'bg-[#00f0ff] text-[#0a0a0f]'
+                          : 'bg-[#1a1a25] text-[#888] hover:text-white'
+                      }`}
+                    >
+                      全部
+                    </button>
+                    {values.map((v) => (
+                      <button
+                        key={v}
+                        onClick={() =>
+                          setSelectorSpecFilter((prev) => ({
+                            ...prev,
+                            [specKey]: prev[specKey] === v ? '' : v,
+                          }))
+                        }
+                        className={`px-2 py-1 rounded text-xs ${
+                          selectorSpecFilter[specKey] === v
+                            ? 'bg-[#00f0ff] text-[#0a0a0f]'
+                            : 'bg-[#1a1a25] text-[#888] hover:text-white'
+                        }`}
+                      >
+                        {v}
+                      </button>
+                    ))}
+                  </div>
+                );
+              })}
+            </div>
+          )}
+          <div className="space-y-2 mt-4 overflow-auto flex-1 min-h-0">
+            {showSelector && selectorFilteredItems.map((item) => (
               <div
                 key={item.id}
                 className="flex items-center justify-between gap-4 p-4 rounded-lg bg-[#0a0a0f] hover:bg-[rgba(0,240,255,0.05)] transition-colors"
