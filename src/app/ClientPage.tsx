@@ -17,11 +17,13 @@ import {
   Search, 
   Grid3X3, 
   List, 
-  Loader2,
   ChevronLeft,
   ChevronRight,
-  Cpu
+  Cpu,
+  Scale
 } from 'lucide-react';
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
+import { Badge } from '@/components/ui/badge';
 
 const sortOptions: { value: SortOption; label: string }[] = [
   { value: 'price-asc', label: '价格: 低到高' },
@@ -53,8 +55,16 @@ export function ClientPage({ initialComponents, brands, scenes, priceRange }: Cl
     scenes: [],
     inStockOnly: false,
   });
+  const [detailComponent, setDetailComponent] = useState<FPVComponent | null>(null);
 
   const pageSize = 24;
+
+  const levelLabels: Record<string, string> = {
+    entry: '入门',
+    intermediate: '进阶',
+    advanced: '高级',
+    professional: '专业',
+  };
 
   // Apply filters and sorting
   const filteredComponents = useMemo(() => {
@@ -128,12 +138,18 @@ export function ClientPage({ initialComponents, brands, scenes, priceRange }: Cl
     return result;
   }, [initialComponents, filters, sort, searchQuery]);
 
-  const totalPages = Math.ceil(filteredComponents.length / pageSize);
+  const totalPages = Math.max(1, Math.ceil(filteredComponents.length / pageSize));
 
-  // Reset page when filters change
+  // Reset page when filters change, and clamp to valid range
   useEffect(() => {
     setPage(1);
   }, [filters, sort, searchQuery]);
+
+  useEffect(() => {
+    if (page > totalPages && totalPages >= 1) {
+      setPage(totalPages);
+    }
+  }, [page, totalPages]);
 
   // Paginate results
   const paginatedComponents = filteredComponents.slice(
@@ -142,7 +158,7 @@ export function ClientPage({ initialComponents, brands, scenes, priceRange }: Cl
   );
 
   const handleComponentClick = (component: FPVComponent) => {
-    console.log('Clicked:', component);
+    setDetailComponent(component);
   };
 
   return (
@@ -241,20 +257,19 @@ export function ClientPage({ initialComponents, brands, scenes, priceRange }: Cl
                   >
                     <ChevronLeft className="w-4 h-4" />
                   </Button>
-                  
+
                   <div className="flex gap-1">
                     {Array.from({ length: Math.min(5, totalPages) }, (_, i) => {
-                      const pageNum = Math.min(
-                        Math.max(page - 2 + i, 1),
-                        Math.max(totalPages - 4, 1)
-                      );
+                      const startPage = Math.max(1, Math.min(page - 2, totalPages - 4));
+                      const pageNum = Math.min(startPage + i, totalPages);
                       return (
-                        <Button key={pageNum}
+                        <Button
+                          key={pageNum}
                           variant={page === pageNum ? 'default' : 'outline'}
                           size="sm"
                           onClick={() => setPage(pageNum)}
-                          className={page === pageNum 
-                            ? 'bg-[#00f0ff] text-[#0a0a0f] hover:bg-[#00d0dd]' 
+                          className={page === pageNum
+                            ? 'bg-[#00f0ff] text-[#0a0a0f] hover:bg-[#00d0dd]'
                             : 'border-[rgba(0,240,255,0.2)] text-white hover:bg-[rgba(0,240,255,0.1)]'
                           }
                         >
@@ -263,7 +278,7 @@ export function ClientPage({ initialComponents, brands, scenes, priceRange }: Cl
                       );
                     })}
                   </div>
-                  
+
                   <Button
                     variant="outline"
                     size="sm"
@@ -284,6 +299,75 @@ export function ClientPage({ initialComponents, brands, scenes, priceRange }: Cl
           )}
         </div>
       </div>
+
+      {/* Component Detail Dialog */}
+      <Dialog open={!!detailComponent} onOpenChange={() => setDetailComponent(null)}>
+        <DialogContent className="bg-[#12121a] border-[rgba(0,240,255,0.2)] max-w-lg max-h-[85vh] overflow-auto">
+          <DialogHeader>
+            <DialogTitle className="text-white">
+              {detailComponent?.name}
+            </DialogTitle>
+          </DialogHeader>
+          {detailComponent && (
+            <div className="space-y-4 mt-4">
+              <div className="flex items-start justify-between gap-4">
+                <div>
+                  <p className="text-[#888] text-sm">{detailComponent.brand}</p>
+                  <p className="text-[#666] text-xs">{detailComponent.sku}</p>
+                </div>
+                <div className="text-right">
+                  <p className="text-2xl font-bold text-[#00f0ff]">¥{detailComponent.price}</p>
+                  <Badge variant="outline" className="text-xs border-[#00ff88] text-[#00ff88]">
+                    {levelLabels[detailComponent.level]}
+                  </Badge>
+                </div>
+              </div>
+              {detailComponent.specs && Object.keys(detailComponent.specs).length > 0 && (
+                <div>
+                  <p className="text-sm text-[#888] mb-2">规格参数</p>
+                  <div className="flex flex-wrap gap-2">
+                    {Object.entries(detailComponent.specs).map(([k, v]) => (
+                      <span
+                        key={k}
+                        className="text-xs px-2 py-1 rounded bg-[#0a0a0f] text-[#aaa] border border-[rgba(0,240,255,0.1)]"
+                      >
+                        {k}: {String(v)}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+              {(detailComponent.weight || detailComponent.rating) && (
+                <div className="flex gap-4 text-sm text-[#888]">
+                  {detailComponent.weight && (
+                    <span className="flex items-center gap-1">
+                      <Scale className="w-4 h-4" />{detailComponent.weight}g
+                    </span>
+                  )}
+                  {detailComponent.rating && (
+                    <span>评分 {detailComponent.rating}</span>
+                  )}
+                </div>
+              )}
+              {detailComponent.scenes && detailComponent.scenes.length > 0 && (
+                <div className="flex flex-wrap gap-1">
+                  {detailComponent.scenes.map((scene: string) => (
+                    <span
+                      key={scene}
+                      className="text-xs px-2 py-0.5 rounded-full bg-[rgba(0,240,255,0.1)] text-[#00f0ff] border border-[rgba(0,240,255,0.2)]"
+                    >
+                      {scene}
+                    </span>
+                  ))}
+                </div>
+              )}
+              {detailComponent.remarks && (
+                <p className="text-sm text-[#888]">{detailComponent.remarks}</p>
+              )}
+            </div>
+          )}
+        </DialogContent>
+      </Dialog>
     </>
   );
 }
