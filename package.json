@@ -11,7 +11,8 @@
     "start": "next start",
     "lint": "eslint",
     "mongodb:start": "bash src/scripts/start-mongodb.sh",
-    "mongodb:test": "tsx src/scripts/test-mongodb.ts"
+    "mongodb:test": "tsx src/scripts/test-mongodb.ts",
+    "mongodb:import": "tsx src/scripts/import-data.ts"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
@@ -33,6 +34,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "tailwindcss": "^4",
+    "tsx": "^4.21.0",
     "typescript": "^5"
   }
 }
