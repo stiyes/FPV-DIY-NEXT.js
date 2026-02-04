@@ -17,7 +17,9 @@ import {
   Scale,
   X,
   Eye,
-  AlertTriangle
+  AlertTriangle,
+  Star,
+  Sparkles
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
@@ -147,14 +149,122 @@ const levelLabels: Record<string, string> = {
   professional: '专业',
 };
 
-// 配置预设：预算 + 飞机属性
-const buildPresets = [
-  { id: 'all', label: '全部', budgetMax: 99999, level: null as string | null, frameSize: null as string | null, scene: null as string | null },
-  { id: '1000-entry', label: '1000以内新手', budgetMax: 1000, level: 'entry', frameSize: null, scene: null },
-  { id: '3000-5inch', label: '3000元五寸花飞', budgetMax: 3500, level: null, frameSize: '5寸', scene: '花飞' },
-  { id: '5000-kit', label: '5000元套机', budgetMax: 5500, level: null, frameSize: null, scene: null },
-  { id: '8000-pro', label: '8000+ 专业', budgetMax: 99999, level: 'professional', frameSize: null, scene: null },
+// 配置预设过滤标签（组合式）
+const filterTagGroups = {
+  price: [
+    { id: 'p1', label: '1000内', max: 1000 },
+    { id: 'p2', label: '3000内', max: 3000 },
+    { id: 'p3', label: '5000内', max: 5000 },
+    { id: 'p4', label: '8000内', max: 8000 },
+    { id: 'p5', label: '不限', max: 99999 },
+  ],
+  level: [
+    { id: 'entry', label: '入门' },
+    { id: 'intermediate', label: '进阶' },
+    { id: 'advanced', label: '高级' },
+    { id: 'professional', label: '专业' },
+  ],
+  size: [
+    { id: '2.5寸', label: '2.5寸' },
+    { id: '3寸', label: '3寸' },
+    { id: '3.5寸', label: '3.5寸' },
+    { id: '5寸', label: '5寸' },
+    { id: '7寸', label: '7寸' },
+  ],
+  scene: [
+    { id: '花飞', label: '花飞' },
+    { id: '竞速', label: '竞速' },
+    { id: '长途', label: '长途' },
+    { id: '拍摄', label: '拍摄' },
+    { id: '入门', label: '入门' },
+    { id: '性价比', label: '性价比' },
+    { id: '耐炸', label: '耐炸' },
+    { id: '轻量化', label: '轻量化' },
+  ],
+};
+
+// 部件分类按整机重要性排序（机架优先，依次核心动力→图传→外设）
+const CATEGORY_ORDER: { key: string; importance: number; desc: string }[] = [
+  { key: 'frame', importance: 1, desc: '机架决定整机尺寸与结构，优先选择' },
+  { key: 'motor', importance: 2, desc: '电机与机架尺寸匹配，决定动力特性' },
+  { key: 'propeller', importance: 3, desc: '桨叶尺寸需与机架一致' },
+  { key: 'esc', importance: 4, desc: '电调电流需匹配电机需求' },
+  { key: 'fc', importance: 5, desc: '飞控孔距需与机架兼容' },
+  { key: 'camera', importance: 6, desc: '摄像头供电与图传匹配' },
+  { key: 'vtx', importance: 7, desc: '图传功率影响飞行距离' },
+  { key: 'antenna', importance: 8, desc: '天线影响信号质量' },
+  { key: 'receiver', importance: 9, desc: '接收机需与遥控器协议匹配' },
+  { key: 'battery', importance: 10, desc: '电池S数与电机KV配合' },
+  { key: 'goggle', importance: 11, desc: '眼镜需支持图传协议' },
+  { key: 'radio', importance: 12, desc: '遥控器需与接收机协议匹配' },
 ];
+
+// 判断部件是否与已选机架匹配（推荐）
+function isRecommendedForFrame(comp: FPVComponent, frame: FPVComponent | null): { ok: boolean; reason?: string } {
+  if (!frame?.specs) return { ok: false };
+  const frameSize = String(frame.specs['尺寸'] || frame.specs['寸'] || '').replace(/[^\d.寸]/g, '');
+  const frameMount = String(frame.specs['安装孔'] || frame.specs['飞控孔'] || '');
+
+  if (comp.category === 'propeller' || comp.category === 'motor') {
+    const compSize = String(comp.specs?.['尺寸'] || comp.specs?.['寸'] || comp.specs?.['桨叶'] || '').replace(/[^\d.寸]/g, '');
+    if (frameSize && compSize && (frameSize.includes(compSize) || compSize.includes(frameSize))) {
+      return { ok: true, reason: `与机架${frameSize}尺寸匹配` };
+    }
+    if (frameSize && compSize) return { ok: false };
+  }
+  if (comp.category === 'fc') {
+    const fcMount = String(comp.specs?.['安装'] || comp.specs?.['孔距'] || '');
+    if (frameMount && fcMount && frameMount.includes(fcMount.replace(/[^\d.]/g, ''))) {
+      return { ok: true, reason: `安装孔距与机架兼容` };
+    }
+  }
+  if (comp.category === 'esc' || comp.category === 'battery' || comp.category === 'camera' || comp.category === 'vtx') {
+    const compSize = String(comp.specs?.['尺寸'] || comp.specs?.['寸'] || '').replace(/[^\d.寸]/g, '');
+    if (!compSize) return { ok: false };
+    if (frameSize && compSize && (frameSize.includes(compSize) || compSize.includes(frameSize))) {
+      return { ok: true, reason: `适用于${frameSize}机型` };
+    }
+  }
+  return { ok: false };
+}
+
+// 整机评分
+function getBuildScores(selected: Record<string, FPVComponent | null>): {
+  costPerformance: number;
+  functionality: number;
+  scalability: number;
+  labels: string[];
+} {
+  const comps = Object.values(selected).filter(Boolean) as FPVComponent[];
+  const totalPrice = comps.reduce((s, c) => s + (c?.price || 0), 0);
+  const count = comps.length;
+
+  let costPerformance = 50;
+  const avgRating = comps.reduce((s, c) => s + (c.rating || 0), 0) / (count || 1);
+  if (totalPrice > 0) {
+    const valueScore = (avgRating * 20) / Math.log10(totalPrice + 100);
+    costPerformance = Math.min(100, Math.round(30 + valueScore));
+  }
+
+  let functionality = Math.round((count / 12) * 60 + (avgRating / 5) * 40);
+  functionality = Math.min(100, functionality);
+
+  let scalability = 40;
+  const hasMountOptions = comps.some(c => c.specs?.['安装孔'] || c.specs?.['孔距'] || c.mounting);
+  const hasCompatible = comps.some(c => (c.compatibleWith?.length ?? 0) > 0);
+  if (hasMountOptions) scalability += 25;
+  if (hasCompatible) scalability += 20;
+  if (count >= 8) scalability += 15;
+  scalability = Math.min(100, scalability);
+
+  const labels: string[] = [];
+  if (costPerformance >= 75) labels.push('性价比突出');
+  else if (costPerformance < 50) labels.push('可考虑优化预算');
+  if (functionality >= 80) labels.push('功能完整');
+  if (scalability >= 70) labels.push('便于后续升级');
+
+  return { costPerformance, functionality, scalability, labels };
+}
 
 // 各类别关键属性用于筛选
 const categorySpecFilters: Record<string, { specKey: string; labelKey: string }[]> = {
@@ -203,8 +313,13 @@ export default function BuildsClient({ initialComponents }: BuildsClientProps) {
   const [buildName, setBuildName] = useState('');
   const [buildDescription, setBuildDescription] = useState('');
   const [saving, setSaving] = useState(false);
-  const [presetId, setPresetId] = useState<string>('all');
-  const [selectorSpecFilter, setSelectorSpecFilter] = useState<Record<string, string>>({}); // category -> specKey:value
+  const [filterTags, setFilterTags] = useState<{
+    price: string;
+    level: string | null;
+    size: string | null;
+    scene: string | null;
+  }>({ price: 'p5', level: null, size: null, scene: null });
+  const [selectorSpecFilter, setSelectorSpecFilter] = useState<Record<string, string>>({});
 
   // 从 API 拉取最新部件数据，与数据库保持一致
   useEffect(() => {
@@ -239,27 +354,39 @@ export default function BuildsClient({ initialComponents }: BuildsClientProps) {
     [selectedComponents]
   );
 
-  const preset = buildPresets.find((p) => p.id === presetId) || buildPresets[0];
+  const buildScores = useMemo(
+    () => getBuildScores(selectedComponents),
+    [selectedComponents]
+  );
 
-  // 根据预设过滤部件
+  const priceMax = filterTagGroups.price.find(p => p.id === filterTags.price)?.max ?? 99999;
+
+  // 根据过滤标签组合过滤部件
   const filteredComponents = useMemo(() => {
     const out: Record<string, FPVComponent[]> = {};
-    const avgBudget = preset.budgetMax < 99999 ? preset.budgetMax / 12 : 9999;
-    const priceCap = preset.budgetMax < 99999 ? avgBudget * (preset.id === '5000-kit' ? 2.2 : 1.5) : 9999;
+    const avgBudget = priceMax < 99999 ? priceMax / 12 : 9999;
+    const priceCap = priceMax < 99999 ? avgBudget * 1.8 : 9999;
     Object.entries(components).forEach(([cat, items]) => {
       out[cat] = items.filter((c) => {
-        if (preset.level && c.level !== preset.level) return false;
-        if (preset.budgetMax < 99999 && c.price > priceCap) return false;
-        if (preset.frameSize) {
-          const size = String(c.specs?.['尺寸'] || c.specs?.['寸'] || '').replace(/[^\d寸]/g, '');
-          if (size && !size.includes(preset.frameSize.replace(/[^\d寸]/g, ''))) return false;
+        if (filterTags.level && c.level !== filterTags.level) return false;
+        if (priceMax < 99999 && c.price > priceCap) return false;
+        if (filterTags.size) {
+          const size = String(c.specs?.['尺寸'] || c.specs?.['寸'] || '').replace(/[^\d.寸]/g, '');
+          if (size && !size.includes(filterTags.size.replace(/[^\d.寸]/g, ''))) return false;
         }
-        if (preset.scene && c.scenes?.length && !c.scenes.includes(preset.scene)) return false;
+        if (filterTags.scene && c.scenes?.length && !c.scenes.includes(filterTags.scene)) return false;
         return true;
       });
     });
     return out;
-  }, [components, preset]);
+  }, [components, filterTags, priceMax]);
+
+  const orderedCategories = useMemo(() => {
+    const orderMap = Object.fromEntries(CATEGORY_ORDER.map((o) => [o.key, { ...o }]));
+    return Object.entries(filteredComponents)
+      .map(([key, items]) => ({ key, items, meta: orderMap[key] || { desc: '', importance: 99 } }))
+      .sort((a, b) => (a.meta.importance ?? 99) - (b.meta.importance ?? 99));
+  }, [filteredComponents]);
 
   // 选择器弹窗内按关键属性筛选后的列表
   const selectorFilteredItems = useMemo(() => {
@@ -348,27 +475,60 @@ export default function BuildsClient({ initialComponents }: BuildsClientProps) {
 
       {/* Sticky Filter + Summary Bar */}
       <div className="sticky top-0 z-20 -mx-4 px-4 pt-3 pb-3 mb-6 bg-[#0a0a0f]/98 backdrop-blur-sm border-b border-[rgba(0,240,255,0.15)] space-y-3">
-        {/* 预算及飞机属性预设 */}
-        <div className="flex flex-wrap items-center gap-2">
-          <span className="text-xs text-[#888] shrink-0">配置预设:</span>
-          {buildPresets.map((p) => (
-            <button
-              key={p.id}
-              onClick={() => setPresetId(p.id)}
-              className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
-                presetId === p.id
-                  ? 'bg-[#00f0ff] text-[#0a0a0f]'
-                  : 'bg-[#1a1a25] text-[#888] hover:text-white hover:bg-[rgba(0,240,255,0.15)]'
-              }`}
-            >
-              {p.label}
-            </button>
-          ))}
+        {/* 组合式过滤标签 */}
+        <div className="flex flex-col gap-2">
+          <div className="flex flex-wrap items-center gap-3">
+            <span className="text-xs text-[#888] shrink-0">价格:</span>
+            {filterTagGroups.price.map((p) => (
+              <button
+                key={p.id}
+                onClick={() => setFilterTags(t => ({ ...t, price: p.id }))}
+                className={`px-2.5 py-1 rounded-full text-xs ${filterTags.price === p.id ? 'bg-[#00f0ff] text-[#0a0a0f]' : 'bg-[#1a1a25] text-[#888] hover:text-white'}`}
+              >
+                {p.label}
+              </button>
+            ))}
+          </div>
+          <div className="flex flex-wrap items-center gap-3">
+            <span className="text-xs text-[#888] shrink-0">级别:</span>
+            {filterTagGroups.level.map((p) => (
+              <button
+                key={p.id}
+                onClick={() => setFilterTags(t => ({ ...t, level: filterTags.level === p.id ? null : p.id }))}
+                className={`px-2.5 py-1 rounded-full text-xs ${filterTags.level === p.id ? 'bg-[#00f0ff] text-[#0a0a0f]' : 'bg-[#1a1a25] text-[#888] hover:text-white'}`}
+              >
+                {p.label}
+              </button>
+            ))}
+          </div>
+          <div className="flex flex-wrap items-center gap-3">
+            <span className="text-xs text-[#888] shrink-0">尺寸:</span>
+            {filterTagGroups.size.map((p) => (
+              <button
+                key={p.id}
+                onClick={() => setFilterTags(t => ({ ...t, size: filterTags.size === p.id ? null : p.id }))}
+                className={`px-2.5 py-1 rounded-full text-xs ${filterTags.size === p.id ? 'bg-[#00f0ff] text-[#0a0a0f]' : 'bg-[#1a1a25] text-[#888] hover:text-white'}`}
+              >
+                {p.label}
+              </button>
+            ))}
+          </div>
+          <div className="flex flex-wrap items-center gap-3">
+            <span className="text-xs text-[#888] shrink-0">场景:</span>
+            {filterTagGroups.scene.map((p) => (
+              <button
+                key={p.id}
+                onClick={() => setFilterTags(t => ({ ...t, scene: filterTags.scene === p.id ? null : p.id }))}
+                className={`px-2.5 py-1 rounded-full text-xs ${filterTags.scene === p.id ? 'bg-[#00f0ff] text-[#0a0a0f]' : 'bg-[#1a1a25] text-[#888] hover:text-white'}`}
+              >
+                {p.label}
+              </button>
+            ))}
+          </div>
         </div>
 
-        {/* Stats + Actions */}
+        {/* Stats + Build Scores + Actions */}
         <div className="flex flex-wrap items-center gap-4">
-          {/* Stats - Compact inline */}
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
               <DollarSign className="w-4 h-4 text-[#00f0ff]" />
@@ -382,6 +542,32 @@ export default function BuildsClient({ initialComponents }: BuildsClientProps) {
               <Cpu className="w-4 h-4 text-[#ffaa00]" />
               <span className="text-sm text-[#888]">{selectedCount}/12 部件</span>
             </div>
+            {selectedCount > 0 && (
+              <div className="flex items-center gap-3 pl-3 border-l border-[rgba(0,240,255,0.2)]">
+                <span className="text-xs text-[#888]">整机评分</span>
+                <div className="flex items-center gap-2" title="性价比">
+                  <Star className="w-3.5 h-3.5 text-amber-400" />
+                  <span className="text-xs text-white">{buildScores.costPerformance}</span>
+                </div>
+                <div className="flex items-center gap-2" title="功能性">
+                  <Zap className="w-3.5 h-3.5 text-[#00ff88]" />
+                  <span className="text-xs text-white">{buildScores.functionality}</span>
+                </div>
+                <div className="flex items-center gap-2" title="可扩展性">
+                  <Wrench className="w-3.5 h-3.5 text-[#00f0ff]" />
+                  <span className="text-xs text-white">{buildScores.scalability}</span>
+                </div>
+                {buildScores.labels.length > 0 && (
+                  <div className="flex flex-wrap gap-1">
+                    {buildScores.labels.map((l, i) => (
+                      <span key={i} className="text-[10px] px-1.5 py-0.5 rounded bg-[rgba(0,240,255,0.15)] text-[#00f0ff]">
+                        {l}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
           </div>
           {/* Actions - Prominent save */}
           <div className="flex items-center gap-2 ml-auto">
@@ -439,16 +625,18 @@ export default function BuildsClient({ initialComponents }: BuildsClientProps) {
         )}
       </div>
 
-      {/* Component Selection - Denser grid */}
+      {/* Component Selection - 按整机重要性排序 */}
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
-        {Object.entries(filteredComponents).map(([category, items]) => {
+        {orderedCategories.map(({ key: category, items, meta }) => {
           const config = categoryLabels[category] || { label: category, icon: Box, color: '#888' };
           const Icon = config.icon;
           const selected = selectedComponents[category];
+          const frame = selectedComponents.frame;
+          const isFrameFirst = category === 'frame';
           
           return (
             <Card key={category} className="bg-[#12121a] border-[rgba(0,240,255,0.15)] p-3">
-              <div className="flex items-center gap-2 mb-3">
+              <div className="flex items-center gap-2 mb-2">
                 <div
                   className="w-8 h-8 rounded-lg flex items-center justify-center shrink-0"
                   style={{ background: `${config.color}20`, border: `1px solid ${config.color}40` }}
@@ -480,16 +668,31 @@ export default function BuildsClient({ initialComponents }: BuildsClientProps) {
                   </Button>
                 )}
               </div>
+              {meta.desc && (
+                <p className="text-[10px] text-[#666] mb-2 px-1" title={meta.desc}>{meta.desc}</p>
+              )}
 
               <div className="space-y-1.5">
                 {items.length > 0 ? (
-                  items.slice(0, 5).map((item) => (
+                  items.slice(0, 5).map((item) => {
+                    const rec = !isFrameFirst && frame ? isRecommendedForFrame(item, frame) : { ok: false };
+                    return (
                     <div
                       key={item.id}
-                      className="flex items-center justify-between gap-2 p-2 rounded-md bg-[#0a0a0f] hover:bg-[rgba(0,240,255,0.05)] transition-colors"
+                      className={`flex items-center justify-between gap-2 p-2 rounded-md transition-colors ${
+                        rec.ok ? 'bg-[rgba(0,255,136,0.06)] border border-[rgba(0,255,136,0.2)]' : 'bg-[#0a0a0f] hover:bg-[rgba(0,240,255,0.05)]'
+                      }`}
+                      title={rec.ok ? rec.reason : undefined}
                     >
                       <div className="min-w-0 flex-1">
-                        <p className="text-sm text-white truncate">{item.name}</p>
+                        <div className="flex items-center gap-1.5">
+                          <p className="text-sm text-white truncate">{item.name}</p>
+                          {rec.ok && (
+                            <span title={rec.reason}>
+                              <Sparkles className="w-3 h-3 text-[#00ff88] shrink-0" />
+                            </span>
+                          )}
+                        </div>
                         <p className="text-xs text-[#888]">{item.brand}</p>
                       </div>
                       <div className="flex items-center gap-1 shrink-0">
@@ -513,7 +716,8 @@ export default function BuildsClient({ initialComponents }: BuildsClientProps) {
                         </button>
                       </div>
                     </div>
-                  ))
+                    );
+                  })
                 ) : null}
                 {items.length > 5 && (
                   <button
@@ -598,13 +802,27 @@ export default function BuildsClient({ initialComponents }: BuildsClientProps) {
             </div>
           )}
           <div className="space-y-2 mt-4 overflow-auto flex-1 min-h-0">
-            {showSelector && selectorFilteredItems.map((item) => (
+            {showSelector && selectorFilteredItems.map((item) => {
+              const rec = showSelector !== 'frame' && selectedComponents.frame
+                ? isRecommendedForFrame(item, selectedComponents.frame)
+                : { ok: false };
+              return (
               <div
                 key={item.id}
-                className="flex items-center justify-between gap-4 p-4 rounded-lg bg-[#0a0a0f] hover:bg-[rgba(0,240,255,0.05)] transition-colors"
+                className={`flex items-center justify-between gap-4 p-4 rounded-lg transition-colors ${
+                  rec.ok ? 'bg-[rgba(0,255,136,0.06)] border border-[rgba(0,255,136,0.2)]' : 'bg-[#0a0a0f] hover:bg-[rgba(0,240,255,0.05)]'
+                }`}
+                title={rec.ok ? rec.reason : undefined}
               >
                 <div className="min-w-0 flex-1">
-                  <p className="text-white font-medium">{item.name}</p>
+                  <div className="flex items-center gap-2">
+                    <p className="text-white font-medium">{item.name}</p>
+                    {rec.ok && (
+                      <span className="text-[10px] px-1.5 py-0.5 rounded bg-[#00ff88]/20 text-[#00ff88]">
+                        推荐
+                      </span>
+                    )}
+                  </div>
                   <p className="text-sm text-[#888]">{item.brand}</p>
                   {item.specs && Object.entries(item.specs).slice(0, 2).map(([k, v]) => (
                     <span key={k} className="text-xs text-[#666] mr-2">{k}: {v}</span>
@@ -632,7 +850,8 @@ export default function BuildsClient({ initialComponents }: BuildsClientProps) {
                   </Button>
                 </div>
               </div>
-            ))}
+              );
+            })}
           </div>
         </DialogContent>
       </Dialog>
