@@ -32,12 +32,7 @@ async function getComponentsByCategory() {
       byCategory[cat].push(c);
     }
   });
-  
-  // 每个类别只取前5个作为示例
-  Object.keys(byCategory).forEach(key => {
-    byCategory[key] = byCategory[key].slice(0, 5);
-  });
-  
+
   return byCategory;
 }
 
