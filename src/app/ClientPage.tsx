@@ -24,6 +24,8 @@ import {
 } from 'lucide-react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Badge } from '@/components/ui/badge';
+import { LEVEL_STYLES } from '@/lib/fpv-style';
+import { formatBrand } from '@/lib/utils';
 
 const sortOptions: { value: SortOption; label: string }[] = [
   { value: 'price-asc', label: '价格: 低到高' },
@@ -58,13 +60,6 @@ export function ClientPage({ initialComponents, brands, scenes, priceRange }: Cl
   const [detailComponent, setDetailComponent] = useState<FPVComponent | null>(null);
 
   const pageSize = 24;
-
-  const levelLabels: Record<string, string> = {
-    entry: '入门',
-    intermediate: '进阶',
-    advanced: '高级',
-    professional: '专业',
-  };
 
   // Apply filters and sorting
   const filteredComponents = useMemo(() => {
@@ -310,16 +305,46 @@ export function ClientPage({ initialComponents, brands, scenes, priceRange }: Cl
           </DialogHeader>
           {detailComponent && (
             <div className="space-y-4 mt-4">
+              {/* 部件主图 */}
+              {detailComponent.imageUrl && (
+                <div className="w-full rounded-lg overflow-hidden bg-[#0a0a0f] border border-[rgba(0,240,255,0.2)]">
+                  <img
+                    src={detailComponent.imageUrl}
+                    alt={detailComponent.name}
+                    className="w-full h-auto object-cover"
+                    onError={(e) => {
+                      // 如果图片加载失败，使用占位图
+                      const target = e.target as HTMLImageElement;
+                      target.src = `https://via.placeholder.com/400x300/0a0a0f/00f0ff?text=${encodeURIComponent(detailComponent.name)}`;
+                    }}
+                  />
+                </div>
+              )}
               <div className="flex items-start justify-between gap-4">
                 <div>
-                  <p className="text-[#888] text-sm">{detailComponent.brand}</p>
+                  <p className="text-[#888] text-sm">
+                    {formatBrand(detailComponent)}
+                  </p>
                   <p className="text-[#666] text-xs">{detailComponent.sku}</p>
                 </div>
                 <div className="text-right">
                   <p className="text-2xl font-bold text-[#00f0ff]">¥{detailComponent.price}</p>
-                  <Badge variant="outline" className="text-xs border-[#00ff88] text-[#00ff88]">
-                    {levelLabels[detailComponent.level]}
-                  </Badge>
+                  {(() => {
+                    const levelInfo = LEVEL_STYLES[detailComponent.level] || { label: detailComponent.level, color: '#888' };
+                    return (
+                      <Badge
+                        variant="outline"
+                        className="text-xs px-2 py-0.5"
+                        style={{
+                          borderColor: levelInfo.color + '40',
+                          color: levelInfo.color,
+                          backgroundColor: levelInfo.color + '10',
+                        }}
+                      >
+                        {levelInfo.label}
+                      </Badge>
+                    );
+                  })()}
                 </div>
               </div>
               {detailComponent.specs && Object.keys(detailComponent.specs).length > 0 && (

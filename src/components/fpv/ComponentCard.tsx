@@ -3,6 +3,8 @@
 import { FPVComponent } from '@/types/fpv';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { LEVEL_STYLES, ORIGIN_STYLES } from '@/lib/fpv-style';
+import { formatBrand } from '@/lib/utils';
 import { 
   Box, 
   Zap, 
@@ -65,18 +67,6 @@ const categoryColors: Record<string, string> = {
   tool: '#cccccc',
 };
 
-const levelLabels: Record<string, { label: string; color: string }> = {
-  entry: { label: '入门', color: '#00ff88' },
-  intermediate: { label: '进阶', color: '#ffaa00' },
-  advanced: { label: '高级', color: '#ff5500' },
-  professional: { label: '专业', color: '#ff00a0' },
-};
-
-const originLabels: Record<string, { label: string; color: string }> = {
-  domestic: { label: '国产', color: '#ff3333' },
-  international: { label: '国际', color: '#00aaff' },
-};
-
 interface ComponentCardProps {
   component: FPVComponent;
   onClick?: (component: FPVComponent) => void;
@@ -86,8 +76,8 @@ interface ComponentCardProps {
 export function ComponentCard({ component, onClick, isSelected }: ComponentCardProps) {
   const Icon = categoryIcons[component.category] || Wrench;
   const categoryColor = categoryColors[component.category] || '#888';
-  const levelInfo = levelLabels[component.level] || { label: component.level, color: '#888' };
-  const originInfo = originLabels[component.origin] || { label: component.origin, color: '#888' };
+  const levelInfo = LEVEL_STYLES[component.level] || { label: component.level, color: '#888' };
+  const originInfo = ORIGIN_STYLES[component.origin] || { label: component.origin, color: '#888' };
 
   return (
     <Card
@@ -126,7 +116,9 @@ export function ComponentCard({ component, onClick, isSelected }: ComponentCardP
               <h3 className="font-semibold text-white text-sm line-clamp-1 group-hover:text-[#00f0ff] transition-colors">
                 {component.name}
               </h3>
-              <p className="text-xs text-[#888]">{component.brand}</p>
+              <p className="text-xs text-[#888]">
+                {formatBrand(component)}
+              </p>
             </div>
           </div>
           <div className="text-right">

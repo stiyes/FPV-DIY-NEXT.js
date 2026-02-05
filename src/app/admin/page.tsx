@@ -19,6 +19,7 @@ import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
+import { formatBrand } from '@/lib/utils';
 import { 
   Table,
   TableBody,
@@ -226,7 +227,9 @@ export default function AdminPage() {
                   <TableRow key={c.id} className="border-b border-[rgba(0,240,255,0.05)]">
                     <TableCell className="text-[#666] text-sm">{c.id}</TableCell>
                     <TableCell className="text-white">{c.name}</TableCell>
-                    <TableCell className="text-[#888]">{c.brand}</TableCell>
+                    <TableCell className="text-[#888]">
+                      {formatBrand(c)}
+                    </TableCell>
                     <TableCell>
                       <Badge variant="outline" className="text-[10px] border-[#00f0ff] text-[#00f0ff]">
                         {categoryLabels[c.category] || c.category}

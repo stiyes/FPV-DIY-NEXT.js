@@ -15,6 +15,7 @@ import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Input } from '@/components/ui/input';
+import { formatBrand } from '@/lib/utils';
 
 // 模拟价格历史数据
 const generatePriceHistory = (basePrice: number) => {
@@ -206,7 +207,7 @@ export default async function PricesPage() {
                     </td>
                     <td className="p-4">
                       <Badge variant="outline" className="text-[10px] border-[rgba(0,240,255,0.3)] text-[#888]">
-                        {item.brand}
+                        {formatBrand(item)}
                       </Badge>
                     </td>
                     <td className="p-4 text-right">

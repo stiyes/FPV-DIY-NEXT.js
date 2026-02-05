@@ -28,6 +28,8 @@ import { Input } from '@/components/ui/input';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { FPVComponent } from '@/types/fpv';
 import { getComponents, createBuild } from '@/lib/api';
+import { LEVEL_STYLES } from '@/lib/fpv-style';
+import { formatBrand } from '@/lib/utils';
 
 // 将组件分类 key 映射到 BuildConfiguration 格式
 const categoryToBuildKey: Record<string, string> = {
@@ -140,13 +142,6 @@ const categoryLabels: Record<string, { label: string; icon: React.ElementType; c
   battery: { label: '电池', icon: Battery, color: '#ff3333' },
   goggle: { label: '眼镜', icon: Glasses, color: '#aa66ff' },
   radio: { label: '遥控器', icon: Gamepad2, color: '#66aaff' },
-};
-
-const levelLabels: Record<string, string> = {
-  entry: '入门',
-  intermediate: '进阶',
-  advanced: '高级',
-  professional: '专业',
 };
 
 // 配置预设过滤标签（组合式）
@@ -684,22 +679,37 @@ export default function BuildsClient({ initialComponents }: BuildsClientProps) {
                       }`}
                       title={rec.ok ? rec.reason : undefined}
                     >
-                      <div className="min-w-0 flex-1">
-                        <div className="flex items-center gap-1.5">
-                          <p className="text-sm text-white truncate">{item.name}</p>
-                          {rec.ok && (
-                            <span title={rec.reason}>
-                              <Sparkles className="w-3 h-3 text-[#00ff88] shrink-0" />
-                            </span>
-                          )}
+                        <div className="min-w-0 flex-1">
+                          <div className="flex items-center gap-1.5">
+                            <p className="text-sm text-white truncate">{item.name}</p>
+                            {rec.ok && (
+                              <span title={rec.reason}>
+                                <Sparkles className="w-3 h-3 text-[#00ff88] shrink-0" />
+                              </span>
+                            )}
+                          </div>
+                          <p className="text-xs text-[#888]">
+                            {formatBrand(item)}
+                          </p>
                         </div>
-                        <p className="text-xs text-[#888]">{item.brand}</p>
-                      </div>
                       <div className="flex items-center gap-1 shrink-0">
                         <p className="text-sm font-semibold text-[#00f0ff]">¥{item.price}</p>
-                        <Badge variant="outline" className="text-[10px] border-[#00ff88] text-[#00ff88]">
-                          {levelLabels[item.level]}
-                        </Badge>
+                        {(() => {
+                          const levelInfo = LEVEL_STYLES[item.level] || { label: item.level, color: '#888' };
+                          return (
+                            <Badge
+                              variant="outline"
+                              className="text-[10px] px-2 py-0.5"
+                              style={{
+                                borderColor: levelInfo.color + '40',
+                                color: levelInfo.color,
+                                backgroundColor: levelInfo.color + '10',
+                              }}
+                            >
+                              {levelInfo.label}
+                            </Badge>
+                          );
+                        })()}
                         <button
                           onClick={() => setDetailComponent(item)}
                           className="p-1.5 rounded text-[#888] hover:text-white hover:bg-[rgba(0,240,255,0.1)]"
@@ -823,16 +833,31 @@ export default function BuildsClient({ initialComponents }: BuildsClientProps) {
                       </span>
                     )}
                   </div>
-                  <p className="text-sm text-[#888]">{item.brand}</p>
+                  <p className="text-sm text-[#888]">
+                    {formatBrand(item)}
+                  </p>
                   {item.specs && Object.entries(item.specs).slice(0, 2).map(([k, v]) => (
                     <span key={k} className="text-xs text-[#666] mr-2">{k}: {v}</span>
                   ))}
                 </div>
-                <div className="flex items-center gap-2 shrink-0">
-                  <p className="text-lg font-bold text-[#00f0ff]">¥{item.price}</p>
-                  <Badge variant="outline" className="text-[10px] border-[#00ff88] text-[#00ff88]">
-                    {levelLabels[item.level]}
-                  </Badge>
+                      <div className="flex items-center gap-2 shrink-0">
+                        <p className="text-lg font-bold text-[#00f0ff]">¥{item.price}</p>
+                        {(() => {
+                          const levelInfo = LEVEL_STYLES[item.level] || { label: item.level, color: '#888' };
+                          return (
+                            <Badge
+                              variant="outline"
+                              className="text-[10px] px-2 py-0.5"
+                              style={{
+                                borderColor: levelInfo.color + '40',
+                                color: levelInfo.color,
+                                backgroundColor: levelInfo.color + '10',
+                              }}
+                            >
+                              {levelInfo.label}
+                            </Badge>
+                          );
+                        })()}
                   <button
                     onClick={() => { setDetailComponent(item); setShowSelector(null); }}
                     className="p-2 rounded text-[#888] hover:text-white hover:bg-[rgba(0,240,255,0.1)]"
@@ -916,16 +941,46 @@ export default function BuildsClient({ initialComponents }: BuildsClientProps) {
           </DialogHeader>
           {detailComponent && (
             <div className="space-y-4 mt-4">
+              {/* 部件主图 */}
+              {detailComponent.imageUrl && (
+                <div className="w-full rounded-lg overflow-hidden bg-[#0a0a0f] border border-[rgba(0,240,255,0.2)]">
+                  <img
+                    src={detailComponent.imageUrl}
+                    alt={detailComponent.name}
+                    className="w-full h-auto object-cover"
+                    onError={(e) => {
+                      // 如果图片加载失败，使用占位图
+                      const target = e.target as HTMLImageElement;
+                      target.src = `https://via.placeholder.com/400x300/0a0a0f/00f0ff?text=${encodeURIComponent(detailComponent.name)}`;
+                    }}
+                  />
+                </div>
+              )}
               <div className="flex items-start justify-between gap-4">
                 <div>
-                  <p className="text-[#888] text-sm">{detailComponent.brand}</p>
+                  <p className="text-[#888] text-sm">
+                    {formatBrand(detailComponent)}
+                  </p>
                   <p className="text-[#666] text-xs">{detailComponent.sku}</p>
                 </div>
                 <div className="text-right">
                   <p className="text-2xl font-bold text-[#00f0ff]">¥{detailComponent.price}</p>
-                  <Badge variant="outline" className="text-xs border-[#00ff88] text-[#00ff88]">
-                    {levelLabels[detailComponent.level]}
-                  </Badge>
+                  {(() => {
+                    const levelInfo = LEVEL_STYLES[detailComponent.level] || { label: detailComponent.level, color: '#888' };
+                    return (
+                      <Badge
+                        variant="outline"
+                        className="text-xs px-2 py-0.5"
+                        style={{
+                          borderColor: levelInfo.color + '40',
+                          color: levelInfo.color,
+                          backgroundColor: levelInfo.color + '10',
+                        }}
+                      >
+                        {levelInfo.label}
+                      </Badge>
+                    );
+                  })()}
                 </div>
               </div>
               {detailComponent.specs && Object.keys(detailComponent.specs).length > 0 && (

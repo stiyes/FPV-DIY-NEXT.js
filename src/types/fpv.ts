@@ -33,6 +33,9 @@ export interface FPVComponent {
   sku: string;
   name: string;
   brand: string;
+  // 品牌的中英文名称（可选，用于展示）
+  brand_cn?: string;
+  brand_en?: string;
   category: ComponentCategory;
   subCategory?: string;
   price: number;
